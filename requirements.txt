@@ -1,0 +1,10 @@
+numpy
+pandas
+requests
+python-dotenv
+pyspark
+pyarrow
+h5py
+matplotlib
+mpi4py
+jax

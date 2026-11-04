@@ -1,0 +1,25 @@
+# Secrets
+.env
+*key*.txt
+
+# Data and large outputs (regenerate with the scripts)
+data/
+*.parquet
+*.h5
+*.nc
+spark-warehouse/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Build
+build/
+*.o
+a.out
+
+# OS / editor
+.DS_Store
+.vscode/
