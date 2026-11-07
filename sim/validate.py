@@ -6,7 +6,8 @@
 2. Single-asset VaR matches the closed-form lognormal quantile.
 3. OpenMP == serial and MPI == serial on the full portfolio: identical VaR/CVaR
    (same paths), mean loss equal up to summation order.
-4. C vs NumPy (independent RNG and implementation): VaR99 agrees within 3 %.
+4. C vs NumPy and C vs JAX (independent RNGs and implementations): VaR99 agrees within 3 %.
+5. JAX on 1 core == JAX on all cores (up to GEMM summation order).
 """
 
 from __future__ import annotations
@@ -96,6 +97,15 @@ def main():
     rel = abs(npy["VaR99"] / c["VaR99"] - 1)
     check("C vs NumPy VaR99 (independent RNG)", rel < 0.03,
           f"C={c['VaR99']:,.0f} NumPy={npy['VaR99']:,.0f} rel diff={rel:.4f}")
+
+    jax_cmd = [sys.executable, ROOT / "sim/mc_jax.py", "--paths", 200_000]
+    jx = run(jax_cmd)
+    rel = abs(jx["VaR99"] / c["VaR99"] - 1)
+    check("C vs JAX VaR99 (independent RNG)", rel < 0.03,
+          f"C={c['VaR99']:,.0f} JAX={jx['VaR99']:,.0f} rel diff={rel:.4f}")
+    j1 = run(["taskset", "-c", "0", *jax_cmd])
+    rel = max(abs(j1[k] / jx[k] - 1) for k in ("VaR95", "CVaR95", "VaR99", "CVaR99"))
+    check("JAX(1 core) == JAX(all cores)", rel < 1e-9, f"max rel diff={rel:.1e}")
 
     print("all checks passed" if not failures else f"{failures} check(s) failed")
     return 1 if failures else 0
