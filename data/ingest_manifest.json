@@ -1,0 +1,30 @@
+{
+ "created_utc": "2026-11-07T22:24:42+00:00",
+ "source": "synthetic",
+ "begin": "20230102",
+ "end": "20251230",
+ "seed": 410,
+ "n_stocks": 2500,
+ "output": {
+  "rows": 1845698,
+  "tickers": 2500,
+  "dates": 782,
+  "files": [
+   {
+    "path": "data/raw/prices/year=2023/part-0.parquet",
+    "rows": 579664,
+    "sha256": "51c5347330e40106897f75578ead2e726a353b3b5f7e97596210760106d25fa6"
+   },
+   {
+    "path": "data/raw/prices/year=2024/part-0.parquet",
+    "rows": 641419,
+    "sha256": "b8a86a8e5b584c28e602052bb841ff0f1671283cb33a97afd41576791b6a2401"
+   },
+   {
+    "path": "data/raw/prices/year=2025/part-0.parquet",
+    "rows": 624615,
+    "sha256": "b0291ceb2d0ee5b1ad768256da482c16619a85366ad842a85925cdab66e7ed23"
+   }
+  ]
+ }
+}
