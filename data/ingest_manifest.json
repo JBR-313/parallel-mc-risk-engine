@@ -1,29 +1,6069 @@
 {
- "created_utc": "2026-11-07T22:24:42+00:00",
- "source": "synthetic",
+ "created_utc": "2026-11-08T20:20:59+00:00",
+ "source": "https://apis.data.go.kr/1160100/GetStockSecuritiesInfoService_V2/getStockPriceInfo_V2",
  "begin": "20230102",
- "end": "20251230",
- "seed": 410,
- "n_stocks": 2500,
+ "end": "20261106",
+ "requests": {
+  "days": 1005,
+  "trading_days": 937,
+  "network": 0,
+  "pages": [
+   {
+    "basDt": "20230102",
+    "pageNo": 1,
+    "sha256": "dc6935bb2190c100d858b27aea91a05de301d58be9589fd9f5238d0a7b0bb7d7",
+    "n_items": 2690
+   },
+   {
+    "basDt": "20230103",
+    "pageNo": 1,
+    "sha256": "045211a4f18056d7760d8fd980ca9b677743f4abdf212f61bb00c5c9cb5e24a7",
+    "n_items": 2690
+   },
+   {
+    "basDt": "20230104",
+    "pageNo": 1,
+    "sha256": "51f8ce7dd2d431f9660934773365ee0174e27748eb164b0289780bbf1f95df47",
+    "n_items": 2690
+   },
+   {
+    "basDt": "20230105",
+    "pageNo": 1,
+    "sha256": "9f4bcac9de7f60124e464f5b6bc4c4e505ee47552f43a8333757c844a29230d8",
+    "n_items": 2690
+   },
+   {
+    "basDt": "20230106",
+    "pageNo": 1,
+    "sha256": "33ef67b0789327c2b028b238d72a2bd86cc9e15334919f777e14c25aa69e9b69",
+    "n_items": 2690
+   },
+   {
+    "basDt": "20230109",
+    "pageNo": 1,
+    "sha256": "4c1ffa1886e56876aff81fd2d077b81f10e0eff73b998c7d556379b2a42106b4",
+    "n_items": 2690
+   },
+   {
+    "basDt": "20230110",
+    "pageNo": 1,
+    "sha256": "2e0c633bd4468858ddaa52d5b62cc9e0b05ae0116406e9a4cf2dfc47674c4ef5",
+    "n_items": 2690
+   },
+   {
+    "basDt": "20230111",
+    "pageNo": 1,
+    "sha256": "048de4359a0136ad5b3e365284e176b511fbd83e059198f6d4c6727f5671180e",
+    "n_items": 2690
+   },
+   {
+    "basDt": "20230112",
+    "pageNo": 1,
+    "sha256": "f2ac1ce64d1d0fefc18b235a3940839d3ad79af3ab89bc32409bba9be832ab8b",
+    "n_items": 2690
+   },
+   {
+    "basDt": "20230113",
+    "pageNo": 1,
+    "sha256": "96b8732e9370a9aa6fb42f90dde7d57c027968cd21069737087bc2f2551d3419",
+    "n_items": 2690
+   },
+   {
+    "basDt": "20230116",
+    "pageNo": 1,
+    "sha256": "ac6e1bf8e30265350258dbc5fa685c5cec29ed2baea41f57d102725b28899b8b",
+    "n_items": 2690
+   },
+   {
+    "basDt": "20230117",
+    "pageNo": 1,
+    "sha256": "a4b4dce61db6fff37a066434a91d9256921580a7886e46fc591c8d36480c579e",
+    "n_items": 2689
+   },
+   {
+    "basDt": "20230118",
+    "pageNo": 1,
+    "sha256": "295edd6746de0e405c4e6ca3e0fcc404023e423bdb75d121e2e35fe9a5786c0d",
+    "n_items": 2689
+   },
+   {
+    "basDt": "20230119",
+    "pageNo": 1,
+    "sha256": "726039f5bd8d8aa806cdfb75ff6bd774a03861d7074d5b59ffb8b901e29fb12d",
+    "n_items": 2691
+   },
+   {
+    "basDt": "20230120",
+    "pageNo": 1,
+    "sha256": "fc2d97126cdee33095814c85dbaf1d94eedc2a8af3faa977205e0c03f63cff49",
+    "n_items": 2691
+   },
+   {
+    "basDt": "20230123",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20230124",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20230125",
+    "pageNo": 1,
+    "sha256": "7da3a17dd0584611a03a9612d8757be26b9aa8c083b8bc27cea321f09ea4a0f5",
+    "n_items": 2691
+   },
+   {
+    "basDt": "20230126",
+    "pageNo": 1,
+    "sha256": "23ac0241d90c45e7e5012cb852a3bbe4df0e42c664898d7611ae5a2a6cb1b1d9",
+    "n_items": 2693
+   },
+   {
+    "basDt": "20230127",
+    "pageNo": 1,
+    "sha256": "901782746853973d7e2d15905d01f8fe6138347f6478e859e2864ed0601c51c1",
+    "n_items": 2694
+   },
+   {
+    "basDt": "20230130",
+    "pageNo": 1,
+    "sha256": "744d3dd360662335b645f3f55d257c762fd65672d3aabfb23b4174b05d99acbc",
+    "n_items": 2695
+   },
+   {
+    "basDt": "20230131",
+    "pageNo": 1,
+    "sha256": "ac2a6b2ea85a4988bf910c2058eaba7409de10129df627d954cfa576a3124f5c",
+    "n_items": 2697
+   },
+   {
+    "basDt": "20230201",
+    "pageNo": 1,
+    "sha256": "da0d50e9609c293f7c0a1565f0658f342822d1f736de227ba12876be95316f42",
+    "n_items": 2697
+   },
+   {
+    "basDt": "20230202",
+    "pageNo": 1,
+    "sha256": "3e255377c0f6ae68b892e2d39fad80557fee2e0486d7b48409f784c301f9aa65",
+    "n_items": 2696
+   },
+   {
+    "basDt": "20230203",
+    "pageNo": 1,
+    "sha256": "b6f3de563ff23aa9939790a9747478f97e9a93a1a6d152eb69f0031ba1d12462",
+    "n_items": 2697
+   },
+   {
+    "basDt": "20230206",
+    "pageNo": 1,
+    "sha256": "cce9197c93e3c9e76e2e5eaba450c9c3a663c8ad02d78047d233c34099a06b2a",
+    "n_items": 2697
+   },
+   {
+    "basDt": "20230207",
+    "pageNo": 1,
+    "sha256": "f3f2867baea92bafb1464bbc1ab88535073c93a2f451c60b48aa798d6af177a6",
+    "n_items": 2698
+   },
+   {
+    "basDt": "20230208",
+    "pageNo": 1,
+    "sha256": "72626747536f981005cb71b44669ab12c4cb5dca2127855e53305d8448754be5",
+    "n_items": 2698
+   },
+   {
+    "basDt": "20230209",
+    "pageNo": 1,
+    "sha256": "5953aa99b64be58fca9e6295a7694151fe493b4a4919cda901dee9277638242b",
+    "n_items": 2699
+   },
+   {
+    "basDt": "20230210",
+    "pageNo": 1,
+    "sha256": "1f78a63c400bd3837be4cea569059e321e99ab88f563669a9d10d0e0e0286a68",
+    "n_items": 2699
+   },
+   {
+    "basDt": "20230213",
+    "pageNo": 1,
+    "sha256": "2fa3d9101cc759bdb16386621e6d3c79fc5f5298029b4d8a69db1621ce1892c3",
+    "n_items": 2699
+   },
+   {
+    "basDt": "20230214",
+    "pageNo": 1,
+    "sha256": "67f991a0605bbd41591177b1f72c96a592ac6fac1d57cd8d9112e01048e13ad9",
+    "n_items": 2699
+   },
+   {
+    "basDt": "20230215",
+    "pageNo": 1,
+    "sha256": "cd7bc311049b21243fb16c5433ea33942f48202ca02de6b641eb31f63bb0df30",
+    "n_items": 2700
+   },
+   {
+    "basDt": "20230216",
+    "pageNo": 1,
+    "sha256": "fc6ed60c8fd82a3afc84bb3f104f0d41d1d089d6eedc39ee562de5c93bfe733e",
+    "n_items": 2701
+   },
+   {
+    "basDt": "20230217",
+    "pageNo": 1,
+    "sha256": "d9465474ccc64f80f764e5d78cc02a9124a3a5c320a0426552a20bf6bd34a24b",
+    "n_items": 2701
+   },
+   {
+    "basDt": "20230220",
+    "pageNo": 1,
+    "sha256": "7d940746fef365a746f05ce245725347a7bb1f05376fe9b5706ae4a1935994f4",
+    "n_items": 2701
+   },
+   {
+    "basDt": "20230221",
+    "pageNo": 1,
+    "sha256": "888656928e659ae7f57143ed6f3f9f27818eb337ae7d194805ee13b2f4b2a8c0",
+    "n_items": 2699
+   },
+   {
+    "basDt": "20230222",
+    "pageNo": 1,
+    "sha256": "98e3fe378229799afcb437a8b0c7f144642e5bfaab477adb4751c153ec55b3eb",
+    "n_items": 2699
+   },
+   {
+    "basDt": "20230223",
+    "pageNo": 1,
+    "sha256": "f3bb42eeefa52b0a8c6deb3e377e40fbc34ffdbeb9b064c041346f791d4db5ca",
+    "n_items": 2699
+   },
+   {
+    "basDt": "20230224",
+    "pageNo": 1,
+    "sha256": "727225c683d112237fb47ef0815836712ca7b43431b9efdbe6e82111b43ab9d7",
+    "n_items": 2700
+   },
+   {
+    "basDt": "20230227",
+    "pageNo": 1,
+    "sha256": "757a2b4d235cc0a659c004eb8d63cfcbfd6ca7b5760e33211107dac847bed8d8",
+    "n_items": 2700
+   },
+   {
+    "basDt": "20230228",
+    "pageNo": 1,
+    "sha256": "8fb36899cae9c551a386dc32e243f39ab579b35071b6103bcef965cfcc451b24",
+    "n_items": 2701
+   },
+   {
+    "basDt": "20230301",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20230302",
+    "pageNo": 1,
+    "sha256": "5e94d6204f9ff6c262fc4b9df6d543d887b13224b607346698eb542af5880755",
+    "n_items": 2702
+   },
+   {
+    "basDt": "20230303",
+    "pageNo": 1,
+    "sha256": "061fc8558b641008630a108329ca91a43f94067b794b4dfc740f90e6c0989e75",
+    "n_items": 2703
+   },
+   {
+    "basDt": "20230306",
+    "pageNo": 1,
+    "sha256": "3153672d22c76e6fafd67f272a4887d7133384d8de261c2f1cffc6d4edc83a8b",
+    "n_items": 2703
+   },
+   {
+    "basDt": "20230307",
+    "pageNo": 1,
+    "sha256": "c3594de100fb0a9803b04d82d8b7afce8bb2c99a97e561663cece84bdc2ff7d8",
+    "n_items": 2705
+   },
+   {
+    "basDt": "20230308",
+    "pageNo": 1,
+    "sha256": "a5c11d00daed5b7e618c7709fa6a84c08c912d53762d27ec50036d0a5c9f70a9",
+    "n_items": 2705
+   },
+   {
+    "basDt": "20230309",
+    "pageNo": 1,
+    "sha256": "e80c3eaa1fd29e0a837e4f9d4925e4b3eb1a206cfb4d934321024ecc626ba638",
+    "n_items": 2706
+   },
+   {
+    "basDt": "20230310",
+    "pageNo": 1,
+    "sha256": "f6ec1a25a3756d600705a92dc1a883f3bd9eb462967d2f5e331d6b7299643e7a",
+    "n_items": 2705
+   },
+   {
+    "basDt": "20230313",
+    "pageNo": 1,
+    "sha256": "c3cb831693098ca5dc73902c0eb079784c7a6eb86fd0c71deab20e8e697c4a1e",
+    "n_items": 2706
+   },
+   {
+    "basDt": "20230314",
+    "pageNo": 1,
+    "sha256": "b62aea05588231be93f744a2dc84c7aab83d2c63610cc0ef1073dfdcf1631f30",
+    "n_items": 2706
+   },
+   {
+    "basDt": "20230315",
+    "pageNo": 1,
+    "sha256": "aacb54a3c376f9a41439c025d2c6fdf502344f56424fb3bfbb1967f10ba3db1d",
+    "n_items": 2707
+   },
+   {
+    "basDt": "20230316",
+    "pageNo": 1,
+    "sha256": "04d1b8c1853274aa2ded3f53cc3266ac0dc26b234e1058ce0514541155fdf05a",
+    "n_items": 2707
+   },
+   {
+    "basDt": "20230317",
+    "pageNo": 1,
+    "sha256": "296d80d11789cf78d808d12838df03f5ba644a469bbf31badd870949bf691ff6",
+    "n_items": 2708
+   },
+   {
+    "basDt": "20230320",
+    "pageNo": 1,
+    "sha256": "4150e7b6ca935860b7b00336090db1dca226f5eaff540dc33c31dc40ba1a2870",
+    "n_items": 2708
+   },
+   {
+    "basDt": "20230321",
+    "pageNo": 1,
+    "sha256": "5886678f5dd7bad060245298ab593b95f903ab6a67aaa690e81215540f5c80a4",
+    "n_items": 2708
+   },
+   {
+    "basDt": "20230322",
+    "pageNo": 1,
+    "sha256": "a4ad680c6b5fb18f0c1f976a95ee94a0da9bc66bd0b0719417017421d662eab9",
+    "n_items": 2708
+   },
+   {
+    "basDt": "20230323",
+    "pageNo": 1,
+    "sha256": "c940657d975b344e944a7c2cc5aad08a9ae6815d7b19a0064b4f35d98a8eb6c6",
+    "n_items": 2708
+   },
+   {
+    "basDt": "20230324",
+    "pageNo": 1,
+    "sha256": "d13d33dd74e55648d0344d344bb84e544efd87ab43b86651adf0fbddd6b618b0",
+    "n_items": 2708
+   },
+   {
+    "basDt": "20230327",
+    "pageNo": 1,
+    "sha256": "96cd23e1374de51647a7e143ffb2ec405be5d369ac54b35698ef4cb661c845c2",
+    "n_items": 2709
+   },
+   {
+    "basDt": "20230328",
+    "pageNo": 1,
+    "sha256": "25f01f06277d2a0e263896f57ff1dd007105a6b3ea753351613a5d4a0f58f51c",
+    "n_items": 2709
+   },
+   {
+    "basDt": "20230329",
+    "pageNo": 1,
+    "sha256": "9487942ed99c52ac8d26dc79c1e58cc8b36d4a100f9a5e1268e8569fd8ed40e5",
+    "n_items": 2710
+   },
+   {
+    "basDt": "20230330",
+    "pageNo": 1,
+    "sha256": "ee2b6c2061ac013df5da2d2eced9e4fd795cee303fe3fcb27c295f575f27ebbb",
+    "n_items": 2710
+   },
+   {
+    "basDt": "20230331",
+    "pageNo": 1,
+    "sha256": "b97a375688f66ffda1a51f7840d1a46a517e62e479f24e8f74110fd5b5bc0814",
+    "n_items": 2712
+   },
+   {
+    "basDt": "20230403",
+    "pageNo": 1,
+    "sha256": "612c3e8a5850af2fe30e5c2f787661e740dfb29b81ee6a4ec83988e81f1f2932",
+    "n_items": 2712
+   },
+   {
+    "basDt": "20230404",
+    "pageNo": 1,
+    "sha256": "71007dae861731aaeae8c74914c4dd6953d6c471dc68b8a7e69e7e24f9607b95",
+    "n_items": 2711
+   },
+   {
+    "basDt": "20230405",
+    "pageNo": 1,
+    "sha256": "b82c6d09878bb5bf31a7d62db48f2c5dac111e89ff5d6156ea46972507a105dd",
+    "n_items": 2711
+   },
+   {
+    "basDt": "20230406",
+    "pageNo": 1,
+    "sha256": "002364b428bc7ea6feece20499027178eded7d76603b132eb2d831f489e5d909",
+    "n_items": 2713
+   },
+   {
+    "basDt": "20230407",
+    "pageNo": 1,
+    "sha256": "2fd67029857f524a006d3fadded5140199c0fa9603eb19c328873ec3f869be8a",
+    "n_items": 2714
+   },
+   {
+    "basDt": "20230410",
+    "pageNo": 1,
+    "sha256": "d9a65c753a4393865df27204fc8de0635bf86a08bf1177763ef712730d88d406",
+    "n_items": 2716
+   },
+   {
+    "basDt": "20230411",
+    "pageNo": 1,
+    "sha256": "55bba099ac94f0ddea4435900577f1aaefb35e9e655e5d0be6797eec99b9e542",
+    "n_items": 2716
+   },
+   {
+    "basDt": "20230412",
+    "pageNo": 1,
+    "sha256": "d77688e493d17aa1e1930f500197969cb7da7946da6aa6e8acc96340421941c3",
+    "n_items": 2715
+   },
+   {
+    "basDt": "20230413",
+    "pageNo": 1,
+    "sha256": "e9c5ff96a288fa716078ad17aae116ddf7bf3008e933025a04f81f47f5362fc9",
+    "n_items": 2715
+   },
+   {
+    "basDt": "20230414",
+    "pageNo": 1,
+    "sha256": "8d8fa88e12acc880db754e17b71e49666550ccd9cc798b0a2da7e711a0d93712",
+    "n_items": 2714
+   },
+   {
+    "basDt": "20230417",
+    "pageNo": 1,
+    "sha256": "f8693e7dd7b34dcc7de97194194c3dcda62463a208460a6836b41fc4ffb175df",
+    "n_items": 2714
+   },
+   {
+    "basDt": "20230418",
+    "pageNo": 1,
+    "sha256": "ad1853897bcab25e646718ce643d3662e7471b8a9b73de6a7b3b5e89f081f0e8",
+    "n_items": 2713
+   },
+   {
+    "basDt": "20230419",
+    "pageNo": 1,
+    "sha256": "5449e4ef710552d7b6671cd8dc30922b76e915dcfcda6dda10a2e00c661ff7ac",
+    "n_items": 2714
+   },
+   {
+    "basDt": "20230420",
+    "pageNo": 1,
+    "sha256": "ca21447ce23b615987d80929f64309660843f4a64409438bb9afd6232ed7abd4",
+    "n_items": 2714
+   },
+   {
+    "basDt": "20230421",
+    "pageNo": 1,
+    "sha256": "b75bc378ed70a35270dc571d9fff6db1fe6fedc0e8caa74ea027b99dc74e46c9",
+    "n_items": 2713
+   },
+   {
+    "basDt": "20230424",
+    "pageNo": 1,
+    "sha256": "db27df625c65f4c6512702323476720a949fbdf526dc899e38af89c105780fbd",
+    "n_items": 2713
+   },
+   {
+    "basDt": "20230425",
+    "pageNo": 1,
+    "sha256": "ab09d0d2c69af7dfef2d635b75695671d1b84515259ee358e06780cb106a85c0",
+    "n_items": 2712
+   },
+   {
+    "basDt": "20230426",
+    "pageNo": 1,
+    "sha256": "7147b798b0964a54ca1100e87912b216445af70f88f33057211e3f8f2113bd72",
+    "n_items": 2713
+   },
+   {
+    "basDt": "20230427",
+    "pageNo": 1,
+    "sha256": "3f96edf5852bab3f4fd4a67591a87e81e24022c2d0a9fd52adf952976f20b9f3",
+    "n_items": 2713
+   },
+   {
+    "basDt": "20230428",
+    "pageNo": 1,
+    "sha256": "5f63833e54c758fccb0da0a3771ffb59914750b9055b23cb37d4e7d7cfca6408",
+    "n_items": 2713
+   },
+   {
+    "basDt": "20230501",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20230502",
+    "pageNo": 1,
+    "sha256": "fe11fea1f1ff4da7c3ee18a6764ba74e64a71a2e57b0517c4b01ebaedb3a0544",
+    "n_items": 2712
+   },
+   {
+    "basDt": "20230503",
+    "pageNo": 1,
+    "sha256": "afe21f6a2c21fe2bc1db10b3118fba7466423c1bbfbf86ff45688cb94f5a39ee",
+    "n_items": 2712
+   },
+   {
+    "basDt": "20230504",
+    "pageNo": 1,
+    "sha256": "9800b42869d6b2ada4cca2043d77f378ba3fa5983df4c102f69909830763f418",
+    "n_items": 2713
+   },
+   {
+    "basDt": "20230505",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20230508",
+    "pageNo": 1,
+    "sha256": "5367d6c6887a16ea7ee7e51220d25d059415a756cc9d555d15bc2cd8f0a5bf7b",
+    "n_items": 2711
+   },
+   {
+    "basDt": "20230509",
+    "pageNo": 1,
+    "sha256": "e071ce1a263fe4541e53d740abb38e3d97aa7e8b476dba7233fb0bcb28648d76",
+    "n_items": 2711
+   },
+   {
+    "basDt": "20230510",
+    "pageNo": 1,
+    "sha256": "64390c22043772b098623e2c6bf8ff796f777d24365208fbef66db6b2b56a45f",
+    "n_items": 2711
+   },
+   {
+    "basDt": "20230511",
+    "pageNo": 1,
+    "sha256": "2e456765a1fe39b24059310d27f2f21e32422ce7424bb32667288e7c1d9dc1ac",
+    "n_items": 2711
+   },
+   {
+    "basDt": "20230512",
+    "pageNo": 1,
+    "sha256": "899740faa4274ac8f08f70b7b1f5394a3cbf1e93b6d30cf3846d3192384af6f0",
+    "n_items": 2711
+   },
+   {
+    "basDt": "20230515",
+    "pageNo": 1,
+    "sha256": "8978b5fc4f1ecd546039130b11866379f91ebbe06a62718dc98d04fcc5975884",
+    "n_items": 2711
+   },
+   {
+    "basDt": "20230516",
+    "pageNo": 1,
+    "sha256": "1348a810ca053b43dcbed2084d58c42c2841a8cbd271f354117a0ab4bfa67707",
+    "n_items": 2712
+   },
+   {
+    "basDt": "20230517",
+    "pageNo": 1,
+    "sha256": "4ef798e7a5f03a8feb92bbcefcca762a71b23edb1ccb95cc0a4dd8f94274c117",
+    "n_items": 2713
+   },
+   {
+    "basDt": "20230518",
+    "pageNo": 1,
+    "sha256": "d2d00dcc0c2ce05dce8dd9b1005bb83342b5be1174cd05980fd5cc02b5f6dc96",
+    "n_items": 2714
+   },
+   {
+    "basDt": "20230519",
+    "pageNo": 1,
+    "sha256": "91a7157c56bf8e84dc0c880785898e99f9f563204843fa754d488bf51b3e0804",
+    "n_items": 2716
+   },
+   {
+    "basDt": "20230522",
+    "pageNo": 1,
+    "sha256": "7cf4d70acbefad954a9557fd17f48de7404588459ee1e3b3cff59721fd18b70f",
+    "n_items": 2716
+   },
+   {
+    "basDt": "20230523",
+    "pageNo": 1,
+    "sha256": "9f68f85bc1865ebc1bc2eac4b15c65457d843e388be119d0694f070e8588a8e8",
+    "n_items": 2716
+   },
+   {
+    "basDt": "20230524",
+    "pageNo": 1,
+    "sha256": "21b1fee380b6f56284d12476caa4c95bd976f82f8a00f4202f76619a768c21d9",
+    "n_items": 2717
+   },
+   {
+    "basDt": "20230525",
+    "pageNo": 1,
+    "sha256": "bdc713a47333da23aaa1d6c269a6dd8ded986fcdbd4616fdd314ef75c6a4d4ce",
+    "n_items": 2717
+   },
+   {
+    "basDt": "20230526",
+    "pageNo": 1,
+    "sha256": "45acb0d159c6814bbc04bcdf244ab16837018f39c545fc5164befe87158f39b8",
+    "n_items": 2717
+   },
+   {
+    "basDt": "20230529",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20230530",
+    "pageNo": 1,
+    "sha256": "8ffa635e5bdecee99a26bbf0e288f180c167ddedd0708721c7e10b93a2753997",
+    "n_items": 2718
+   },
+   {
+    "basDt": "20230531",
+    "pageNo": 1,
+    "sha256": "46e00aa74846457ea632bb97f2e3a84208de9e21c68c5e18890d6f10995ba029",
+    "n_items": 2719
+   },
+   {
+    "basDt": "20230601",
+    "pageNo": 1,
+    "sha256": "98bd765a623590857c8dedba866d07dddac11fed3c38317702fb103098688ecf",
+    "n_items": 2720
+   },
+   {
+    "basDt": "20230602",
+    "pageNo": 1,
+    "sha256": "0ea1811b0b3e98a908911e07733675b8a59f5d1fd13704e83437faff301c1adb",
+    "n_items": 2721
+   },
+   {
+    "basDt": "20230605",
+    "pageNo": 1,
+    "sha256": "6a4d29241debfde720f829861d48c7c879dfd51d6a86ba32eab4abdb9975e803",
+    "n_items": 2721
+   },
+   {
+    "basDt": "20230606",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20230607",
+    "pageNo": 1,
+    "sha256": "288523a0672cddc84fb233c45f9326d01cd82ded80cbbf2d2fd5d75d44f29720",
+    "n_items": 2721
+   },
+   {
+    "basDt": "20230608",
+    "pageNo": 1,
+    "sha256": "0b79a2d1357bb4182eb66dc20ce614a6d25a517b425443bf67242f432802a0ae",
+    "n_items": 2722
+   },
+   {
+    "basDt": "20230609",
+    "pageNo": 1,
+    "sha256": "db0f28152d56ce4e7b91cebb56fd54e8ab2a1ac3298d257f963f67c2f3b20aba",
+    "n_items": 2722
+   },
+   {
+    "basDt": "20230612",
+    "pageNo": 1,
+    "sha256": "6d93d9a5c0eb0d092594198b4f96b943dd6c5531d73609ab8aa1b752aefdc3a2",
+    "n_items": 2720
+   },
+   {
+    "basDt": "20230613",
+    "pageNo": 1,
+    "sha256": "64d193750cf0ea218704cfaf2148cdbeec0916d22e70dc08b25613e6f5a4e325",
+    "n_items": 2720
+   },
+   {
+    "basDt": "20230614",
+    "pageNo": 1,
+    "sha256": "83d59d9183927c4e2de3543e00c511febc4db5d6a99c0d430445d7bbb27ad4a9",
+    "n_items": 2720
+   },
+   {
+    "basDt": "20230615",
+    "pageNo": 1,
+    "sha256": "5ec7c06e89a2eee72059bade4cbdef498aa750787497d5c8b7f2e744f6031934",
+    "n_items": 2721
+   },
+   {
+    "basDt": "20230616",
+    "pageNo": 1,
+    "sha256": "4ef32fcf31a5fe34868ec4e175a8b5a9864865406fa9e7e90a3d1913cfc30353",
+    "n_items": 2723
+   },
+   {
+    "basDt": "20230619",
+    "pageNo": 1,
+    "sha256": "671a599cb91253f6584e6b4f9e6e51b0a7da5e9aa67ad2a69e7e143af36af120",
+    "n_items": 2723
+   },
+   {
+    "basDt": "20230620",
+    "pageNo": 1,
+    "sha256": "fa2d103228ff6c85fc0e825d7e7ed4cbe926178d23ac810af7c7d33070ceae3d",
+    "n_items": 2724
+   },
+   {
+    "basDt": "20230621",
+    "pageNo": 1,
+    "sha256": "b3e652d1c6454fb895edad8bb51152e079aed7f37d8985e83666c3d306c67df8",
+    "n_items": 2724
+   },
+   {
+    "basDt": "20230622",
+    "pageNo": 1,
+    "sha256": "d43a02c91ad07d0016dd24c9ee2f3a590c1c6ad1294bea3d5efab3400050631e",
+    "n_items": 2725
+   },
+   {
+    "basDt": "20230623",
+    "pageNo": 1,
+    "sha256": "0574b33a90a8a82c73a1f5147573cdb0059e94ece2efdda6ba9c384f6650e1e8",
+    "n_items": 2727
+   },
+   {
+    "basDt": "20230626",
+    "pageNo": 1,
+    "sha256": "35d713fee35985f51a118627e5a24a89c363300bec8ed4402914fc9e2a9f6eff",
+    "n_items": 2727
+   },
+   {
+    "basDt": "20230627",
+    "pageNo": 1,
+    "sha256": "e6872c6b41b2193a06fec69d5d5c384c1bbda2f38fc310a524c0ca9aea23ea43",
+    "n_items": 2727
+   },
+   {
+    "basDt": "20230628",
+    "pageNo": 1,
+    "sha256": "97357360e7b9dc757d7b1ba64a70dd0e6a3d71f345c03c776d361735d7a44341",
+    "n_items": 2728
+   },
+   {
+    "basDt": "20230629",
+    "pageNo": 1,
+    "sha256": "6cc47cdf4fb21af3b8083192343dc1a49cef7038d48f33f44f246208e256258f",
+    "n_items": 2728
+   },
+   {
+    "basDt": "20230630",
+    "pageNo": 1,
+    "sha256": "7161d2e7e6bddd1086202cdc3d6f9066b0ff94a9f9ccbfdab9d723f77b88baa3",
+    "n_items": 2730
+   },
+   {
+    "basDt": "20230703",
+    "pageNo": 1,
+    "sha256": "184fd3b80deb477ff19952712224e8f7916508e13cd59d2e55ff7a28aa61a445",
+    "n_items": 2730
+   },
+   {
+    "basDt": "20230704",
+    "pageNo": 1,
+    "sha256": "9b459665394695c924dd03b8d3e48c83afa9ea4357f89dd8968eecee4d9d84ab",
+    "n_items": 2730
+   },
+   {
+    "basDt": "20230705",
+    "pageNo": 1,
+    "sha256": "2b15a81da3e2e239693f86d1c5eecd29ecb5b5595f58a5d7e593332c0e11c253",
+    "n_items": 2731
+   },
+   {
+    "basDt": "20230706",
+    "pageNo": 1,
+    "sha256": "354411a00f33ab0b32e65cb60bb77e3a99a49ad74fdc788172f3e491edf9140c",
+    "n_items": 2733
+   },
+   {
+    "basDt": "20230707",
+    "pageNo": 1,
+    "sha256": "9e602882f5df854574d45fa84f593d3209017ebcc720a8f0f200587f95880b85",
+    "n_items": 2733
+   },
+   {
+    "basDt": "20230710",
+    "pageNo": 1,
+    "sha256": "71311132d93d419304c8dafbc77315198162fd582cf1485804ad73fde55d8c7f",
+    "n_items": 2733
+   },
+   {
+    "basDt": "20230711",
+    "pageNo": 1,
+    "sha256": "ed7234dd682e56e1fc5532968588b64e37a0a4e5242394f90e9d3bd932992759",
+    "n_items": 2733
+   },
+   {
+    "basDt": "20230712",
+    "pageNo": 1,
+    "sha256": "ca30a1ff859007d678586b40f0a115bbecd62dfa6e32f79efa32d3a755bc4dc5",
+    "n_items": 2734
+   },
+   {
+    "basDt": "20230713",
+    "pageNo": 1,
+    "sha256": "72ec5429c54dc41c07206f100cd4aa3ac5c7af72004796fa672901c2078f8448",
+    "n_items": 2734
+   },
+   {
+    "basDt": "20230714",
+    "pageNo": 1,
+    "sha256": "1a2e281b0ce47376b1fc480218d69fbbfce0f471274ca0b52d4acf1a33f42bf1",
+    "n_items": 2735
+   },
+   {
+    "basDt": "20230717",
+    "pageNo": 1,
+    "sha256": "555b0f23e9afb4972ab2cee0659e8b8b3316b13178fa7675d18bd74614c1c9b0",
+    "n_items": 2728
+   },
+   {
+    "basDt": "20230718",
+    "pageNo": 1,
+    "sha256": "1a8e87a680cd30abf01da5e4283bb6c413bca717aae4f6ddeeabea15c42acbb8",
+    "n_items": 2728
+   },
+   {
+    "basDt": "20230719",
+    "pageNo": 1,
+    "sha256": "ff045a5252f850fb5455693369665f8dfc342fbf9c511d5bfabad2ce1f093a84",
+    "n_items": 2730
+   },
+   {
+    "basDt": "20230720",
+    "pageNo": 1,
+    "sha256": "96b9ad1f1facec8aec3d1e2bb36a3fdcc73978fdc28a450679c3ab123aaccda5",
+    "n_items": 2731
+   },
+   {
+    "basDt": "20230721",
+    "pageNo": 1,
+    "sha256": "5fbc18fce15f80b7ff9afbde3decc979c0872a396c341411365ab3d0505c0198",
+    "n_items": 2731
+   },
+   {
+    "basDt": "20230724",
+    "pageNo": 1,
+    "sha256": "a054e59d64790426f9f09369b01a8f1e84c8b2f4a185eb542e378c211881d24b",
+    "n_items": 2732
+   },
+   {
+    "basDt": "20230725",
+    "pageNo": 1,
+    "sha256": "35703236b32c6e705cd1a7c3427863ab96bf9dc8781849da5abf38cbffc5b4d3",
+    "n_items": 2732
+   },
+   {
+    "basDt": "20230726",
+    "pageNo": 1,
+    "sha256": "2d80ef7e930257cae3c2411659f79fc13cb157856e89aa3012d1a7b61a4c1e8b",
+    "n_items": 2734
+   },
+   {
+    "basDt": "20230727",
+    "pageNo": 1,
+    "sha256": "45513a2bc15d04374a78f79f7267bf191c707dff600c1c81192d29e3cc6ace26",
+    "n_items": 2737
+   },
+   {
+    "basDt": "20230728",
+    "pageNo": 1,
+    "sha256": "9941e3267e01e765d6801c98c0c0cf19dae3bd41984fb26ab06284a9995dd23a",
+    "n_items": 2738
+   },
+   {
+    "basDt": "20230731",
+    "pageNo": 1,
+    "sha256": "5f56bd2335edbed9fd8294d471818baa588d453987b982b82d8af7447e41e422",
+    "n_items": 2739
+   },
+   {
+    "basDt": "20230801",
+    "pageNo": 1,
+    "sha256": "0fe7d3ce7b08106cc7d4d4f229e77e69ebaafb90c50bfc82cd5c8ccd07ab0f35",
+    "n_items": 2739
+   },
+   {
+    "basDt": "20230802",
+    "pageNo": 1,
+    "sha256": "562d0691a31e45aba0534ea82d22114c51608c5f5c8633c2fb70edc7393d2bdc",
+    "n_items": 2739
+   },
+   {
+    "basDt": "20230803",
+    "pageNo": 1,
+    "sha256": "385e78c04cdb113b8b69b73722352627d6c7cc082919ce754cabc4e8decd9c71",
+    "n_items": 2740
+   },
+   {
+    "basDt": "20230804",
+    "pageNo": 1,
+    "sha256": "8d50736824cf4dd71d3c5d84ecdc27b855e96187d210f906d17d62ff7a8d261a",
+    "n_items": 2741
+   },
+   {
+    "basDt": "20230807",
+    "pageNo": 1,
+    "sha256": "2ac5608a3698d0ca54093cb3983cc2e84bc796a3eb1b72ce4a47a8bca25e32ce",
+    "n_items": 2742
+   },
+   {
+    "basDt": "20230808",
+    "pageNo": 1,
+    "sha256": "428638a72a5c9c8d325ddfec80596009d1aab9f729c5f458a84dea8ed200fa31",
+    "n_items": 2742
+   },
+   {
+    "basDt": "20230809",
+    "pageNo": 1,
+    "sha256": "71e6c419c19281849f2dd413fca7d6292ca4151057911ef7bde2dd4a67fcc7c4",
+    "n_items": 2742
+   },
+   {
+    "basDt": "20230810",
+    "pageNo": 1,
+    "sha256": "5e206f84e8fa957917186ad65b6adc565c84e9b30814bf9fca477959b6091fcc",
+    "n_items": 2745
+   },
+   {
+    "basDt": "20230811",
+    "pageNo": 1,
+    "sha256": "da709ccf5c51882785054fef115d43e337b8deee3aa0d9f43a79d886ff776dbc",
+    "n_items": 2746
+   },
+   {
+    "basDt": "20230814",
+    "pageNo": 1,
+    "sha256": "a380c29657dea300aa2b4f8aceb497472b4c5c416454551b0c5771b8b0ccb91e",
+    "n_items": 2745
+   },
+   {
+    "basDt": "20230815",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20230816",
+    "pageNo": 1,
+    "sha256": "c7e69cede9d1c550b50c4269ef5346fe92bd21aaa908092e9085456645631666",
+    "n_items": 2745
+   },
+   {
+    "basDt": "20230817",
+    "pageNo": 1,
+    "sha256": "7529aa787e9ef0e7126445d118101d416bb4508efed57fe560c73aab1ff7fa67",
+    "n_items": 2745
+   },
+   {
+    "basDt": "20230818",
+    "pageNo": 1,
+    "sha256": "3d376ae82abefdd9f53cec21ea97ad1abf966183c87b73a18cdacee212d8d513",
+    "n_items": 2745
+   },
+   {
+    "basDt": "20230821",
+    "pageNo": 1,
+    "sha256": "d1d2a80991d69b756c80fbfef083e8e7d9a558d39c777322a4552dbf7d5e32cd",
+    "n_items": 2746
+   },
+   {
+    "basDt": "20230822",
+    "pageNo": 1,
+    "sha256": "ccb28af14bd6d57fad7e57f68785a053ae9667a2a64d3d90e7fcb1a09631351f",
+    "n_items": 2747
+   },
+   {
+    "basDt": "20230823",
+    "pageNo": 1,
+    "sha256": "f73b887aa04280af0ec922942987446353f675d2054a58cf312b16cdcc35ecda",
+    "n_items": 2747
+   },
+   {
+    "basDt": "20230824",
+    "pageNo": 1,
+    "sha256": "a259872aea9188af519a9ad5ebdc4967cb9248ae1c84cf848ef5201216afa2ae",
+    "n_items": 2748
+   },
+   {
+    "basDt": "20230825",
+    "pageNo": 1,
+    "sha256": "b8da8d457ed6134d9d101afaf73e9f49c70e70bc23bf5ce8d1ef44042f0003d6",
+    "n_items": 2748
+   },
+   {
+    "basDt": "20230828",
+    "pageNo": 1,
+    "sha256": "deb3fbb4e8ff1b825218ed836756920399f99cf9530cfc33c72b1abb9d603189",
+    "n_items": 2746
+   },
+   {
+    "basDt": "20230829",
+    "pageNo": 1,
+    "sha256": "ec7e2edaae378d13bbca5458d7fae56d37ad719c1c7f92c2475f81630d39d8ec",
+    "n_items": 2746
+   },
+   {
+    "basDt": "20230830",
+    "pageNo": 1,
+    "sha256": "16eed073b49aacf30e473c5df655399e1eb076a44d28d7e146a4456472b6dc96",
+    "n_items": 2749
+   },
+   {
+    "basDt": "20230831",
+    "pageNo": 1,
+    "sha256": "53374e1dc93755bb5bebc26d43a512871a3d1944f5346fb6d503c24b76ef8ef2",
+    "n_items": 2749
+   },
+   {
+    "basDt": "20230901",
+    "pageNo": 1,
+    "sha256": "72f2d2319a98d64f468909bb280711c6fa3593ea0a09552ac422aa5efdc3d992",
+    "n_items": 2750
+   },
+   {
+    "basDt": "20230904",
+    "pageNo": 1,
+    "sha256": "d1d59a948dd64cc172bee5a02034e5e356be34d87a1f1a9b4a2c84a432baea4b",
+    "n_items": 2751
+   },
+   {
+    "basDt": "20230905",
+    "pageNo": 1,
+    "sha256": "1135794f1446da4202d12b9d89de306d0566e5c81f935711adadbc0c976edd3b",
+    "n_items": 2751
+   },
+   {
+    "basDt": "20230906",
+    "pageNo": 1,
+    "sha256": "ff953121e1c5dba75c93f4db8e893af9d2729d57a238379f3cb766e44566e044",
+    "n_items": 2751
+   },
+   {
+    "basDt": "20230907",
+    "pageNo": 1,
+    "sha256": "c9c0992cb2bd0b4d47eb98a7619c9fbd49bd7d8634f80be784d9a28955094688",
+    "n_items": 2752
+   },
+   {
+    "basDt": "20230908",
+    "pageNo": 1,
+    "sha256": "8aca9ad80f358cff7d3653ee2645779d2a2ad3bf601f9db6b0682429a2e447aa",
+    "n_items": 2752
+   },
+   {
+    "basDt": "20230911",
+    "pageNo": 1,
+    "sha256": "08ce787ab9423c2a81cf3a06d78cab79f1963fa806b9408ee22570927094f024",
+    "n_items": 2752
+   },
+   {
+    "basDt": "20230912",
+    "pageNo": 1,
+    "sha256": "46ec0824c99ed3a27543d65bd221f64611a6a9130f708fe1df3fbf4d66a275ca",
+    "n_items": 2752
+   },
+   {
+    "basDt": "20230913",
+    "pageNo": 1,
+    "sha256": "11117d27c468e35985399238e5f5ba358f0dc33b47b43eba27d4f51145edac2e",
+    "n_items": 2752
+   },
+   {
+    "basDt": "20230914",
+    "pageNo": 1,
+    "sha256": "61014a5ebbeefb0b5d5326571842f8f81ee4451a988492fc88fb9cd4ecef80a6",
+    "n_items": 2753
+   },
+   {
+    "basDt": "20230915",
+    "pageNo": 1,
+    "sha256": "23344c1ad28b0fbde30d6d91353a147ecabe705e1b22936f4a1931deb0ccbbc3",
+    "n_items": 2754
+   },
+   {
+    "basDt": "20230918",
+    "pageNo": 1,
+    "sha256": "41268f4a98531a86a7919aa577d77a8e3c8b55a5e543088d883b221dc72d977b",
+    "n_items": 2753
+   },
+   {
+    "basDt": "20230919",
+    "pageNo": 1,
+    "sha256": "afc0094d51b15802d2446afe87ade4fc947716afa253443f38695824304cdf05",
+    "n_items": 2753
+   },
+   {
+    "basDt": "20230920",
+    "pageNo": 1,
+    "sha256": "b2625f0ab2195ed629e0632ecde37981624b11d770bfd4cb4aff12d9dba5c421",
+    "n_items": 2753
+   },
+   {
+    "basDt": "20230921",
+    "pageNo": 1,
+    "sha256": "43a9a2a173585ec81dd541eed454349b4d0678f943d3714945b37a6e2879f542",
+    "n_items": 2753
+   },
+   {
+    "basDt": "20230922",
+    "pageNo": 1,
+    "sha256": "830d7ab27c796ae3314d4e99a6e70321ae2bb4e06d007aef8258caa0e5f66e5b",
+    "n_items": 2752
+   },
+   {
+    "basDt": "20230925",
+    "pageNo": 1,
+    "sha256": "01ea5e9ba5105a91545e9e70512c67f087d3d760436312b8ac125b907d6f86f7",
+    "n_items": 2753
+   },
+   {
+    "basDt": "20230926",
+    "pageNo": 1,
+    "sha256": "bb6d547396b3bcdc902b16a3fe5ad70a49f40f6d8f98d63cc25ca91f06e5d053",
+    "n_items": 2753
+   },
+   {
+    "basDt": "20230927",
+    "pageNo": 1,
+    "sha256": "f49214bb00885ad130eb792d5e9eb9e8ba046248e4056d6b7b560cbabb5e9773",
+    "n_items": 2754
+   },
+   {
+    "basDt": "20230928",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20230929",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20231002",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20231003",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20231004",
+    "pageNo": 1,
+    "sha256": "0e6956dbcf846ef4232dcdd68964ee8827dc8cbbdfc887804ce0f3f273ba371d",
+    "n_items": 2756
+   },
+   {
+    "basDt": "20231005",
+    "pageNo": 1,
+    "sha256": "8f674fcb2992971e5d9d2fcfa1197915b2feca499325fc1a6c9d6d562f8687c6",
+    "n_items": 2757
+   },
+   {
+    "basDt": "20231006",
+    "pageNo": 1,
+    "sha256": "98c6f3b6041580aaa64296e8961084b6f2921fdf67bc60567f5f1e93dfdf5427",
+    "n_items": 2758
+   },
+   {
+    "basDt": "20231009",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20231010",
+    "pageNo": 1,
+    "sha256": "59ed4d79466b14b4cdb1b6405a2de095a083496bda9d647e5ef13fe695c0331d",
+    "n_items": 2759
+   },
+   {
+    "basDt": "20231011",
+    "pageNo": 1,
+    "sha256": "c9f92d77c67c5999e548078a43cde8665f0173ff886d96eb3f4acbcdc3b921c3",
+    "n_items": 2759
+   },
+   {
+    "basDt": "20231012",
+    "pageNo": 1,
+    "sha256": "759ab18e86a3a49cc4689c6ed016e32ee91e08b143bb7001b4e8781b9c905b4b",
+    "n_items": 2759
+   },
+   {
+    "basDt": "20231013",
+    "pageNo": 1,
+    "sha256": "a64dac09f846f59c69b2e2de0ee92a6d982d17c1dc9d61f7aa7d7acfd30e5114",
+    "n_items": 2761
+   },
+   {
+    "basDt": "20231016",
+    "pageNo": 1,
+    "sha256": "2a6ed7655580604d623c8ade6099c0397da73980e81b9384e7ba1ea230f47a20",
+    "n_items": 2761
+   },
+   {
+    "basDt": "20231017",
+    "pageNo": 1,
+    "sha256": "4c2a0f20951491049f0c2d04d97f7bc37261ba9aa65ddadb2110101cfb9be9f6",
+    "n_items": 2761
+   },
+   {
+    "basDt": "20231018",
+    "pageNo": 1,
+    "sha256": "6caf7138ff9a3aa545cf3f40a9f93d75b98c737a5d28f57b4bcafe771f56b7d3",
+    "n_items": 2762
+   },
+   {
+    "basDt": "20231019",
+    "pageNo": 1,
+    "sha256": "6e541e92b3636809ebcf3f05b5c9351ba126956193ff742aaca7c0aa37a6a196",
+    "n_items": 2763
+   },
+   {
+    "basDt": "20231020",
+    "pageNo": 1,
+    "sha256": "d58f454172a8f50f73517a963ad48a8861279cff0456cedac6fc59f7ad198b29",
+    "n_items": 2762
+   },
+   {
+    "basDt": "20231023",
+    "pageNo": 1,
+    "sha256": "d1ac0aebb7d49fb6bab04a94504fd0d7482ebd3140551b94d6fd304545b5224a",
+    "n_items": 2762
+   },
+   {
+    "basDt": "20231024",
+    "pageNo": 1,
+    "sha256": "67972e7b2ff4f29bda074c9aa920bb82d023fb068a436a9a7f3f176891ebc2a3",
+    "n_items": 2762
+   },
+   {
+    "basDt": "20231025",
+    "pageNo": 1,
+    "sha256": "649cb3efd2f6c2e4134aa345ffc79e84bcc6ad1a21ec8bd53a4beea4639cba11",
+    "n_items": 2762
+   },
+   {
+    "basDt": "20231026",
+    "pageNo": 1,
+    "sha256": "2de4a2fb27010bdafa64a94222447d7281a93c1299826e74d4472162ad27ecea",
+    "n_items": 2764
+   },
+   {
+    "basDt": "20231027",
+    "pageNo": 1,
+    "sha256": "9f21b6eaf7d38471cfae8b1871912f73e8dbcb825ec5d10da3556902a1ed07c7",
+    "n_items": 2763
+   },
+   {
+    "basDt": "20231030",
+    "pageNo": 1,
+    "sha256": "6a4220a38964e1d22cbd920963d17a224a9a9ac535538eaed2a641a8d1a63760",
+    "n_items": 2763
+   },
+   {
+    "basDt": "20231031",
+    "pageNo": 1,
+    "sha256": "2fb887c1de0863923efde10b8ef34df8e2c01c509aa956fbae20251f6c4c0be3",
+    "n_items": 2763
+   },
+   {
+    "basDt": "20231101",
+    "pageNo": 1,
+    "sha256": "f1748ca72ad3ec719447ddf3c54a34b4baf81cbce7a06fda87744847ff7a1cbe",
+    "n_items": 2763
+   },
+   {
+    "basDt": "20231102",
+    "pageNo": 1,
+    "sha256": "471c04fe67679403ff87a8b57922f88f4a42fc627f494b33926aad5e149b4dd5",
+    "n_items": 2764
+   },
+   {
+    "basDt": "20231103",
+    "pageNo": 1,
+    "sha256": "68ce4d7218516ee664dd0192c8305012792771fc89733f1ff1b38fc0a580e90e",
+    "n_items": 2765
+   },
+   {
+    "basDt": "20231106",
+    "pageNo": 1,
+    "sha256": "0c6e36c60fd513e173419eddb27b4739fbd83453b3915264e49aead3f4e5c576",
+    "n_items": 2765
+   },
+   {
+    "basDt": "20231107",
+    "pageNo": 1,
+    "sha256": "57909c7c5001c0207c48e433bb4a6458bd4b927cb6af326ee63fa83f74971b4d",
+    "n_items": 2765
+   },
+   {
+    "basDt": "20231108",
+    "pageNo": 1,
+    "sha256": "c4199d8fcf99f9814e54460a8257635fcf116a2b2c2da5977a701a9291cb7f65",
+    "n_items": 2765
+   },
+   {
+    "basDt": "20231109",
+    "pageNo": 1,
+    "sha256": "03106c1a5fce1bfc0d693b2529ac50b7e861f40768e45d9940f977f3ba7296d0",
+    "n_items": 2769
+   },
+   {
+    "basDt": "20231110",
+    "pageNo": 1,
+    "sha256": "c9072b55126d17c11ab45319a17b2477a93ece269c80a3173bcb26ffd1a7b0e0",
+    "n_items": 2769
+   },
+   {
+    "basDt": "20231113",
+    "pageNo": 1,
+    "sha256": "0de88cda62144c5c0dbc0cf347d7585d45421caa5372c62d9c1b9709fc603b1a",
+    "n_items": 2772
+   },
+   {
+    "basDt": "20231114",
+    "pageNo": 1,
+    "sha256": "e7ae39ec54a1c9cf3e3fe1f48f979defe9b07b0afcd3a9af7871fb41cfda7de7",
+    "n_items": 2772
+   },
+   {
+    "basDt": "20231115",
+    "pageNo": 1,
+    "sha256": "be196e8977db8623811e3244b614e485fadbe047b081c294bfd1e290a863847d",
+    "n_items": 2774
+   },
+   {
+    "basDt": "20231116",
+    "pageNo": 1,
+    "sha256": "691d8f94d4c35dc4051e3094e75bb58244a7579a131db8d05022a27b3fdd4d83",
+    "n_items": 2774
+   },
+   {
+    "basDt": "20231117",
+    "pageNo": 1,
+    "sha256": "76a520a158bc2ddac83914c76c775414cb52cafa2673f9b1287d06e3c0cf7ab5",
+    "n_items": 2775
+   },
+   {
+    "basDt": "20231120",
+    "pageNo": 1,
+    "sha256": "66378d3ff0256bcd26baed8cd4d5392fade39ace0721c42032bfe8be8db2b47c",
+    "n_items": 2776
+   },
+   {
+    "basDt": "20231121",
+    "pageNo": 1,
+    "sha256": "3b2abb4934d75c15f4da5ec6b201d88e4894bbc61d66a23c2c2c193f94104cce",
+    "n_items": 2778
+   },
+   {
+    "basDt": "20231122",
+    "pageNo": 1,
+    "sha256": "15531dc6b3af9d44d8c076cf3949638f8e2a4fd37c5df42176b77bf54170209e",
+    "n_items": 2778
+   },
+   {
+    "basDt": "20231123",
+    "pageNo": 1,
+    "sha256": "2ee172c3798b20197aa8bb337e1c83eee81e6eb67f496b677af4517205464d93",
+    "n_items": 2778
+   },
+   {
+    "basDt": "20231124",
+    "pageNo": 1,
+    "sha256": "1f350ab5f069585f0c045a6b3cb1328925caf3c97ed135ef2aaee60a9ee67df6",
+    "n_items": 2779
+   },
+   {
+    "basDt": "20231127",
+    "pageNo": 1,
+    "sha256": "56025ea818cd4ca54e1f7a5e76adb10eabc8b7741610fb3b1231a06cd1a3aefd",
+    "n_items": 2779
+   },
+   {
+    "basDt": "20231128",
+    "pageNo": 1,
+    "sha256": "fc6f2f3aa6a6ca3d9ad2b7e8299371328743693693f4912ccf48033934a5704a",
+    "n_items": 2780
+   },
+   {
+    "basDt": "20231129",
+    "pageNo": 1,
+    "sha256": "b172ea8af8eefd250adcef26eeab8511c54947fab8e4333be019c8bc925d6bcf",
+    "n_items": 2780
+   },
+   {
+    "basDt": "20231130",
+    "pageNo": 1,
+    "sha256": "967e1dc05177d2b4ca642352133768d0f516ca2bc3a162e9754d03353f3da2de",
+    "n_items": 2780
+   },
+   {
+    "basDt": "20231201",
+    "pageNo": 1,
+    "sha256": "54a46ae62d1c09ac6a349eaa1eff6f8f8e626aa5ee922d08c619f298a0f7e33d",
+    "n_items": 2782
+   },
+   {
+    "basDt": "20231204",
+    "pageNo": 1,
+    "sha256": "580d28e86aedf3dc9b6beacf55f97e5c68ec79d58824fe3876d270ea780de830",
+    "n_items": 2783
+   },
+   {
+    "basDt": "20231205",
+    "pageNo": 1,
+    "sha256": "57941116ec4993a0c96b195e76481da27733bf2fb6f23b1d376172f2b8b09482",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20231206",
+    "pageNo": 1,
+    "sha256": "138be1afffa24bddfb1bd3f4f48f63a7d922d23debc9af9b609ba51daa640e67",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20231207",
+    "pageNo": 1,
+    "sha256": "84bfec94383e038e297d54505f72b1bf031a9792e4dc98a258b6fbebd77b6929",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20231208",
+    "pageNo": 1,
+    "sha256": "8dec458bc0ce07292ad4875d4c96cb631289497bb87fe3ce2a28c646a8d45838",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20231211",
+    "pageNo": 1,
+    "sha256": "484e86b3be9562f8c840e93abd85fb6740b723a8ecb1b5f677edfb841b17ef44",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20231212",
+    "pageNo": 1,
+    "sha256": "bd1cc16f52eabd9ba287bf1e98962f92d4e6ed1a3e93e9f51374da3edfee6958",
+    "n_items": 2786
+   },
+   {
+    "basDt": "20231213",
+    "pageNo": 1,
+    "sha256": "bfd22eb72ae1fd75354273743f8c18262f05a6f2eea70f17fd5427d15a5fb640",
+    "n_items": 2786
+   },
+   {
+    "basDt": "20231214",
+    "pageNo": 1,
+    "sha256": "0b2d6e34e8128f418032e4da0e1739e825779bca27fa7450739f6aa1548fc2b0",
+    "n_items": 2786
+   },
+   {
+    "basDt": "20231215",
+    "pageNo": 1,
+    "sha256": "86a7637f7c078ee558ec1a315c27c02a26792ab4ee92db347fd226e80156ce9b",
+    "n_items": 2786
+   },
+   {
+    "basDt": "20231218",
+    "pageNo": 1,
+    "sha256": "d4ba9e209ce48a5da67efc1c7627ea7edf9dc03c68dfe158e67509f93d1edf24",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20231219",
+    "pageNo": 1,
+    "sha256": "8a170b0284ac38678363a356e31c1171619bd9a90503b68e0ed10e63ceb9a104",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20231220",
+    "pageNo": 1,
+    "sha256": "2e5c43f98c052de388b23e0e268c34d919d8298c937967b38545592a6bcd83b7",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20231221",
+    "pageNo": 1,
+    "sha256": "affade37ec8af9e17ef1c02c364fa0f969c990a043ab0a9ea26ff591d8470037",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20231222",
+    "pageNo": 1,
+    "sha256": "22fda9bf072c6301a67d18558015a4b7fe198c1f1a91a0e7de49fc12bf3dd2df",
+    "n_items": 2788
+   },
+   {
+    "basDt": "20231225",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20231226",
+    "pageNo": 1,
+    "sha256": "edd3d80f470fed5eb7dde29b95152d897952fac36539675863a368e05e653150",
+    "n_items": 2788
+   },
+   {
+    "basDt": "20231227",
+    "pageNo": 1,
+    "sha256": "7bbfd4743076d1b6b2c348031f57bee0977f366f60de1aa301b5a1d82cb2a459",
+    "n_items": 2787
+   },
+   {
+    "basDt": "20231228",
+    "pageNo": 1,
+    "sha256": "f6af1ef880964a867e70252cba30b261906499147576bf8dd0aff32eebefc241",
+    "n_items": 2787
+   },
+   {
+    "basDt": "20231229",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240101",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240102",
+    "pageNo": 1,
+    "sha256": "754431bd7dc8e955657fba0044e113887bb9c7fe67e43ccb606f93a652a418d1",
+    "n_items": 2786
+   },
+   {
+    "basDt": "20240103",
+    "pageNo": 1,
+    "sha256": "4cb580b589cd9d8578ff772afb406d3ce042020ebeb38dc01deeaf28e5781dd6",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20240104",
+    "pageNo": 1,
+    "sha256": "8f3b75cbc839a7f846b5bd657938ef305452dbe48cca89998d0c0f68f2ca502d",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20240105",
+    "pageNo": 1,
+    "sha256": "bd03e208f2482fc04cdd60aa612aac9c100050ad596c61eadfa40112da515a88",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20240108",
+    "pageNo": 1,
+    "sha256": "925c815f56288d494a40ec1d2f060141d8b0db0668739818af70ad1a5ab211e6",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20240109",
+    "pageNo": 1,
+    "sha256": "3aa62c89bc35cd9ac88b7f49ccd510a8027c05b25ac3b1ce04068ff8a2df173b",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20240110",
+    "pageNo": 1,
+    "sha256": "8db05ebe752b2c1cebbfad0f3bbc64ad5e2d52c3b0c2977e021d4d7351f5b963",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20240111",
+    "pageNo": 1,
+    "sha256": "5ee4b089b29ad1a1b12ab5d11f0cb3a52db65f7a780c24e9366d7846a1a529d3",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20240112",
+    "pageNo": 1,
+    "sha256": "35248699838adc53ba64fba4c6c902df2cdaea30b8318943c371c0484740d27d",
+    "n_items": 2784
+   },
+   {
+    "basDt": "20240115",
+    "pageNo": 1,
+    "sha256": "45e0d2005cde317616a8b0b74c1055b05ee0147ecf793ae296d6707151e3f156",
+    "n_items": 2784
+   },
+   {
+    "basDt": "20240116",
+    "pageNo": 1,
+    "sha256": "7677050a5632da3e2eb116518d4e615be5811ec2c18b22dc5fc5133da51e8942",
+    "n_items": 2784
+   },
+   {
+    "basDt": "20240117",
+    "pageNo": 1,
+    "sha256": "f1e126ae6404ceab3306443f650e1f94ab28ac612b0518e99efb365247f7c695",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20240118",
+    "pageNo": 1,
+    "sha256": "bbe473d56d3c03281645a3732d936384e72dc462a40165ab1cd15a68f6a58b70",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20240119",
+    "pageNo": 1,
+    "sha256": "3e12b53cd27a068d399f3dae35fdf0589542efad7a91ea2158f2354b7b0a88bb",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20240122",
+    "pageNo": 1,
+    "sha256": "452aa73e8d7de181f346546f27e02e5c8396656eae3e232a5b97fbb26dc2a1d9",
+    "n_items": 2785
+   },
+   {
+    "basDt": "20240123",
+    "pageNo": 1,
+    "sha256": "3e09b701ea27d8b8e30c5982fa95bd45263bd50f21772a8aae571c9f74b0b173",
+    "n_items": 2784
+   },
+   {
+    "basDt": "20240124",
+    "pageNo": 1,
+    "sha256": "d43ca74369e2c551359778690a8c4943f5c0bcaf1422c28df6a2af8e847afde7",
+    "n_items": 2786
+   },
+   {
+    "basDt": "20240125",
+    "pageNo": 1,
+    "sha256": "94c48e16fbcd17af584211b89e0f4d2f8bf8b7d5003c445e0f758cf724d2fd98",
+    "n_items": 2787
+   },
+   {
+    "basDt": "20240126",
+    "pageNo": 1,
+    "sha256": "5f277a79897c73d77be256fa0e1e51552b6f6a006dde35d59a17571568bd63d4",
+    "n_items": 2788
+   },
+   {
+    "basDt": "20240129",
+    "pageNo": 1,
+    "sha256": "4554cea212cd3e5456f2f40e13123cf5437a591b2bb6fce483c706a89c1dd674",
+    "n_items": 2789
+   },
+   {
+    "basDt": "20240130",
+    "pageNo": 1,
+    "sha256": "b8233ac06ca65acc096750d721996a7d9f71bcee771ef5061f5e6956ac12d999",
+    "n_items": 2789
+   },
+   {
+    "basDt": "20240131",
+    "pageNo": 1,
+    "sha256": "1328f6b31f8922ddd81b5a5824928339bfe73c18b37296b4366a84933c6fa7f1",
+    "n_items": 2788
+   },
+   {
+    "basDt": "20240201",
+    "pageNo": 1,
+    "sha256": "f73164f46a25cbbc10db11beccac3735935137991185ae31ae8dcabc56f169e3",
+    "n_items": 2790
+   },
+   {
+    "basDt": "20240202",
+    "pageNo": 1,
+    "sha256": "f69ca52ed5ca43ad49e7a8bdadd693573d28ae69a44fe1b4a3a7d16e18f192e3",
+    "n_items": 2791
+   },
+   {
+    "basDt": "20240205",
+    "pageNo": 1,
+    "sha256": "ae60c66c1799df11fa8e43199e195548e34b9cf683a2bfac5badc53cc480aaf1",
+    "n_items": 2791
+   },
+   {
+    "basDt": "20240206",
+    "pageNo": 1,
+    "sha256": "d8cc86fc3651b21f1799ac335163fa7a59fe28a5e925e817f04c5f25cccb45f2",
+    "n_items": 2793
+   },
+   {
+    "basDt": "20240207",
+    "pageNo": 1,
+    "sha256": "33121b6495750a33a9e96c2847dbbb47d655165ca245195b94ab08425b8bc550",
+    "n_items": 2793
+   },
+   {
+    "basDt": "20240208",
+    "pageNo": 1,
+    "sha256": "ad4f9a8fe8a83334d0225c977aa2ed0f84d59642e20df8598caf6b47786237a6",
+    "n_items": 2793
+   },
+   {
+    "basDt": "20240209",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240212",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240213",
+    "pageNo": 1,
+    "sha256": "985762d58e11f14e6f59b2a703d4f39c997aefee9f0b9415624a19b74c939a5b",
+    "n_items": 2793
+   },
+   {
+    "basDt": "20240214",
+    "pageNo": 1,
+    "sha256": "719060737b56c0c530bc0826facfa0fd556e22b776938544f6694aefb040ff19",
+    "n_items": 2793
+   },
+   {
+    "basDt": "20240215",
+    "pageNo": 1,
+    "sha256": "dc3cfb63538de5fc99f107d89736791725282710720589ec441df0f554394221",
+    "n_items": 2792
+   },
+   {
+    "basDt": "20240216",
+    "pageNo": 1,
+    "sha256": "fff963ecc65edfb965dafa549535c429539b2d60f16f3759fab21eedc89a57e8",
+    "n_items": 2792
+   },
+   {
+    "basDt": "20240219",
+    "pageNo": 1,
+    "sha256": "360385e6ef8536ec1623837ee4cef9a5bf042d00ae0e5f3073b9ddb366c34d49",
+    "n_items": 2792
+   },
+   {
+    "basDt": "20240220",
+    "pageNo": 1,
+    "sha256": "a8d5b2c239141ebe7a8b435b16d427a56ec61c99813496389632def0293e0839",
+    "n_items": 2792
+   },
+   {
+    "basDt": "20240221",
+    "pageNo": 1,
+    "sha256": "e714027040bf9641edb74b1f69196be09faa87adb2c32e9f5b8e82de0e9dbfa0",
+    "n_items": 2792
+   },
+   {
+    "basDt": "20240222",
+    "pageNo": 1,
+    "sha256": "eb5489ee903edf0ea38319553ce01bdd0553989ce7f72e5c4f5da4ca87fd545b",
+    "n_items": 2792
+   },
+   {
+    "basDt": "20240223",
+    "pageNo": 1,
+    "sha256": "72f303ee48c3c5993fe7b2964df56378def492a303d31c06ceaefc5e41d3a934",
+    "n_items": 2794
+   },
+   {
+    "basDt": "20240226",
+    "pageNo": 1,
+    "sha256": "d3ecafb866dbfb8a0e068bb6d53b77708b148381619affa09e80a6c26df8840a",
+    "n_items": 2794
+   },
+   {
+    "basDt": "20240227",
+    "pageNo": 1,
+    "sha256": "0601b73218699db41ba550d4374b2e819985e6460521ed087d58c1b100ebf6fe",
+    "n_items": 2795
+   },
+   {
+    "basDt": "20240228",
+    "pageNo": 1,
+    "sha256": "7ca91d7b064ca0828df2b3901075510f2aa04e3cd1262f572493b9b1f5f12c92",
+    "n_items": 2795
+   },
+   {
+    "basDt": "20240229",
+    "pageNo": 1,
+    "sha256": "43d7b6dd423da4b1823b9f1519059816dc1da7703039a96957f3dae78566561f",
+    "n_items": 2797
+   },
+   {
+    "basDt": "20240301",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240304",
+    "pageNo": 1,
+    "sha256": "cea7c3a027ea6ef54af6447aa1cb549ca29c597829c2bf491c50e26b79d41dc5",
+    "n_items": 2797
+   },
+   {
+    "basDt": "20240305",
+    "pageNo": 1,
+    "sha256": "9bba3526aa1d0241a18f3a5d44f1dcd5135835f9c3f44f5f8e9d813b1fc7218a",
+    "n_items": 2799
+   },
+   {
+    "basDt": "20240306",
+    "pageNo": 1,
+    "sha256": "780841a1f23d4256d0e2e0bc21b58120ab2418fc607c41d0df9ad79a3f910b10",
+    "n_items": 2798
+   },
+   {
+    "basDt": "20240307",
+    "pageNo": 1,
+    "sha256": "21c77803921c5e3d4ea7aafd8eb8fa0ae3271c0b10bdd6f185fbf4481493ff6d",
+    "n_items": 2799
+   },
+   {
+    "basDt": "20240308",
+    "pageNo": 1,
+    "sha256": "563c45f940c9c23a4d532511a4a6a801e862495f4bfab9cb96db57343cc1f1a2",
+    "n_items": 2799
+   },
+   {
+    "basDt": "20240311",
+    "pageNo": 1,
+    "sha256": "f082f88ea237a54aa22620a11f42ca49600b8b6e9671c2b84c0b168a7b729a2f",
+    "n_items": 2799
+   },
+   {
+    "basDt": "20240312",
+    "pageNo": 1,
+    "sha256": "91d183097ea5a0d036d3350d0565a7eb3c1a9a233bcccc4cb13f5359852eb2de",
+    "n_items": 2799
+   },
+   {
+    "basDt": "20240313",
+    "pageNo": 1,
+    "sha256": "933133fb24424fe5f98a60188440d78c0859fe308fbe59edee8ddcdba1bdd04d",
+    "n_items": 2800
+   },
+   {
+    "basDt": "20240314",
+    "pageNo": 1,
+    "sha256": "01b83264ecf2a5b99be5880b6e76ec813ce302e00f24c203260abac186c13e50",
+    "n_items": 2800
+   },
+   {
+    "basDt": "20240315",
+    "pageNo": 1,
+    "sha256": "3779458fb0a55c0400a2d8878252f5bbf02d9ebb0649e38e176c8b7b8d578c1b",
+    "n_items": 2800
+   },
+   {
+    "basDt": "20240318",
+    "pageNo": 1,
+    "sha256": "c41e2144e88df6725b7975acbf8effdd3645bad7fe0336c3638ae08e3e31b694",
+    "n_items": 2800
+   },
+   {
+    "basDt": "20240319",
+    "pageNo": 1,
+    "sha256": "5c3d69cfc04f4fb9434f2b5b428ae5cb959110c36de4a32a2981909b6d6323ba",
+    "n_items": 2800
+   },
+   {
+    "basDt": "20240320",
+    "pageNo": 1,
+    "sha256": "81175912b9b1c8a8b73dfe0ccaf0beb16adfc7d2fd35d058403c413931321e01",
+    "n_items": 2800
+   },
+   {
+    "basDt": "20240321",
+    "pageNo": 1,
+    "sha256": "c57102de709a8e7d434f9b77b7d36252130333656d8a483961df71826a8575ae",
+    "n_items": 2800
+   },
+   {
+    "basDt": "20240322",
+    "pageNo": 1,
+    "sha256": "460655565aa10160d96e4acd5b29e2d4a08df8e48addd40c8caaca9d76bcd643",
+    "n_items": 2800
+   },
+   {
+    "basDt": "20240325",
+    "pageNo": 1,
+    "sha256": "e1c06ec9aea377258056569098fbc370b50cb20505b4243ceb8c0b6fe3d9bff9",
+    "n_items": 2800
+   },
+   {
+    "basDt": "20240326",
+    "pageNo": 1,
+    "sha256": "e3bc3d4427f2e04e0c7d3a306995f850f47fd1ab512170c2ec02135e4ea712f2",
+    "n_items": 2801
+   },
+   {
+    "basDt": "20240327",
+    "pageNo": 1,
+    "sha256": "ec478b7e57cffc816d8567ca632dec1cf57ec5352c5d68d303429db981cb7657",
+    "n_items": 2802
+   },
+   {
+    "basDt": "20240328",
+    "pageNo": 1,
+    "sha256": "997e105583b1931ff02c229e64eccd435a2908fb024ad64dcb03d4345d966b0c",
+    "n_items": 2802
+   },
+   {
+    "basDt": "20240329",
+    "pageNo": 1,
+    "sha256": "1bbf5b37c84e8ad7599a65b24a0dd13f76dc189e617e7cb1e13cb633089f3ab7",
+    "n_items": 2802
+   },
+   {
+    "basDt": "20240401",
+    "pageNo": 1,
+    "sha256": "39728b75eb4df23d2ac58b74dea49de81b30117520745c2a7d90b7d4622d5887",
+    "n_items": 2802
+   },
+   {
+    "basDt": "20240402",
+    "pageNo": 1,
+    "sha256": "e5200ea59b81296ba8984652c35899c7bcf8d1c621e9c882ebb73c332c5f4191",
+    "n_items": 2802
+   },
+   {
+    "basDt": "20240403",
+    "pageNo": 1,
+    "sha256": "c6b22b7290d8b081da37326b17cae0bc8da40b56b6df0b7a98b9f91302433f06",
+    "n_items": 2803
+   },
+   {
+    "basDt": "20240404",
+    "pageNo": 1,
+    "sha256": "93ed8a95cbcf3bd9c7dcf630e10d38ce826d4ee8bc5e83c0feb5405949eed4a5",
+    "n_items": 2803
+   },
+   {
+    "basDt": "20240405",
+    "pageNo": 1,
+    "sha256": "ad9696e297936161863a5599f7858904cf05418f82b06c1ff29a34214f97476e",
+    "n_items": 2802
+   },
+   {
+    "basDt": "20240408",
+    "pageNo": 1,
+    "sha256": "7eb040f99b8813a700ba3d7d6be4ec14a604cb83fa7aa95215a918c9fefc8915",
+    "n_items": 2802
+   },
+   {
+    "basDt": "20240409",
+    "pageNo": 1,
+    "sha256": "026d3bba0b800bae23ad3bd15d8f26b721c9f064d97b7d406d2465aad6793927",
+    "n_items": 2802
+   },
+   {
+    "basDt": "20240410",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240411",
+    "pageNo": 1,
+    "sha256": "8091bb742eacf5d5d88f71586615653196ac5c41aff83b325261421167100f33",
+    "n_items": 2802
+   },
+   {
+    "basDt": "20240412",
+    "pageNo": 1,
+    "sha256": "5eeaeafa0ffe6da8b2ffc56f3c3ecfe3f4de5945da0cf41cb5fa7d79ceb4a110",
+    "n_items": 2802
+   },
+   {
+    "basDt": "20240415",
+    "pageNo": 1,
+    "sha256": "b133a3124169661af3cbf5ab542021b4e87882af7c29d40f851956640d9d0352",
+    "n_items": 2803
+   },
+   {
+    "basDt": "20240416",
+    "pageNo": 1,
+    "sha256": "2388818c3af251dbb60729434579ab767ca474970d5b2f257d6e108ab9269035",
+    "n_items": 2803
+   },
+   {
+    "basDt": "20240417",
+    "pageNo": 1,
+    "sha256": "6b2f9b478e3f338420576040c17d33fcc21d5ccb8e92523c0d6d427e39bbe0f8",
+    "n_items": 2803
+   },
+   {
+    "basDt": "20240418",
+    "pageNo": 1,
+    "sha256": "3d1985225646cc18400f385dab2ca5942ab6a3e5cc6f17a8430af9eddcf03e61",
+    "n_items": 2803
+   },
+   {
+    "basDt": "20240419",
+    "pageNo": 1,
+    "sha256": "64acc3efe10c068f917d6e02d8f373c0f01f9a8aac50cc103594c4d710cc7e2e",
+    "n_items": 2803
+   },
+   {
+    "basDt": "20240422",
+    "pageNo": 1,
+    "sha256": "6dcfd18342c54444b03edaa0a02d5a5693f7246af5812b583d2657a03b69caaa",
+    "n_items": 2804
+   },
+   {
+    "basDt": "20240423",
+    "pageNo": 1,
+    "sha256": "a8081f9553dbf303b21f84d4e53abb5235b333936e681e2139c8fa9ba269054e",
+    "n_items": 2804
+   },
+   {
+    "basDt": "20240424",
+    "pageNo": 1,
+    "sha256": "2c1a948be3fa731b14d22307d32800180dd77d524064c4140b8450108c589c50",
+    "n_items": 2805
+   },
+   {
+    "basDt": "20240425",
+    "pageNo": 1,
+    "sha256": "b257489eaba861dbab3f82c7866371d7149a9e72da7b90724b59adfe93a1bfe4",
+    "n_items": 2804
+   },
+   {
+    "basDt": "20240426",
+    "pageNo": 1,
+    "sha256": "33d4f7e4408bb28ccfe7876ef67812250c8a85f2638fd8e645fcaf0155e7570a",
+    "n_items": 2803
+   },
+   {
+    "basDt": "20240429",
+    "pageNo": 1,
+    "sha256": "f8b14120af952d1a7542d312a42a584072d14ac30161ee02a0af96b13e5d0c6f",
+    "n_items": 2803
+   },
+   {
+    "basDt": "20240430",
+    "pageNo": 1,
+    "sha256": "c4c0ad98d1a0396a481be7028c91f2f8d301571b24ecc2381356f801430f9129",
+    "n_items": 2803
+   },
+   {
+    "basDt": "20240501",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240502",
+    "pageNo": 1,
+    "sha256": "7611a826e41f75262afdc6285742fe0edc21538794326306408a4c4891ffd5a2",
+    "n_items": 2805
+   },
+   {
+    "basDt": "20240503",
+    "pageNo": 1,
+    "sha256": "a6870c041868d048efd00d94ca1ad9dd879c8dc71174d858afdcbecc2be412c8",
+    "n_items": 2805
+   },
+   {
+    "basDt": "20240506",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240507",
+    "pageNo": 1,
+    "sha256": "e6eeaceffd3efba18a519fa6452a979ceabfe8fa6872ce64fab3ba9bcd4882be",
+    "n_items": 2807
+   },
+   {
+    "basDt": "20240508",
+    "pageNo": 1,
+    "sha256": "4ab850b14239401aaa286fa6d32fc50b9bb234c8b261ca105ab2663db5cf0068",
+    "n_items": 2808
+   },
+   {
+    "basDt": "20240509",
+    "pageNo": 1,
+    "sha256": "21e124e529480ae71f05622871d15e7392c361617cab73443ae3b0d7e432c660",
+    "n_items": 2808
+   },
+   {
+    "basDt": "20240510",
+    "pageNo": 1,
+    "sha256": "ab9533d907961d8aa1ff3d0cf6ba1845d68df6eb1a733dd133f2e00559b4644b",
+    "n_items": 2808
+   },
+   {
+    "basDt": "20240513",
+    "pageNo": 1,
+    "sha256": "720d83c46bfe5e8df176467668a81fd2aa843830c4e961490bc11e9f081d2be6",
+    "n_items": 2807
+   },
+   {
+    "basDt": "20240514",
+    "pageNo": 1,
+    "sha256": "8b3e5ad06eda30196fc2eef1339a929130283e87715865b74e8b4024b20df9ae",
+    "n_items": 2806
+   },
+   {
+    "basDt": "20240515",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240516",
+    "pageNo": 1,
+    "sha256": "515733c3adf48b064999582cb90919811b0d917f112c353ab53a4683f22cb883",
+    "n_items": 2806
+   },
+   {
+    "basDt": "20240517",
+    "pageNo": 1,
+    "sha256": "1b59346b4cdbd84935f67c98957cfa2997d8a487c2a607e0b5941a222bab8488",
+    "n_items": 2808
+   },
+   {
+    "basDt": "20240520",
+    "pageNo": 1,
+    "sha256": "1939aa689bb3a3e471d4e7c064116a82807c5da1a501ec1b4dfdf8c767767779",
+    "n_items": 2808
+   },
+   {
+    "basDt": "20240521",
+    "pageNo": 1,
+    "sha256": "2c470d90b08288905ff95571f648ebc4a65667c54ee7240c3f2550624fcfd615",
+    "n_items": 2808
+   },
+   {
+    "basDt": "20240522",
+    "pageNo": 1,
+    "sha256": "a56a3afbf6a8d2d451d53fedbdbd1c6c41b2350381365faa815f2ae44636c573",
+    "n_items": 2808
+   },
+   {
+    "basDt": "20240523",
+    "pageNo": 1,
+    "sha256": "ca6738db18ed0e8858c497b986b06f7692645ee9f7491c41f74d0f5c81fa6f56",
+    "n_items": 2809
+   },
+   {
+    "basDt": "20240524",
+    "pageNo": 1,
+    "sha256": "27a22148208c38b47484b544c8f62b67e786ba9ece4870e299bd54d3e2368c75",
+    "n_items": 2809
+   },
+   {
+    "basDt": "20240527",
+    "pageNo": 1,
+    "sha256": "bb980dd79f58f735cb338bc2daee1867ab9712cbb28a0026c3479f7cd2582869",
+    "n_items": 2809
+   },
+   {
+    "basDt": "20240528",
+    "pageNo": 1,
+    "sha256": "f658530aad19472650c2752eef603106ef23b77bf0a7f21f35592be9988705be",
+    "n_items": 2809
+   },
+   {
+    "basDt": "20240529",
+    "pageNo": 1,
+    "sha256": "2453bb918db5c556202a31756307150bc2e28dc803fa3f7cced1d6a1e1d4e060",
+    "n_items": 2810
+   },
+   {
+    "basDt": "20240530",
+    "pageNo": 1,
+    "sha256": "e343c0a9c6ff1530af409ce616afaf03fee7a1cd2e69c315e1a0a911bbe6035d",
+    "n_items": 2810
+   },
+   {
+    "basDt": "20240531",
+    "pageNo": 1,
+    "sha256": "53e827a811273e1f97684354e4aaa6d8cd756c6add25068e9045a739b62d15fe",
+    "n_items": 2810
+   },
+   {
+    "basDt": "20240603",
+    "pageNo": 1,
+    "sha256": "36592c45689d47011dc4017373360011b4e134ab9b557b8f85e9dea7071e2b33",
+    "n_items": 2810
+   },
+   {
+    "basDt": "20240604",
+    "pageNo": 1,
+    "sha256": "88e909e0949b99f81cba92ea1f57557f58257c8d0a6f26ce25437c87baba105c",
+    "n_items": 2810
+   },
+   {
+    "basDt": "20240605",
+    "pageNo": 1,
+    "sha256": "3ed849cdb383d762cb7744a39695748de35539101bc26d652e65193665e3b588",
+    "n_items": 2810
+   },
+   {
+    "basDt": "20240606",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240607",
+    "pageNo": 1,
+    "sha256": "896bd36bb57b5e7090a4eafa4c3460abc6ffedaf481a15f8820097ec72b9f7de",
+    "n_items": 2809
+   },
+   {
+    "basDt": "20240610",
+    "pageNo": 1,
+    "sha256": "e338ca5a9e2c4f3a523bd9c264d51a21d7203ff7cc4bc7c4aceb8107a16584e3",
+    "n_items": 2809
+   },
+   {
+    "basDt": "20240611",
+    "pageNo": 1,
+    "sha256": "d90591d22dc0a13633269e460926624f935e1f773abb1452fa3ef08a88770521",
+    "n_items": 2808
+   },
+   {
+    "basDt": "20240612",
+    "pageNo": 1,
+    "sha256": "33f066bd8537c4332591d8af378a76ba07d1aca86f4c617951c57ab4bc0dec13",
+    "n_items": 2808
+   },
+   {
+    "basDt": "20240613",
+    "pageNo": 1,
+    "sha256": "82256997fe9f20459aac0385581b31b511ffe920bc286806b162d546ded1b27f",
+    "n_items": 2808
+   },
+   {
+    "basDt": "20240614",
+    "pageNo": 1,
+    "sha256": "6ab5d612af03cbde6596007b2c47095c597703e9063315b19d8e81d5c4b227bf",
+    "n_items": 2809
+   },
+   {
+    "basDt": "20240617",
+    "pageNo": 1,
+    "sha256": "14c8339d418b17947261a82c95232472998007dfbdde18d2e173fe0e2d4ee375",
+    "n_items": 2808
+   },
+   {
+    "basDt": "20240618",
+    "pageNo": 1,
+    "sha256": "d37496c31b3ed1a0c454d2e209b17322ac9d2af0ca4e20828157bd6066ebe21d",
+    "n_items": 2808
+   },
+   {
+    "basDt": "20240619",
+    "pageNo": 1,
+    "sha256": "c1416a2d2484ffd718ce6539fa0f8a9d8f39f407861ca18a5f8b3bf4b869cd23",
+    "n_items": 2811
+   },
+   {
+    "basDt": "20240620",
+    "pageNo": 1,
+    "sha256": "c2d68b79691fecc47dceb31df1d67589be3e1939c22884757aee8f932627224d",
+    "n_items": 2811
+   },
+   {
+    "basDt": "20240621",
+    "pageNo": 1,
+    "sha256": "81b6cb6867e982dd6195fd7089b79575f91bdfedf288e75b700f01ed9be1688f",
+    "n_items": 2811
+   },
+   {
+    "basDt": "20240624",
+    "pageNo": 1,
+    "sha256": "65b4c9e03521326fcb35dc427ec112cd0c02cc3a3a5752f8fcb3669883867dd6",
+    "n_items": 2813
+   },
+   {
+    "basDt": "20240625",
+    "pageNo": 1,
+    "sha256": "e5eb57d89384b82b0922837f0f77a79e891cf2d378592264d46a1f0d18530a00",
+    "n_items": 2813
+   },
+   {
+    "basDt": "20240626",
+    "pageNo": 1,
+    "sha256": "6ea3b69605a04deeb275539bf5f6696efddad7cbe0f2fe9f23a85c0d9b4a3645",
+    "n_items": 2814
+   },
+   {
+    "basDt": "20240627",
+    "pageNo": 1,
+    "sha256": "7c9bcc9d820b7d8a243295d038852ce5ea2ca62a0fd1b08999d14f69a742094b",
+    "n_items": 2815
+   },
+   {
+    "basDt": "20240628",
+    "pageNo": 1,
+    "sha256": "5baad0f7902b8ce70c39a35d1957749816d8a15b7480f982c3a4a96b65298754",
+    "n_items": 2817
+   },
+   {
+    "basDt": "20240701",
+    "pageNo": 1,
+    "sha256": "ea43712309b3fdd59b2bc6250a2f29d4b4df3598928c3f28670508f33683c67a",
+    "n_items": 2818
+   },
+   {
+    "basDt": "20240702",
+    "pageNo": 1,
+    "sha256": "51b5e36af73e65d6f8727b10e9feb8a0f3964b16bff482afb82a12ece45f1a1d",
+    "n_items": 2818
+   },
+   {
+    "basDt": "20240703",
+    "pageNo": 1,
+    "sha256": "c6d5cb95badf9f1c23b4ff75555ef37813bb052c2808144473dfe5e10503b84b",
+    "n_items": 2819
+   },
+   {
+    "basDt": "20240704",
+    "pageNo": 1,
+    "sha256": "a6a8a374d22ddff16ecbba80b8437966481870521b6bcf9493812217956043b7",
+    "n_items": 2819
+   },
+   {
+    "basDt": "20240705",
+    "pageNo": 1,
+    "sha256": "604a31cf2ca1dd1868201676b7a74742b09ebac5fd9f64ef84922d072bfb1734",
+    "n_items": 2819
+   },
+   {
+    "basDt": "20240708",
+    "pageNo": 1,
+    "sha256": "6b4e7d36505dfa81a23c38a26f27b797d9f7cacd586338be8a8d3c13f0cb91d7",
+    "n_items": 2819
+   },
+   {
+    "basDt": "20240709",
+    "pageNo": 1,
+    "sha256": "bd949a0c2448e8574cb6efbb37cad6c7716190a58e8f2f613a477bc292d9fe35",
+    "n_items": 2818
+   },
+   {
+    "basDt": "20240710",
+    "pageNo": 1,
+    "sha256": "012c7c1d5c79ead29b70b6176d0fcfd7652a86095356237cbd49102f2715cb3e",
+    "n_items": 2817
+   },
+   {
+    "basDt": "20240711",
+    "pageNo": 1,
+    "sha256": "a32d58453ccb1a928498aa44d3576251a8a877943987e507c4163474234a24b5",
+    "n_items": 2818
+   },
+   {
+    "basDt": "20240712",
+    "pageNo": 1,
+    "sha256": "749b4135570e5312bb022e89da056960e69ab8078fe0d741217f01c5dabb6507",
+    "n_items": 2819
+   },
+   {
+    "basDt": "20240715",
+    "pageNo": 1,
+    "sha256": "95a73fad633ed5c8060cab6b3da5c4c37c7c35e4322a42326dc7331b08992d98",
+    "n_items": 2820
+   },
+   {
+    "basDt": "20240716",
+    "pageNo": 1,
+    "sha256": "30b730f6fe16f72be59872b8fc49fa7e754bcf62220bfcaacba6dd970ca43edf",
+    "n_items": 2820
+   },
+   {
+    "basDt": "20240717",
+    "pageNo": 1,
+    "sha256": "35fa73a91bb264de7a8dcf9d54c0556bf96c4df5b5988c40d2b5e5fa45677594",
+    "n_items": 2820
+   },
+   {
+    "basDt": "20240718",
+    "pageNo": 1,
+    "sha256": "e21f0b06fe594ae7a99fb197b7b0bac36153fb68f0aa4e3b3b8e69d771fb64ae",
+    "n_items": 2820
+   },
+   {
+    "basDt": "20240719",
+    "pageNo": 1,
+    "sha256": "dfc0d3466a57c51ec945f321d40928973bc4b8873a83866497dfcca1608d322f",
+    "n_items": 2820
+   },
+   {
+    "basDt": "20240722",
+    "pageNo": 1,
+    "sha256": "34871a2d910111267644efbd966ef3417184406453db838284a81f8b37bfb696",
+    "n_items": 2820
+   },
+   {
+    "basDt": "20240723",
+    "pageNo": 1,
+    "sha256": "64fd6c24c6de2513a3ea810fa16d3e60410ec696cb1f1dbe65a9f72c1738713a",
+    "n_items": 2820
+   },
+   {
+    "basDt": "20240724",
+    "pageNo": 1,
+    "sha256": "67a49595718a9eed3b2f577bdeb206dbc66928065621735b4642dd88f8ccff24",
+    "n_items": 2820
+   },
+   {
+    "basDt": "20240725",
+    "pageNo": 1,
+    "sha256": "cd0163a614632a3ebb5881522fc7f9ba16ae7e2384ec2837f643e79f1d946a0d",
+    "n_items": 2820
+   },
+   {
+    "basDt": "20240726",
+    "pageNo": 1,
+    "sha256": "19f926536b01d117d1aa37677cb3642ea067b8d4f5a266072d851379c2239acf",
+    "n_items": 2820
+   },
+   {
+    "basDt": "20240729",
+    "pageNo": 1,
+    "sha256": "6f36eb1f3506686d6561a3c5e553c790f8239a11ab6f58018b10147628344ea1",
+    "n_items": 2821
+   },
+   {
+    "basDt": "20240730",
+    "pageNo": 1,
+    "sha256": "527d817ff0b674a0611da8266e7d48d6a41a3aa5731f9e08cb2a7aee2b04415e",
+    "n_items": 2821
+   },
+   {
+    "basDt": "20240731",
+    "pageNo": 1,
+    "sha256": "0d660a09cea03afde42a320e291cc93488866eae15bb4bc657d4fa3890fc5dc5",
+    "n_items": 2822
+   },
+   {
+    "basDt": "20240801",
+    "pageNo": 1,
+    "sha256": "3e6e6612e403ff36c0654cf430b4af65d3480de3ef7084ee3c04ee162a1754e2",
+    "n_items": 2822
+   },
+   {
+    "basDt": "20240802",
+    "pageNo": 1,
+    "sha256": "0fef0674da93b92effedb9c6578f354a14230eb2661ac456c640e2eeef9e454d",
+    "n_items": 2822
+   },
+   {
+    "basDt": "20240805",
+    "pageNo": 1,
+    "sha256": "7fd988efc68d03d7b4e1d64ee7645264354b846f5f5d3d49a4358c717168bd80",
+    "n_items": 2822
+   },
+   {
+    "basDt": "20240806",
+    "pageNo": 1,
+    "sha256": "b0918bb9b4157acb661ed26ad523dc19ef45e5fe54e189f15962874e9c698a01",
+    "n_items": 2823
+   },
+   {
+    "basDt": "20240807",
+    "pageNo": 1,
+    "sha256": "098d34c2f94f39bfe00a93ace9e8559e125e359dbf9b5f470a54797592317d33",
+    "n_items": 2823
+   },
+   {
+    "basDt": "20240808",
+    "pageNo": 1,
+    "sha256": "98b9f4727841ac7d798615012fd34cb80d52289a5769a4c0ed4ee5fdb525539d",
+    "n_items": 2823
+   },
+   {
+    "basDt": "20240809",
+    "pageNo": 1,
+    "sha256": "dd6da707ef2a3750fa46b02e959d3b8d42a9f9aab2119e1a698a1b12cfd29e1e",
+    "n_items": 2823
+   },
+   {
+    "basDt": "20240812",
+    "pageNo": 1,
+    "sha256": "72e932c713817b2c5197e868d840cf8a46d27ca6504436efb3efbbd3a46ba59b",
+    "n_items": 2824
+   },
+   {
+    "basDt": "20240813",
+    "pageNo": 1,
+    "sha256": "92a22902510682e86a1591caac02aa1e767703c09f708e21f525e5da2b68b304",
+    "n_items": 2825
+   },
+   {
+    "basDt": "20240814",
+    "pageNo": 1,
+    "sha256": "bf29ea78b01f6b29733a9714c3ec197108e8767a6fa9e519d57dcce3653457e3",
+    "n_items": 2825
+   },
+   {
+    "basDt": "20240815",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240816",
+    "pageNo": 1,
+    "sha256": "c845613a2b29dce27e4431d49e6c89954fc6593c95e513f4dd5e5559c80b0e8c",
+    "n_items": 2825
+   },
+   {
+    "basDt": "20240819",
+    "pageNo": 1,
+    "sha256": "0178d173778e460caeec023194abd242662442b53de32188022e8bef5bdae8fa",
+    "n_items": 2826
+   },
+   {
+    "basDt": "20240820",
+    "pageNo": 1,
+    "sha256": "0fc792c54c68a2ebcecb411c4e76d6f00ddfa2955dcfeb6913624792d396513e",
+    "n_items": 2828
+   },
+   {
+    "basDt": "20240821",
+    "pageNo": 1,
+    "sha256": "1393a6de5e9bbfac3f09f8bde523bcd740f29eb3947f03709b5f6e5c5284d7cc",
+    "n_items": 2829
+   },
+   {
+    "basDt": "20240822",
+    "pageNo": 1,
+    "sha256": "839f0ceff2c2dacf6834c8012433699c4f68d63272a603a0afe10c689a743a34",
+    "n_items": 2831
+   },
+   {
+    "basDt": "20240823",
+    "pageNo": 1,
+    "sha256": "6986e6839c5e51cde65c8261dacfab5ff2e0689d1ddc63ef1e0290dd1aaa768f",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240826",
+    "pageNo": 1,
+    "sha256": "1404babaddbfd07609b3dbae8193f6566b5bf26e632bd8c401385ea36e09096b",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240827",
+    "pageNo": 1,
+    "sha256": "ff54a7354b01c72e26f7db50cd5a5684ab516ca7510fd8dfccb6ec61ce1520cf",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240828",
+    "pageNo": 1,
+    "sha256": "990fd90c891922ecdb8bd0c91e1a753e017e64eeee6dccda2e40aadb8615d87c",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240829",
+    "pageNo": 1,
+    "sha256": "51af3d832a9027dac45ed6eb26797c0ec2a934760c12c8e31ff1bfe8bbeb392a",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240830",
+    "pageNo": 1,
+    "sha256": "3234e2fca93b377a06a12e7485cc1e4f4689d2eea5222ccd0b0b84998cfeb0a8",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240902",
+    "pageNo": 1,
+    "sha256": "9b58227cefb09e28a25c545c78eb9250cb0ecb60a9a64bc5b57a449f063ab484",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240903",
+    "pageNo": 1,
+    "sha256": "7257056692502ff68d0c03160bf3f58827893f926b6d4ae5d5dbaeccc48895d7",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240904",
+    "pageNo": 1,
+    "sha256": "19f69e9bfb0625b7bc1a105d302a585e38511d3a921c5928272e07bbf8ee7870",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240905",
+    "pageNo": 1,
+    "sha256": "a763be170bd43c48cc78c439e76f1c95e21fd38e2a76d748f9e449e3baa4bfa0",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240906",
+    "pageNo": 1,
+    "sha256": "6d7d216ccec0ebfc339d4036254d6d7cbd06b3ad9972e4123176737d58f5c69a",
+    "n_items": 2831
+   },
+   {
+    "basDt": "20240909",
+    "pageNo": 1,
+    "sha256": "8d451667b9afd17d338378490cadfe1ec7cf9419a194ae1ad0e8143d078a90b2",
+    "n_items": 2831
+   },
+   {
+    "basDt": "20240910",
+    "pageNo": 1,
+    "sha256": "fb1bf0a49c9d4cd6b2656aa051abf757caea45147b6c9f249acd37fa9fce2bde",
+    "n_items": 2831
+   },
+   {
+    "basDt": "20240911",
+    "pageNo": 1,
+    "sha256": "71fa1764d3c87234b6564ae2d91bec1f2c0940def8fb893120bdb064ffe859e4",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240912",
+    "pageNo": 1,
+    "sha256": "aec90d08706ae71a86753cb6340fcd916c4684f383ccf1b0f68c8ced5d2153a5",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240913",
+    "pageNo": 1,
+    "sha256": "b0e165c90e4ec0f799de6fe335c2434807efb27e4b894d03dd5dd9dc75252e89",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240916",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240917",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240918",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20240919",
+    "pageNo": 1,
+    "sha256": "75724e5e19bdf46ae86ebcb6e502a59fc908977de7165dfd39b561ce08188222",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240920",
+    "pageNo": 1,
+    "sha256": "cda3fe87b45f586bcd311fe8f2547fcba8a314347cb3d2ef348694d0c3a39cc9",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240923",
+    "pageNo": 1,
+    "sha256": "16585aa6de78a456e2890646093049d4e0d63d931bb8aa02eef84ca131998a58",
+    "n_items": 2833
+   },
+   {
+    "basDt": "20240924",
+    "pageNo": 1,
+    "sha256": "804eb209bd72947471a1a3102e7907dae705fcab07908528e1f99217447ac013",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20240925",
+    "pageNo": 1,
+    "sha256": "ed43b68f6cbee76aa92fd319c19fb288ff087081109f9fd9b58517c5cec12d18",
+    "n_items": 2833
+   },
+   {
+    "basDt": "20240926",
+    "pageNo": 1,
+    "sha256": "60d466152cc9c96657672eb71c974a83023b010c5b6d5b67306e1f5eb330caa6",
+    "n_items": 2833
+   },
+   {
+    "basDt": "20240927",
+    "pageNo": 1,
+    "sha256": "411b22021f97637d10734fbdb2b4472b9cc190e2811e617cf80ab397a06985ca",
+    "n_items": 2834
+   },
+   {
+    "basDt": "20240930",
+    "pageNo": 1,
+    "sha256": "c9f04b93f97812dcadbda04c37a64b763895490ba5aababb7f99159fd4bb3385",
+    "n_items": 2835
+   },
+   {
+    "basDt": "20241001",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20241002",
+    "pageNo": 1,
+    "sha256": "45918e1b86b20364664b1275e972e52cb96cc16942af160f1e742bbd02600408",
+    "n_items": 2835
+   },
+   {
+    "basDt": "20241003",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20241004",
+    "pageNo": 1,
+    "sha256": "8f311f8e64e587d5d51ddd2389c872671e28919e3343e0aed0b7ba792527fc3a",
+    "n_items": 2835
+   },
+   {
+    "basDt": "20241007",
+    "pageNo": 1,
+    "sha256": "201ed9920f33c3c38e2448592b75fe851c45ab585d795bfe88f039f181489a5a",
+    "n_items": 2833
+   },
+   {
+    "basDt": "20241008",
+    "pageNo": 1,
+    "sha256": "f5480817c799b6475bfa7089a5146210d477d252db5553c861dcbdfae1b2cee5",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20241009",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20241010",
+    "pageNo": 1,
+    "sha256": "cc1e55252701a3d17043bea87949a2d7693f279df52e11e7c9c1ec6efdb54490",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20241011",
+    "pageNo": 1,
+    "sha256": "dd9037037b4afb0bb288c7cd6711d7549ee57b4bb3adc7230f065d75f58f8d1d",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20241014",
+    "pageNo": 1,
+    "sha256": "d1d822ec1fe0975b0417ef42c044e0c7bfd877387fa9cc040c5575dd9ccd7dfc",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20241015",
+    "pageNo": 1,
+    "sha256": "df88c6166a86277b7cfb527ad0617c5154cecb3b8a91b680fea720d919ae4944",
+    "n_items": 2832
+   },
+   {
+    "basDt": "20241016",
+    "pageNo": 1,
+    "sha256": "e252ccd7759d19faf9775ccc0e2b1546102a669105f55f60af60eed53d26fc2f",
+    "n_items": 2833
+   },
+   {
+    "basDt": "20241017",
+    "pageNo": 1,
+    "sha256": "851325c6a0a67ed8a47ae959188042bd76f8e8966b3cbc08300dbbc5380ce6d1",
+    "n_items": 2833
+   },
+   {
+    "basDt": "20241018",
+    "pageNo": 1,
+    "sha256": "87b59393febfcb9adeacbf55e8ebf8bc13653cc230c1f07d1cc46c4374bbb297",
+    "n_items": 2835
+   },
+   {
+    "basDt": "20241021",
+    "pageNo": 1,
+    "sha256": "e7d1eb866667655cfcc89a1abc6c4773c10fba32afc2d6a92102afa13d6d7d13",
+    "n_items": 2836
+   },
+   {
+    "basDt": "20241022",
+    "pageNo": 1,
+    "sha256": "cdf265642e58064b89e84e6c238633082626c32e9c00dc494545264453aa5780",
+    "n_items": 2836
+   },
+   {
+    "basDt": "20241023",
+    "pageNo": 1,
+    "sha256": "0d734e18dbf94140b1113235fa9c0a54fd0826180863cf69340ea5740cbd6494",
+    "n_items": 2836
+   },
+   {
+    "basDt": "20241024",
+    "pageNo": 1,
+    "sha256": "908194f7404f88acf2178efda3555672440bf1083ed79d656045033afef2cbdc",
+    "n_items": 2837
+   },
+   {
+    "basDt": "20241025",
+    "pageNo": 1,
+    "sha256": "6051781e1ee6bd26b76796127e045142bc8fa1107d7fc0c18a36b15d65776610",
+    "n_items": 2838
+   },
+   {
+    "basDt": "20241028",
+    "pageNo": 1,
+    "sha256": "1457284944cbe94c780c8f21f9d5164698d638a7ed3456271f09d111cfe07af1",
+    "n_items": 2839
+   },
+   {
+    "basDt": "20241029",
+    "pageNo": 1,
+    "sha256": "49ad04b26f106e7ded4a226365b785ebb687e9da033a9f5d3ef1042d529991e0",
+    "n_items": 2839
+   },
+   {
+    "basDt": "20241030",
+    "pageNo": 1,
+    "sha256": "b1b8bfa7ddadd6302266f8c150e56df17c836a537f0c8aee445eace42f102189",
+    "n_items": 2840
+   },
+   {
+    "basDt": "20241031",
+    "pageNo": 1,
+    "sha256": "dabe8961b82d5b9a403b1185359d06b8c65cd82f43214feb497e278cc08bcb77",
+    "n_items": 2842
+   },
+   {
+    "basDt": "20241101",
+    "pageNo": 1,
+    "sha256": "2c1561ae4f10693648af4f0fc0b1a4903a115b7376fabe0d777755ddfdf5b6ec",
+    "n_items": 2844
+   },
+   {
+    "basDt": "20241104",
+    "pageNo": 1,
+    "sha256": "ec9ddb3c3721e16957a32765696e16ec00e3ea93b491f3b0c03ac66031b7e672",
+    "n_items": 2844
+   },
+   {
+    "basDt": "20241105",
+    "pageNo": 1,
+    "sha256": "799abfbe889e2e90e4cc330f3d600d66bcf3019eb39c2fd532c5f7e442312723",
+    "n_items": 2845
+   },
+   {
+    "basDt": "20241106",
+    "pageNo": 1,
+    "sha256": "6442012efaa76221e0b5e0ca35dfd6e577590e208e728e1c5114e25bbc0f5adf",
+    "n_items": 2845
+   },
+   {
+    "basDt": "20241107",
+    "pageNo": 1,
+    "sha256": "2ee7fd670f4f20fb1f08806e9f16cee1474cc5ea55d6811b69bcdd116518be8f",
+    "n_items": 2845
+   },
+   {
+    "basDt": "20241108",
+    "pageNo": 1,
+    "sha256": "de2a65949990d589ea62f8dd0268e8912abb89b0e9e66cd5559e8b39cc18bc35",
+    "n_items": 2846
+   },
+   {
+    "basDt": "20241111",
+    "pageNo": 1,
+    "sha256": "5457cc997cf83ac419d0e5d62dce58b38d46abdf4e09cbd231d81380f4f4b2d3",
+    "n_items": 2846
+   },
+   {
+    "basDt": "20241112",
+    "pageNo": 1,
+    "sha256": "c604303cae68037914f3dca5a708a503d796bbbdc2df0fbbe2ef2ecf03863a37",
+    "n_items": 2847
+   },
+   {
+    "basDt": "20241113",
+    "pageNo": 1,
+    "sha256": "f59ac2ea665390eccb7b28e79392866a9abaef2f30c5e56477d515719c25b99f",
+    "n_items": 2848
+   },
+   {
+    "basDt": "20241114",
+    "pageNo": 1,
+    "sha256": "a9456d9518a25debed12df2e3c29291c2d8a79645fdda73a11aebe7431d0ee81",
+    "n_items": 2848
+   },
+   {
+    "basDt": "20241115",
+    "pageNo": 1,
+    "sha256": "18ef6ac3070bcb12eb5d20381b61ff3ae268dff794a683e60644308630befade",
+    "n_items": 2849
+   },
+   {
+    "basDt": "20241118",
+    "pageNo": 1,
+    "sha256": "05bde7703b151465fba9af8b214903c8d3a5bedc20d11e7f9b23450183dcd22e",
+    "n_items": 2851
+   },
+   {
+    "basDt": "20241119",
+    "pageNo": 1,
+    "sha256": "3f0507df99daa95ad344328eb9676ffde478980515cd8bb9fd06b38abb6d2e14",
+    "n_items": 2853
+   },
+   {
+    "basDt": "20241120",
+    "pageNo": 1,
+    "sha256": "9f01d75f69bd5e35a21150a7f40b4216693209ef8f135637ac30c064298f1463",
+    "n_items": 2855
+   },
+   {
+    "basDt": "20241121",
+    "pageNo": 1,
+    "sha256": "d758cec63860a4a5d2be08b3d4cb7c1defc0b3a4a8395b75004f00c248dc2cab",
+    "n_items": 2856
+   },
+   {
+    "basDt": "20241122",
+    "pageNo": 1,
+    "sha256": "c4cdb976929b4b6baf31483b841c99a65e1136705e0205fdf02dba9c182e700e",
+    "n_items": 2855
+   },
+   {
+    "basDt": "20241125",
+    "pageNo": 1,
+    "sha256": "7cb59196cc493bc3acd508bdb8a8c2640a2980a6e501c4d797eed52d95e8f8ff",
+    "n_items": 2855
+   },
+   {
+    "basDt": "20241126",
+    "pageNo": 1,
+    "sha256": "42809f206db45dbbe6ba2a78770331d2fcab949b65877f66c6d91f63bd1a251d",
+    "n_items": 2855
+   },
+   {
+    "basDt": "20241127",
+    "pageNo": 1,
+    "sha256": "45794b07fcbcf6670305f88c0da83a08a8a307eecdedbc156d091b52da9295bd",
+    "n_items": 2855
+   },
+   {
+    "basDt": "20241128",
+    "pageNo": 1,
+    "sha256": "4511e9ed473f758f0ef3e880e02e61e0a0e81249d3e81205aa706e9347eac364",
+    "n_items": 2856
+   },
+   {
+    "basDt": "20241129",
+    "pageNo": 1,
+    "sha256": "c6857631d70d0cc45ec00c939bfa521f0b5768cfd2f02419c786084921aafb2b",
+    "n_items": 2857
+   },
+   {
+    "basDt": "20241202",
+    "pageNo": 1,
+    "sha256": "82bbe379407a1a7e2324359f6e533722960465fd12d86841ebde900422daef19",
+    "n_items": 2857
+   },
+   {
+    "basDt": "20241203",
+    "pageNo": 1,
+    "sha256": "b1f56e79ec1101411f302e376e696d900b5be1637163d05655321885cbefdf7d",
+    "n_items": 2857
+   },
+   {
+    "basDt": "20241204",
+    "pageNo": 1,
+    "sha256": "6d81853fe2ff94f887d74d5fc7db930805f86c5b2b930c841a7783c6cd8114a8",
+    "n_items": 2856
+   },
+   {
+    "basDt": "20241205",
+    "pageNo": 1,
+    "sha256": "d121ac98782cc8e218a05c302a7c2bb9c4a452c995c9cc1e270b303226dbb1c2",
+    "n_items": 2856
+   },
+   {
+    "basDt": "20241206",
+    "pageNo": 1,
+    "sha256": "ec93e391341b49f3654f5907da3e168f8d7c61212978fe59ad6c19dae8b98d9b",
+    "n_items": 2856
+   },
+   {
+    "basDt": "20241209",
+    "pageNo": 1,
+    "sha256": "c3878e11cf5b7298175e310baad15d109e8b5aa280e4b4bc15c6a2e23f5e6791",
+    "n_items": 2855
+   },
+   {
+    "basDt": "20241210",
+    "pageNo": 1,
+    "sha256": "e41a66802a33ad87fbeb79ed3eb54faa8734de4fe69fb11d2cd456a6d6e4fb99",
+    "n_items": 2855
+   },
+   {
+    "basDt": "20241211",
+    "pageNo": 1,
+    "sha256": "dc1f532dcf343d4cb7460425e789e56e3d66abab768f99f565a55a5882694dfa",
+    "n_items": 2856
+   },
+   {
+    "basDt": "20241212",
+    "pageNo": 1,
+    "sha256": "101bd85f7ce56c321b11452c7b118974134aef1008897966f8c0417ede2a71c9",
+    "n_items": 2856
+   },
+   {
+    "basDt": "20241213",
+    "pageNo": 1,
+    "sha256": "ed740ff5ad961a93c1962862ffa816379ab16513f26ed783401b7f399d5ea2d1",
+    "n_items": 2857
+   },
+   {
+    "basDt": "20241216",
+    "pageNo": 1,
+    "sha256": "2c28c4e5b0e68dca0759a31d0feee4b0ab69436019b2b0385b3fe1b61cf36c0c",
+    "n_items": 2859
+   },
+   {
+    "basDt": "20241217",
+    "pageNo": 1,
+    "sha256": "8f68ccca50776c72f965067d6b7877917ea4fd7c33bcd51a1902c3defaea3d80",
+    "n_items": 2859
+   },
+   {
+    "basDt": "20241218",
+    "pageNo": 1,
+    "sha256": "f64489a2a72093485abe19cfc53aaf5953c3247389ce7efba60c35fb13f8d348",
+    "n_items": 2860
+   },
+   {
+    "basDt": "20241219",
+    "pageNo": 1,
+    "sha256": "03ea9a1f4569fb5b7305768a79cb6280b97f3a9daebf7e8fc6b5007b841507c0",
+    "n_items": 2861
+   },
+   {
+    "basDt": "20241220",
+    "pageNo": 1,
+    "sha256": "08a86570d03bb3de75c9c3dad5cbe4d653d44152f18ff7274e42e6fda8ffc101",
+    "n_items": 2861
+   },
+   {
+    "basDt": "20241223",
+    "pageNo": 1,
+    "sha256": "529c696d0516a7ac9332ed2069c9572fcde553970292d03d1bbd5db8e6504b4b",
+    "n_items": 2864
+   },
+   {
+    "basDt": "20241224",
+    "pageNo": 1,
+    "sha256": "82f83878474d632d3ce4a1821a3cd1736341fc6a3430a1c63ccf5cbf39f1c770",
+    "n_items": 2865
+   },
+   {
+    "basDt": "20241225",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20241226",
+    "pageNo": 1,
+    "sha256": "45491970d12125a4310d55375df1e8b913d80740a8befd182f31b3785de828ab",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20241227",
+    "pageNo": 1,
+    "sha256": "4876fd403829055638b3e8089d8fa2afdbfb58cccde60bf67b72b8ea3581e1d2",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20241230",
+    "pageNo": 1,
+    "sha256": "d8054c00e0efe6f9281a79e24263b39dea0d9d9fe6b0c631e3fcd2c51d890f97",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20241231",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250101",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250102",
+    "pageNo": 1,
+    "sha256": "b835d1438f0a82e62120d90894bb0d32a63bfca7a1628235d36481bb91aad8c6",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20250103",
+    "pageNo": 1,
+    "sha256": "742ca84dad90ffcb053ad29e267253b47c8cab72351e54d2b00811c60cc9e63a",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20250106",
+    "pageNo": 1,
+    "sha256": "ea8c2503378bde8c3ee19e235ef791e810b2dc99cf613b09bd47ae0d3dd92d88",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20250107",
+    "pageNo": 1,
+    "sha256": "fbd41007be1be59a3760daf25e572cd9f718dc18749a843056db3ab405e51c97",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20250108",
+    "pageNo": 1,
+    "sha256": "5c0e7684396900acb70dad844eb6cdf370d4eb613d1ec893a4f8eb492d998993",
+    "n_items": 2865
+   },
+   {
+    "basDt": "20250109",
+    "pageNo": 1,
+    "sha256": "eeccacab7f546b20c91b51795e37a1d0b87c10cedc874d6ccb5c53527a9ac165",
+    "n_items": 2865
+   },
+   {
+    "basDt": "20250110",
+    "pageNo": 1,
+    "sha256": "e20d1755b4dd760e339d065f9655d7b4fc52ba621874b8b73a988eb3ff985c18",
+    "n_items": 2865
+   },
+   {
+    "basDt": "20250113",
+    "pageNo": 1,
+    "sha256": "cf9f7bb67fa0fc6253f3b631b2edca362e02fa1dfef6a4bc936fef450c14bff3",
+    "n_items": 2865
+   },
+   {
+    "basDt": "20250114",
+    "pageNo": 1,
+    "sha256": "1ce88da96161ac9a04f24bcd71249732ba1cb6d70d0ecad65798dd3c6dc1b7aa",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20250115",
+    "pageNo": 1,
+    "sha256": "138c63d71ffead629c83c2b35434993b50865ee33de48b7430bfa5714e39bae0",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20250116",
+    "pageNo": 1,
+    "sha256": "b3247836c06fa4ba7b973fb09c17da969fa2b2174e9c59cd8d4d4d3e51ca8378",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20250117",
+    "pageNo": 1,
+    "sha256": "878d950f0dfc5076bbe7dcdee8a9a3a1aa85f439a6ca5642911dcccb466bbd9d",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20250120",
+    "pageNo": 1,
+    "sha256": "4ae7df92fab3e13909c6c43298805463f8f179b0ec592614a05ba65e4ae08696",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20250121",
+    "pageNo": 1,
+    "sha256": "dcba6ae267b115c354e407cdef848cadb8c84a6dbb8a7599bbbf9576a761cdc0",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20250122",
+    "pageNo": 1,
+    "sha256": "925b59fb3e92da65bb380fcf4c65065ff4bd427ce6e2cb27e35e856e7ea97228",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20250123",
+    "pageNo": 1,
+    "sha256": "80ed6cee72ea86f0b2d4f463c26bbb10d6ae23b7f04e27848e7c1340d0883443",
+    "n_items": 2868
+   },
+   {
+    "basDt": "20250124",
+    "pageNo": 1,
+    "sha256": "6bc561c2705a5820c31a727cc479e98b96534e030eb1b6077179402a0aacc796",
+    "n_items": 2871
+   },
+   {
+    "basDt": "20250127",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250128",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250129",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250130",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250131",
+    "pageNo": 1,
+    "sha256": "83af275bfc2b76c11a79a37c71f2a20f51799126af2841e2c36391e72cf3f32d",
+    "n_items": 2871
+   },
+   {
+    "basDt": "20250203",
+    "pageNo": 1,
+    "sha256": "e40d7a4e76085009e9d5d5b4072f6d16ae9777b30f1861c5de0bc3922cdea3ea",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20250204",
+    "pageNo": 1,
+    "sha256": "b8376efd228584faaad430871910ee0319b21d5505b4a15d1aa996ab770e3e69",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250205",
+    "pageNo": 1,
+    "sha256": "71f302803f1747ecf24a98dcde40eec64aaa761f501ce8823751cafb170de42c",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250206",
+    "pageNo": 1,
+    "sha256": "636c130d4839f4c6a6df22dfc726a5b47cc6c3638ec3e05f02d61bda29ad43a2",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250207",
+    "pageNo": 1,
+    "sha256": "7daf62a26aa9690c288051199b85633450239624920ec88d3bbdf0cd0f9ac4c4",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250210",
+    "pageNo": 1,
+    "sha256": "e96972ce379526c5bce8a57541a760faf510ff93745d68e34a6bbd1cfc235fb3",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250211",
+    "pageNo": 1,
+    "sha256": "b43f2a7ab75f4d07a77090a2d261d7411f24a08a5945cc24ec711be168b8650f",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20250212",
+    "pageNo": 1,
+    "sha256": "a4543bd8971909f7b51c9131fb4145b44afe125d32e4195b0c317394e4ebe163",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250213",
+    "pageNo": 1,
+    "sha256": "7ee0484e5391dec365ab8d3bcd740382bfc17faaa1c268689d50a355a6606601",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250214",
+    "pageNo": 1,
+    "sha256": "2c45bf1719c67da05ac6cfc3d163622ec5f3e29417081d78606ac95483508661",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250217",
+    "pageNo": 1,
+    "sha256": "e2bb0f56da4d081b5ee5d1dd3c46d0abb707efc14b3cb8370f522f0e4d7e8c1c",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250218",
+    "pageNo": 1,
+    "sha256": "845ca0b21d7f28fca113fd0f27130e8ec6ee161f1ab5701958f524c2edbdc0bf",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250219",
+    "pageNo": 1,
+    "sha256": "915d5b9fba3f25bd970929fd16937ae2d7ac0b7621d52eb8e3e93708a45d46aa",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250220",
+    "pageNo": 1,
+    "sha256": "113bddfcc6ab88652e5568c7b7ffa4ea82e2d9d85a9744b202dfd2657a2f6ab2",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250221",
+    "pageNo": 1,
+    "sha256": "2f3fcf2093db82552bdc9f1d8eacfe6902c047300bd67cba4424a89c18f9b7fc",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250224",
+    "pageNo": 1,
+    "sha256": "4fc5c25b5660f9d16d409f393145e2ed57cccf60f196c60e397ac2771238a4d2",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250225",
+    "pageNo": 1,
+    "sha256": "40f0fdc2831ed993b921514c117fa0ee1745af6a9de2f701d116bef118eb221b",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250226",
+    "pageNo": 1,
+    "sha256": "44db62e0693b99b9b9af0bd62c00dbac372a14b84c809d67d5a4dc99c309dc5d",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250227",
+    "pageNo": 1,
+    "sha256": "49ded6f30bf388bece8927b88ba4a992e1a072e0d0decb8b8678a4a07d73729c",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250228",
+    "pageNo": 1,
+    "sha256": "28d385f58cf30bbeaf52c76cd3de7e4f4b725b68fa68f6c211bf1c1e12fc4038",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250303",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250304",
+    "pageNo": 1,
+    "sha256": "c0c978fc056e861ce50ad1ea22050a99f317ea598736da34e61a05e87b0eeb0b",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250305",
+    "pageNo": 1,
+    "sha256": "710b731a500915c05f6980515001ab0e7db884936e99e04a908de3c8e5d9cd16",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250306",
+    "pageNo": 1,
+    "sha256": "96ac3428a64ac3a043815ff4d2b7f26ba368de8664955811989f7458c5257969",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250307",
+    "pageNo": 1,
+    "sha256": "3b42e88c2f20e4ec38a31476e7aa03f9483e6e6f9f0140dc8fc436f18351fc6d",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250310",
+    "pageNo": 1,
+    "sha256": "56748f80ed8b6b4d57de15e96390206009bc1b2636e18a56e24cfd53eaddaba9",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250311",
+    "pageNo": 1,
+    "sha256": "8166ec63e26339f8a3ff1350b1c562f7c7dcc19049e0e25754ec79424887a6cb",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250312",
+    "pageNo": 1,
+    "sha256": "19614ef061759b96a62c64120880919e18710efa3492e90b6c9c9297ecb83dad",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250313",
+    "pageNo": 1,
+    "sha256": "c65dc5df7f943a6ee8821e4a72ed375be889344b7f06be045ac3d6c2a4dd716c",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250314",
+    "pageNo": 1,
+    "sha256": "d9c85599ce45f79ee455d83be072786b0cf3ca8977dd2b61ee57990be0f34147",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250317",
+    "pageNo": 1,
+    "sha256": "f2ac04495b9120787d949f777a4221c5fd58676e7ab28dce9e482d2974cb36fe",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250318",
+    "pageNo": 1,
+    "sha256": "e53a9eff05cedb3b8786a51d62d44d10f4e67a7fb4a93222d37a0875fc951727",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250319",
+    "pageNo": 1,
+    "sha256": "175bf31e53f78df848db198083eab5172c8465c4c9d8e5bb68b794c9d719a470",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250320",
+    "pageNo": 1,
+    "sha256": "10adfff39065f3eb30a1f6ab9d59f52072cf0f9de436782527a6c5624dae1172",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250321",
+    "pageNo": 1,
+    "sha256": "a4e8796c3155d0dce33d426793d933646df3d269b33e48e6e95dab604a687a52",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250324",
+    "pageNo": 1,
+    "sha256": "3a5593c332d5dd51b1ccd0e6c3b507c82fddbe0cd2c7ba28eb6fe272a49a895a",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250325",
+    "pageNo": 1,
+    "sha256": "b9c9cd182e7c2456dc6373c72e953d7fb4e875323ae9f1dfe4236adb700768b4",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250326",
+    "pageNo": 1,
+    "sha256": "30f4ec3055f3fe8c4dac0a0f27a1ee49582640a3ae1edd162dd43153eabf8808",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250327",
+    "pageNo": 1,
+    "sha256": "9b20d1820c1a191618f37a32ed22356d077524540f505130383b2515eff7b95d",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250328",
+    "pageNo": 1,
+    "sha256": "73b2fc98fb37acbe9714c1ff1ec7040ab3569c2709a961799c4dcd80cca92910",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250331",
+    "pageNo": 1,
+    "sha256": "f2930d2ce569028e8164ff9d47cb06bb1420d4e1d9f7e0c978007ff2831037ed",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250401",
+    "pageNo": 1,
+    "sha256": "b0d4208dfa2194524add0fc084e1253b50053daa7195f77c6b7be4469478837d",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250402",
+    "pageNo": 1,
+    "sha256": "9da003326375685cadba4253693ba3a96dd492c2684f4b043880b772c06d42cc",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250403",
+    "pageNo": 1,
+    "sha256": "e5c53fbba06323abdf1b242f530fe65fa4544574dbb61de5ec196898ece1acd4",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250404",
+    "pageNo": 1,
+    "sha256": "f10adda21cb9eabaff949ff0a4b154160b414c83cf7ed38df3dbbeb556b1c0e7",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250407",
+    "pageNo": 1,
+    "sha256": "7d9d343e11f730b462702ec28dc752b7a991bc00b771f0ed79ca7cef44d642bb",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250408",
+    "pageNo": 1,
+    "sha256": "901684ec374dd4eae50780182b1aa4760ae0f1b962a3d8ef24d18c364d5b516e",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250409",
+    "pageNo": 1,
+    "sha256": "d13ad849d3a824886b15777ed442865e7f8d7cb6a2539dd0ea11bfd855076ae9",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250410",
+    "pageNo": 1,
+    "sha256": "4b415543ef1c339b6f14bce9ac5d2d65bb1cc24387d0916bfcb51dda78a5dece",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250411",
+    "pageNo": 1,
+    "sha256": "bf9c1872825cc5ad186ec8f24bcae9a590cd6bf0321023a436764430fb8fbaa1",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250414",
+    "pageNo": 1,
+    "sha256": "5c8f83cade3033db50035b59a422d1d7826dff09b947059e1d99b7475c459f4c",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250415",
+    "pageNo": 1,
+    "sha256": "5c5d496f6e65db96b1f94887f0837fd82539e1d24fa2e31b42a556f1b8804167",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250416",
+    "pageNo": 1,
+    "sha256": "58fab65efbe92533c4e02f6c66ee62f0c19734738746812b34defa57cc998c63",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250417",
+    "pageNo": 1,
+    "sha256": "57d382b2f1e8daebc08adaeb24ca13e07b6ad91f5910e5766285c9e89a5580d7",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250418",
+    "pageNo": 1,
+    "sha256": "55bbd9c5c09c1304228346c2e20b7961df6d95c6ed9cc9279c577c890d8a338a",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250421",
+    "pageNo": 1,
+    "sha256": "6bcdafa0da59550a50aec2dde0b212047e2d0daa2f69dffb3482eed84219936c",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250422",
+    "pageNo": 1,
+    "sha256": "ba837d6f0158275c5557ef4d7583ed0cdeb1558494baad88ead4e88fcd932e08",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250423",
+    "pageNo": 1,
+    "sha256": "b3e350a1f1aadbf473b80b5cef041c08c3041edfce30c936bff825a178cb9df4",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250424",
+    "pageNo": 1,
+    "sha256": "447efb0a5c5a850ea75cc193f9a86c407c19c8606e43f89332d53a773fa3f36e",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250425",
+    "pageNo": 1,
+    "sha256": "3f8b93b427aabbe1f99be0d70d6cbe92a95acb8c43561bc7376e747216cd0eaa",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250428",
+    "pageNo": 1,
+    "sha256": "b98bb0e38ec0f06870212dd3f96d899e9c69d88a7c8463f0e92ebae8eb2ba499",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250429",
+    "pageNo": 1,
+    "sha256": "e20426690f96f85a83dd4e5e4a9db9340358113903652f00eeeee487d837fcd5",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250430",
+    "pageNo": 1,
+    "sha256": "5cbf01edc33325d82b8848d919fee3b821138776d9a9f399e2019355b309283a",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250501",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250502",
+    "pageNo": 1,
+    "sha256": "69918cd516614f6a1a844c31678bfa64ee9f1625c82f34caa77d85ded797b2ae",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250505",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250506",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250507",
+    "pageNo": 1,
+    "sha256": "729ca2005058fd9af5899f84f6d676f5fe063bb1edb08f7bb7834b3d7fc31bd9",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250508",
+    "pageNo": 1,
+    "sha256": "1b1ca5168bfb5c725a8d4390960e83ea70ede6e9f95198494fa485e4315c7e0f",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250509",
+    "pageNo": 1,
+    "sha256": "ac92e1f37eb7b3dc48ec5fb299648d153b6db9b8b635bc3ad39172cbc02d50fc",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250512",
+    "pageNo": 1,
+    "sha256": "c647df5a709134013f66898b47f95adf2fa1fc7e7d31b81f5ef228a0b4f1d821",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250513",
+    "pageNo": 1,
+    "sha256": "b63e372d08e031f025a488f3f2a35dfe9147e25f31fc015c7680766a5d569afa",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250514",
+    "pageNo": 1,
+    "sha256": "2f92744765fd75d419d790cfa40c26f734513a12558c5f9b89c8acbb7d6a352c",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250515",
+    "pageNo": 1,
+    "sha256": "f9da7229bd2c9275aea295b19601cd98c0fa4288ac035e7e39242941e05709d9",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250516",
+    "pageNo": 1,
+    "sha256": "b6d7b17a4fd2302260ac9b862ca6f2e126c10531689ee83544c566093c7e3f4b",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250519",
+    "pageNo": 1,
+    "sha256": "5d06e62705b2a872a0b6dcaff399e08249638e7f0e4b931c9cb8497a85347d8d",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250520",
+    "pageNo": 1,
+    "sha256": "027ac222b08a6225f9f078f7350b62c0b3fc5d898c8c0386a43b30f7347cc7ca",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250521",
+    "pageNo": 1,
+    "sha256": "7f0d8d89701cb70db1c9ae0df591368f79a2abeb91ed2590a9e483ed379f77f8",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250522",
+    "pageNo": 1,
+    "sha256": "2cfa91a617e6d86a6e59ecb2116a10d0a96b18e707d917576d424e3760a522fa",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20250523",
+    "pageNo": 1,
+    "sha256": "b0468c30e578b74e9b091edc14ebbf342ed971716328f8a4e07bf1d35cb4056c",
+    "n_items": 2883
+   },
+   {
+    "basDt": "20250526",
+    "pageNo": 1,
+    "sha256": "b0352cb250028ea3ff5dd4b36803b2cf24e905243b639f3baad5f281d0838ce4",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250527",
+    "pageNo": 1,
+    "sha256": "e521dc26d64440c3cd76d773956dbc4490c54b752bca5158b15883244cb2dfdf",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250528",
+    "pageNo": 1,
+    "sha256": "9b1db1829d66ef96e253ebe2a87c20d91280dacbf9c770b4a000742907bab266",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250529",
+    "pageNo": 1,
+    "sha256": "12ee28af8abee564b9cd218727e8c726dec1c64e52f250fda760280cf525eecc",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250530",
+    "pageNo": 1,
+    "sha256": "e50315212c41404735390e7db74b283343e9c808dfda99969ce1a9feb180595e",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250602",
+    "pageNo": 1,
+    "sha256": "bfb003593000d1f20c5393754377ee8b1bb19c8bd8cc2699eb957de404e025f5",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250603",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250604",
+    "pageNo": 1,
+    "sha256": "c5cdbc08fcffae49315dd8ee6b14363fdb0331daa494408a874934119f314011",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250605",
+    "pageNo": 1,
+    "sha256": "979467fb76a3932e1706be5d02959cc215d659696644cd780d38241fba84dddf",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250606",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250609",
+    "pageNo": 1,
+    "sha256": "862066e4cbde09f51a5d8eb5b48afe8ef14d34255164b64efb1b522b43a30f49",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250610",
+    "pageNo": 1,
+    "sha256": "9609a5ef7da2f9abd46a9b7590ccbeaf5efbd7ec292fcc883d1855039d1bfe67",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250611",
+    "pageNo": 1,
+    "sha256": "fb62d191ea4bfaaeadf26b2cbb694b6bdfc93b11e753c23b416b2fbec48686ce",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250612",
+    "pageNo": 1,
+    "sha256": "1b5b2ff9007ed14a977190269854d81cd4a7b62e2f009361b857ccbfbfc16f96",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250613",
+    "pageNo": 1,
+    "sha256": "98fb601ab963775f4c9035a7feaafc6a363ae813bbd1633feec7dd36f03563d1",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250616",
+    "pageNo": 1,
+    "sha256": "5871b9a86e8b2c05f55bd026eaa139420209354ee4fc13cc4acbe111bcbdbbda",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250617",
+    "pageNo": 1,
+    "sha256": "54cab7523376df82da27762a5e619e444a28e19c574c6c871fbb9453f2c6d9f4",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250618",
+    "pageNo": 1,
+    "sha256": "178abb2ef6e59ccd53a59e92d227af5917c6a23505ecc76a5447d669543daf5f",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250619",
+    "pageNo": 1,
+    "sha256": "cc0ffe4944c7d4c669fa8d59c68f37430d9a537ad10e95eb157867c4ab3aceaf",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250620",
+    "pageNo": 1,
+    "sha256": "071c8ddb0ab8558475dd1b32e2914e3478b6be32404ca1b98012efe378341598",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250623",
+    "pageNo": 1,
+    "sha256": "7f55f45a572bc3c6a3ce46d9aaf0c0d513de1db1ab4a5babd63be7d4ffd94663",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250624",
+    "pageNo": 1,
+    "sha256": "98b1b8ea2d110b22949d47f4c00b01e44cc6077b307a07a86032f1c844a7cd9c",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250625",
+    "pageNo": 1,
+    "sha256": "7f11e8731ecaf3a924aa9497c408d5c35abf02d878a32c81229432fa43ae6f53",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250626",
+    "pageNo": 1,
+    "sha256": "09c33c183f82f1e4a2061ead55f5dfe1333aaffb05bb9428141f3a1f799ebd9d",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250627",
+    "pageNo": 1,
+    "sha256": "49820d86ec6bd8439811b17e8bc1b2926f287d7472dd0842f0a9b203f6c3623d",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250630",
+    "pageNo": 1,
+    "sha256": "46dc63acfb8997c97c5934018d171a2d4326ce87ae70d99a145151c62e508668",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250701",
+    "pageNo": 1,
+    "sha256": "4450782876108f27185e32114fbeb941ee8a7ce1156a51bf535971e55031b70a",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250702",
+    "pageNo": 1,
+    "sha256": "6200a2160c0cdc942c1ef42c29d6f16021d89ee51a077874debeb0d67780fe7c",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250703",
+    "pageNo": 1,
+    "sha256": "65bd99d6c0b2c3f050170e4c533c5f91c97866d2df8fd36a7407d25df834758d",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250704",
+    "pageNo": 1,
+    "sha256": "e5c9a84202ba3a42ed830f387a28e4cfced8da5a9158024fb6dbbdf9717631c1",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250707",
+    "pageNo": 1,
+    "sha256": "e1a73f7f68d1cdcac8404b9bcc6aa0752dc8b929b9f362e2727b6c01f65d6b83",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250708",
+    "pageNo": 1,
+    "sha256": "518445dd310089a52337e710eddfda2b3f61002308cb8953743e4261b266c2de",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250709",
+    "pageNo": 1,
+    "sha256": "bafc03bf41dd07a165a4b0ecbd30036be96b30df2121ef46abfb85a5996fe626",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20250710",
+    "pageNo": 1,
+    "sha256": "f15d5cadbeaa26459e8d1346761e0747cdb41190b1c6ab16add8ca08ba610803",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250711",
+    "pageNo": 1,
+    "sha256": "10f145648fff6df96674d8c397a9cf1d96ec8f7acdc15cdfbcba67091152d510",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250714",
+    "pageNo": 1,
+    "sha256": "6004093e42fcaaa420561f724110fd3f48afdd8778f2b090f9d6fdc56cad83a5",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250715",
+    "pageNo": 1,
+    "sha256": "db1442316e3c69bd1ec8049024a3f2074f3dd86c92ddee2a915c75b1b31f70cc",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250716",
+    "pageNo": 1,
+    "sha256": "1cb75bb3bb14fa73eaa4095951f1177668e6e27934205653061ca1e7b5e709ee",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250717",
+    "pageNo": 1,
+    "sha256": "bf5a0d01baa02951e08fd577b69ae9d1ada4a0e3f384c5e68482f2fed9e58a6a",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250718",
+    "pageNo": 1,
+    "sha256": "dcafce110a4a100976af6c92d57946640b3829b50fa36d20487ba09cd839e097",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20250721",
+    "pageNo": 1,
+    "sha256": "062358324feccba432ab566db53e2ecd6943d537901b4535d53ac12cde6d36ba",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20250722",
+    "pageNo": 1,
+    "sha256": "a52e84052f08ae300c0487f818c58ba7ef8abc1a21894e16ce67a5370f562cac",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250723",
+    "pageNo": 1,
+    "sha256": "2128b0133d9333fbd9cdb7ede7b81ff24d821ed43c981a6b378ef966ac76f5bc",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20250724",
+    "pageNo": 1,
+    "sha256": "717f6f1014d154b7a750f34ff9cd45805930cbb55462f7aa2baacc281e01d96c",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20250725",
+    "pageNo": 1,
+    "sha256": "9670331bea48161b1bacbfc6f8d08dc79fe5a1709ee7eeddaa5468a87bf7870e",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20250728",
+    "pageNo": 1,
+    "sha256": "2c946f67ba1dcf14cabcbf01c760eccaf3aa1858c75ee219e48f9eafce7f0913",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20250729",
+    "pageNo": 1,
+    "sha256": "f98f56fb25968d4d5e7bb7b2906f954980b0c929811f856426d0bf0a999578ec",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250730",
+    "pageNo": 1,
+    "sha256": "0a43a2cfb2aae12967d8de05fc8150e1b884646f3d7f82cf5599837976490d47",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250731",
+    "pageNo": 1,
+    "sha256": "2eeca895a6477e3a6b8a05e3c9a538ca7ccd87afac6c1efac20583f84ae1a840",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20250801",
+    "pageNo": 1,
+    "sha256": "c6555b079aacef926e5152324407c141f68df7b2596cfd0d2f2d9dc34a0e780e",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20250804",
+    "pageNo": 1,
+    "sha256": "809ebfe3d79069673f87b2efcb886b10f1a27e9a7591727e708db75276ac8840",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20250805",
+    "pageNo": 1,
+    "sha256": "d1a131d5d255aadf107eff9df6f1b79aa88506496dc084b8d087bfc44f4fe8d2",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20250806",
+    "pageNo": 1,
+    "sha256": "0913c62391a79a9da0f64b62e84b75e4bc2e813044ef3c92391b384ac0d76a4b",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20250807",
+    "pageNo": 1,
+    "sha256": "f90170311124b261e62333b9c142dace7bdbbedb72b26fd4b503f0cfa252055d",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250808",
+    "pageNo": 1,
+    "sha256": "0beb8afcd0b63ace749d52cde735350474583119bba2b511f5c0b1d9cebc7a2d",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250811",
+    "pageNo": 1,
+    "sha256": "6f373b85dec518dadbd3b5445165855310cc58234056d03ea0ba89a3c118fb9b",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250812",
+    "pageNo": 1,
+    "sha256": "2dfda590e6f2e082e5f714e390926febef36eca8e7c7e3ceb3711d9268300fbb",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250813",
+    "pageNo": 1,
+    "sha256": "1afa52235568dbd9de055f6066c3f4e8804ebf4e685549413280efbef70f00b6",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250814",
+    "pageNo": 1,
+    "sha256": "ea2efaae0780fadba05ea44ee76f1c04d7474b65ca1789a9b54d62c6a3522833",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250815",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20250818",
+    "pageNo": 1,
+    "sha256": "973442d929defca3883659d22ac8dae196d96921a523c70b8edfed3d95db7673",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250819",
+    "pageNo": 1,
+    "sha256": "a195b8fcfba63a6323d26fe88f05cd51f96956d579229affcf55a3cf636fb93c",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250820",
+    "pageNo": 1,
+    "sha256": "fd52f85a206ad9fc8a49d53b2d0175bc29d72bc856f19b4dec7ac04fde59da10",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250821",
+    "pageNo": 1,
+    "sha256": "dd1793db1de303ab02cdc8c13f0f19ea1a8f91db17bf3ce16818592df1db2051",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250822",
+    "pageNo": 1,
+    "sha256": "d1e72e3aeea4ccc06f919bb5131c99ccc40194ac6be23cf50aa83929d71e8029",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20250825",
+    "pageNo": 1,
+    "sha256": "2973492cdbbed97569d59826d5483009b52ed9e852bbf4f5cacfd29e6f26745c",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250826",
+    "pageNo": 1,
+    "sha256": "05fd099692cda5d854687dadeaf641d7bf66bee31d9fe8815080150db41d9f38",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250827",
+    "pageNo": 1,
+    "sha256": "47c2b737b96a4b5b72e666ee04931b65009f95e46504bd317eb9fff33cb324a3",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250828",
+    "pageNo": 1,
+    "sha256": "8bee7f14f141b76ffa3c9d757d90a0c3bb6651c4dd3d93ade56d21c9ef4dcf1a",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250829",
+    "pageNo": 1,
+    "sha256": "2eda1f9cd7bf02400116d70a9ca0253c3c12621f9be968e163ceaad055c1c3e6",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250901",
+    "pageNo": 1,
+    "sha256": "0e6d03ec1f40f7d5696e7adfd5ea43673cb95b9dc5561573a2bdd38189551060",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250902",
+    "pageNo": 1,
+    "sha256": "306adc0694bb61237589850f49cd28f39aa22a9a98687e81470780ced355c221",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250903",
+    "pageNo": 1,
+    "sha256": "42711f775b6109a8a8705226fd8b49e9ad18b39b3e61e89f16ab2915513ffb09",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250904",
+    "pageNo": 1,
+    "sha256": "ac34340bc4f13d95865ca5d24e25b543b040051021b683257f152a5f723f679a",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250905",
+    "pageNo": 1,
+    "sha256": "220ecf6e13d472d9e6a3eb07d5439614aa682f52a6356968914699a467291eea",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250908",
+    "pageNo": 1,
+    "sha256": "04fea9eb85960a3363b90200881b0bb362341532ad4d5e43a9f43334ccd4c534",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250909",
+    "pageNo": 1,
+    "sha256": "09c70ccb6a2dd09d950896cbda8fd742e211ced5097734da5f6390aeecfa2fcf",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20250910",
+    "pageNo": 1,
+    "sha256": "5eb97fb4d18c375960b4afdd867ff70492f14d11e4cef3ebf80a7bb08b5ce16f",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250911",
+    "pageNo": 1,
+    "sha256": "3d428a0d2d165330920387f76b58bf26dff7b79c97dead788b6c60378397fef9",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250912",
+    "pageNo": 1,
+    "sha256": "a76a650d9085259cc9869554871228e0acb12b8e3bcb4672457e6f462dd132d3",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250915",
+    "pageNo": 1,
+    "sha256": "494286d537f202dc8c691537ee1532c3f3a733c8031f3f531192b0b7ee2d6563",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250916",
+    "pageNo": 1,
+    "sha256": "0dbcd8c621b5a5d7307b4edb5967065490cbb83cbc4bff98c8f952a1cb01799c",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250917",
+    "pageNo": 1,
+    "sha256": "d3f358052bf7dbd0dcab1c3972beafe57a6d1f79f49e03e8e506105ce5fff6ff",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250918",
+    "pageNo": 1,
+    "sha256": "f74a52d204de24b9dd2e954016155f9607b52e445150f09b7467d00f14ac2257",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250919",
+    "pageNo": 1,
+    "sha256": "27c95b4ca6d427c8cf198c6cc96f0fdf7193d3e21b4b9f9f742274e2c64b114d",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250922",
+    "pageNo": 1,
+    "sha256": "19dbd6178c02bb35930e17a13fe6b2c4c6969981d639b9c3a6dc1c778e88c76f",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250923",
+    "pageNo": 1,
+    "sha256": "03abbd98767dd48b8498c6577bb17334ea24afe50ff52b67a22e1c749155b710",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250924",
+    "pageNo": 1,
+    "sha256": "c6eed1dfa346465665489e9b5eee9f44d150f7ff953756866a257ca06e3c96ac",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20250925",
+    "pageNo": 1,
+    "sha256": "bfcb8a4fc800bdbf4bfd1b8dea8ef36653d61749b09a90d896df684b92426b3d",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250926",
+    "pageNo": 1,
+    "sha256": "cc2ff7050f8910c19adfc489b80c48d43190ea24020f2b0e0bb9bfc55b7e59d5",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250929",
+    "pageNo": 1,
+    "sha256": "d8fd7154f7870a480d79a04b243bff3d0f45e68a302ea7878833f518ded10ccd",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20250930",
+    "pageNo": 1,
+    "sha256": "efffafdb722a97cdc4637738100717b49b712d56b34860300f98ac6c966208b3",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20251001",
+    "pageNo": 1,
+    "sha256": "52a816d7949fe1f5a191959771ce86d5888e03172ac10a9ca745cbe9d31eb335",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20251002",
+    "pageNo": 1,
+    "sha256": "ef05e770c49a0587a5d0328f64213f4a92764e803188a7cb69cca302fd1cdeaf",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20251003",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20251006",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20251007",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20251008",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20251009",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20251010",
+    "pageNo": 1,
+    "sha256": "771db1f871d942a4980ac4a549ed8cd4ffc3f8f28b0fa01a685651cf1e01a036",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20251013",
+    "pageNo": 1,
+    "sha256": "774a305a3efd4951b83ed50f49d5a2f1815b57cd5280ca131d36792e94b7bbdb",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20251014",
+    "pageNo": 1,
+    "sha256": "20daaf8272a5fbe3bae6ce1269533a2a897b6d8bd56064aee18de90f16ca01a9",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20251015",
+    "pageNo": 1,
+    "sha256": "9412fcb76bbfcc312ff086ed4de3d30482673a8c695fe1cef9592149d6f164eb",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20251016",
+    "pageNo": 1,
+    "sha256": "4d0ca9b932fd67c2cb5e5031d19c47beeecfae1809377d29133d3eeb6cf45f96",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20251017",
+    "pageNo": 1,
+    "sha256": "4c72cf61ea169ec08356fa03ba629f059e115038c665d8e1b9ec8d98b7098593",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20251020",
+    "pageNo": 1,
+    "sha256": "8b7df2d27432077ac184ee08046da07bec7df44724f69476b5acdfa620bcf76a",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20251021",
+    "pageNo": 1,
+    "sha256": "00c41420b682d12ecbefbe4097dd3b3119cf4830d219a0f2d1f3b3996036524b",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20251022",
+    "pageNo": 1,
+    "sha256": "6ac8f938d57b2edc58e20891fe9b54d988d1ea098d7f2f4a8ba4db2db9c9b643",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20251023",
+    "pageNo": 1,
+    "sha256": "36d9cd0eb893e66e1bb6b325b965fb39f139c5d2c1c2723c725161ee2b25f188",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20251024",
+    "pageNo": 1,
+    "sha256": "8b0fc0c2ff39af9ab229423af24594aaef51a0fba4a50aef9a6e9a066876fdc8",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20251027",
+    "pageNo": 1,
+    "sha256": "ef049c6479e1c4d6e5281adfcda70edf90c7de227cdfb4211498df28382e3604",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20251028",
+    "pageNo": 1,
+    "sha256": "cb3edcd372dee72ab01cff3acf258291df7f03803e3c323dc27a6255a84616e1",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20251029",
+    "pageNo": 1,
+    "sha256": "e237839a24d7c5e13eef900cbb25dcf3aeba7369062b40ffeb4b94baab223c24",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20251030",
+    "pageNo": 1,
+    "sha256": "a8d3baa9da2c08cb1ff0f5998928214c230857bc6e244229eef94cfc937fc0fa",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20251031",
+    "pageNo": 1,
+    "sha256": "f3594358ee6bc0050b13135d5fac55559dd8c624ae9bfb9c9089eb6270afbbdb",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20251103",
+    "pageNo": 1,
+    "sha256": "13cebf551e1e2fec9ac318f7ed282134f5042f22e796f92dec0a6572e6c74107",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20251104",
+    "pageNo": 1,
+    "sha256": "a8914c32ef2633181e6b3698b4255d2738af681e1f4a962028a3a413ab662a04",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20251105",
+    "pageNo": 1,
+    "sha256": "d66f2ed46aa6dbecaa1baeaef16472b8d34603e0e1ea757b6bee66683d7167b9",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20251106",
+    "pageNo": 1,
+    "sha256": "84f98dc5b33cc270fc3397ea1ef6aab76dcc6d93fc237feaf92529527e89158d",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20251107",
+    "pageNo": 1,
+    "sha256": "a5e0939eecb13945240074d4415e21cf82a954ec6c088eb9154111330bfd24ba",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20251110",
+    "pageNo": 1,
+    "sha256": "ddb6d07a981ee7b31f3ebcac3eb40244fddb6fa5bec9149fe4337ccf24cf1f77",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20251111",
+    "pageNo": 1,
+    "sha256": "7b34cb9ad803a522940e1ebb314226fd3ad3fcc6396d362cca8a92a920a4b20b",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20251112",
+    "pageNo": 1,
+    "sha256": "fc46b9d1da57708006313b05bb3df0772f85af1c7d79bab2111d1c3c9f274106",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20251113",
+    "pageNo": 1,
+    "sha256": "1da218d8f1a8547afb12f4416dc6f5b6af48d7fe2dc34444d164136a433c9ae2",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20251114",
+    "pageNo": 1,
+    "sha256": "77cbd201a0dbee14e279f020e7c1eaee386e71e3fddfeff6877783e8b6eb63ab",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20251117",
+    "pageNo": 1,
+    "sha256": "c9d2b32ac578686e45cf182721e33ef48f816de588a9be74fd8556357a36dd1f",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20251118",
+    "pageNo": 1,
+    "sha256": "8d619b056cdb6269291bb0f4bb5d39c6bf2d8e516a807d2a10f8087af5fb8d22",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20251119",
+    "pageNo": 1,
+    "sha256": "1e17e1a9a263691cc320828bef7292eac6c8efcd71e74f143a1477dc0f847d90",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20251120",
+    "pageNo": 1,
+    "sha256": "574167213f776e55ff8d09b552a08d1ecf4f4d272715ed6dc7b08bd7a3ddc207",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20251121",
+    "pageNo": 1,
+    "sha256": "9e6fd542eb4de657ed7d407968443c460c4c259ee7fc2d03fcb6a362e4245bde",
+    "n_items": 2883
+   },
+   {
+    "basDt": "20251124",
+    "pageNo": 1,
+    "sha256": "64d3a4786068932b390e5ed6bc056f512e5720e99578b3fe5eb2a28390106e31",
+    "n_items": 2886
+   },
+   {
+    "basDt": "20251125",
+    "pageNo": 1,
+    "sha256": "0e193baf5789fcc0be75ba7eff0c21170f573d11c2c92e559ee8fbbda01c9d68",
+    "n_items": 2886
+   },
+   {
+    "basDt": "20251126",
+    "pageNo": 1,
+    "sha256": "38baf1686e0d6ebd71ef973c79a6a02c6a07a7da4b41a4aea08b2faf66253fce",
+    "n_items": 2884
+   },
+   {
+    "basDt": "20251127",
+    "pageNo": 1,
+    "sha256": "4459b8e69878bd69db1f64df4878900c14adf9045251b5a50362ea14d217afcb",
+    "n_items": 2886
+   },
+   {
+    "basDt": "20251128",
+    "pageNo": 1,
+    "sha256": "a37820abf1244a44b3a03f2fd225ee13641099885816f74827ff7693daf88923",
+    "n_items": 2886
+   },
+   {
+    "basDt": "20251201",
+    "pageNo": 1,
+    "sha256": "87f43cc5d545a547639852e7d81104bf889c593f2705b65655e17ebd0161eca9",
+    "n_items": 2887
+   },
+   {
+    "basDt": "20251202",
+    "pageNo": 1,
+    "sha256": "899e4431326b67df37e49c6c0240b545f16742de92b5c567f68d9c13e93b0356",
+    "n_items": 2887
+   },
+   {
+    "basDt": "20251203",
+    "pageNo": 1,
+    "sha256": "f4ae6409444f411dce16861a7202e37e35cb64d9659d752a0dbc15ee539738a9",
+    "n_items": 2887
+   },
+   {
+    "basDt": "20251204",
+    "pageNo": 1,
+    "sha256": "0b6c89311a123b7943f8f811d028053a8e6f9a004316847282a9c00f7be07690",
+    "n_items": 2888
+   },
+   {
+    "basDt": "20251205",
+    "pageNo": 1,
+    "sha256": "044d0cd24c1ab9b27771b9ea33330d8df8034b7240cbeca499e55123c5f78b67",
+    "n_items": 2889
+   },
+   {
+    "basDt": "20251208",
+    "pageNo": 1,
+    "sha256": "822480f21f3aae2350319fec28f917f955ed2ca13a494d44846e507101e816a2",
+    "n_items": 2889
+   },
+   {
+    "basDt": "20251209",
+    "pageNo": 1,
+    "sha256": "69518adca42dff16d2f478ae20cd8cc442a6d7029707f82249fbbd6b91578137",
+    "n_items": 2890
+   },
+   {
+    "basDt": "20251210",
+    "pageNo": 1,
+    "sha256": "d9b6fa8c1ad9c8c0122b85b38121193da27c8979a2b137f0ef973cc84038ad79",
+    "n_items": 2890
+   },
+   {
+    "basDt": "20251211",
+    "pageNo": 1,
+    "sha256": "080fe90d5b0aa76f9dd881c60c4bcef6863ad35938c03d78e04bf20a5a2dda9d",
+    "n_items": 2892
+   },
+   {
+    "basDt": "20251212",
+    "pageNo": 1,
+    "sha256": "512c1a3f9d7dbcc9656af08fdf4b229cff7760b2aa614905095a0cc7bd3a21c5",
+    "n_items": 2895
+   },
+   {
+    "basDt": "20251215",
+    "pageNo": 1,
+    "sha256": "5656684f60b96d9ab2d88e38cc8249e2b2c1f80c42258334478332c711c6b1d3",
+    "n_items": 2896
+   },
+   {
+    "basDt": "20251216",
+    "pageNo": 1,
+    "sha256": "b145901aadb888dbf89ee5afc821a09209c4245b753063173fe6911bdd4c44fc",
+    "n_items": 2896
+   },
+   {
+    "basDt": "20251217",
+    "pageNo": 1,
+    "sha256": "d1eec7b89409e3af3be46b526a99799193c33162004084fd317d5008cfe5f15e",
+    "n_items": 2897
+   },
+   {
+    "basDt": "20251218",
+    "pageNo": 1,
+    "sha256": "e7f448da2ce141bc9b80bc140d353a6e22a62a25891df4b4fd94a8bebf405d40",
+    "n_items": 2898
+   },
+   {
+    "basDt": "20251219",
+    "pageNo": 1,
+    "sha256": "b89168d2382af5d84a66dcbd20876bd7faeae9170beba5dc1bf13f0deff431f7",
+    "n_items": 2899
+   },
+   {
+    "basDt": "20251222",
+    "pageNo": 1,
+    "sha256": "59d0bc6a1702b62cb73b3f7f20e50d0736cc9ada483331813b0dcfc4c2ee094c",
+    "n_items": 2903
+   },
+   {
+    "basDt": "20251223",
+    "pageNo": 1,
+    "sha256": "5ac521f73d11d805772ffeb9bcbff8a044a73e118cf87f641f1a9f0b41b11064",
+    "n_items": 2904
+   },
+   {
+    "basDt": "20251224",
+    "pageNo": 1,
+    "sha256": "24b09a417aaffb42d842e76a16d8722d22748e91296dc54e09572f7955fc958c",
+    "n_items": 2905
+   },
+   {
+    "basDt": "20251225",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20251226",
+    "pageNo": 1,
+    "sha256": "2f053785dc8327b52b1924a79f5e28ac41759b196192cc454af42c8d005e862a",
+    "n_items": 2905
+   },
+   {
+    "basDt": "20251229",
+    "pageNo": 1,
+    "sha256": "9ab8c22a19a4ebff4d42e0e2c8c823cc4071c7ebbf2b393a03c03c1c71a36b54",
+    "n_items": 2904
+   },
+   {
+    "basDt": "20251230",
+    "pageNo": 1,
+    "sha256": "553fcfb6bde0f86858f831db7b0bea8e1c2179495e2fe3a324711387868ca076",
+    "n_items": 2903
+   },
+   {
+    "basDt": "20251231",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260101",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260102",
+    "pageNo": 1,
+    "sha256": "ecf682a5167b13aeee11dab4e27c8365c2c075ab2604845416d5254deca19721",
+    "n_items": 2903
+   },
+   {
+    "basDt": "20260105",
+    "pageNo": 1,
+    "sha256": "055026590e7b6870d9f64e2db7bd9cb4bf578f2df91a8c73836e81df6a4aaf20",
+    "n_items": 2903
+   },
+   {
+    "basDt": "20260106",
+    "pageNo": 1,
+    "sha256": "2fc62892b6ebacdfe138c51c7dd91f77362e02c5c7ed3d88dac22813ec846a96",
+    "n_items": 2903
+   },
+   {
+    "basDt": "20260107",
+    "pageNo": 1,
+    "sha256": "fdfb85f903476060a4cecc8d109df79ab7e423ad481d37a2cf7c944fb5545295",
+    "n_items": 2901
+   },
+   {
+    "basDt": "20260108",
+    "pageNo": 1,
+    "sha256": "e64f0beaa1c07e4a2289ad662432da190bf1144d9dd279b968d250026bb0b5ec",
+    "n_items": 2901
+   },
+   {
+    "basDt": "20260109",
+    "pageNo": 1,
+    "sha256": "2d76441aba4a67ca8cb17dfaa8952f705ab3a30fb46d3a78e1372ed7924f5945",
+    "n_items": 2901
+   },
+   {
+    "basDt": "20260112",
+    "pageNo": 1,
+    "sha256": "87097d6e4ebd81a1f29433cd9d8a0112055a5b20ce7abee66c75fea0e3c4a8e0",
+    "n_items": 2901
+   },
+   {
+    "basDt": "20260113",
+    "pageNo": 1,
+    "sha256": "701de53fbb855533292a2ce8ff177186e2b6603ab8497a9e6006ccab172c3a7b",
+    "n_items": 2901
+   },
+   {
+    "basDt": "20260114",
+    "pageNo": 1,
+    "sha256": "3e998d603b4a6f8b9a756c2f2a05076c0e5313e799d5b6e94a1543c4bf414539",
+    "n_items": 2897
+   },
+   {
+    "basDt": "20260115",
+    "pageNo": 1,
+    "sha256": "2dce2bac31cd86213be366f8609b45526fe624e1cadb3109863e9e004348e891",
+    "n_items": 2895
+   },
+   {
+    "basDt": "20260116",
+    "pageNo": 1,
+    "sha256": "3756c5d8d0827f34a9491e04caa705a9e61a311ac76a19486027d9575cfb4f1b",
+    "n_items": 2894
+   },
+   {
+    "basDt": "20260119",
+    "pageNo": 1,
+    "sha256": "fef3bd4633af5a3fdd895d6688be6de523cb14e4b424b85c06f0c310241f1611",
+    "n_items": 2894
+   },
+   {
+    "basDt": "20260120",
+    "pageNo": 1,
+    "sha256": "7ae205bd771da184516479f14a031306736cc8823b55e32a63e316a8a05d02e5",
+    "n_items": 2894
+   },
+   {
+    "basDt": "20260121",
+    "pageNo": 1,
+    "sha256": "30b19078305da4adb024d92980ac6b0f54bd118c822ea77cc19763a7fbefe009",
+    "n_items": 2895
+   },
+   {
+    "basDt": "20260122",
+    "pageNo": 1,
+    "sha256": "fcebb5afce18693085135b1cf9eb740abe4e6b342dfdc5925181c04a19aa0f86",
+    "n_items": 2894
+   },
+   {
+    "basDt": "20260123",
+    "pageNo": 1,
+    "sha256": "f82a6b167bd88ea9d4d0c3a88338903140589bb8ee8f4635fea2d237ff22d28b",
+    "n_items": 2894
+   },
+   {
+    "basDt": "20260126",
+    "pageNo": 1,
+    "sha256": "d5bef3e333623fac352b3aa5d80e2d64b667ef3d34a20a68b684069285e59851",
+    "n_items": 2891
+   },
+   {
+    "basDt": "20260127",
+    "pageNo": 1,
+    "sha256": "3e725887ea99ea1a10f4b9223fbd292ca541144a91f749fc2b152b344e1aa18e",
+    "n_items": 2888
+   },
+   {
+    "basDt": "20260128",
+    "pageNo": 1,
+    "sha256": "ff15e083a7e376b7446329ed7a6c1d7ab767bccc2a93b0ad8701a92e45503bc5",
+    "n_items": 2886
+   },
+   {
+    "basDt": "20260129",
+    "pageNo": 1,
+    "sha256": "a74d69fd2d64dcebb3f81bceb45b06d1c87a68b7efce0cb7363621fe05ab1bb7",
+    "n_items": 2885
+   },
+   {
+    "basDt": "20260130",
+    "pageNo": 1,
+    "sha256": "10875e631939ea984fa176a7d3a7ed15b9b8579cc6505a79a66a9615cc67af4a",
+    "n_items": 2886
+   },
+   {
+    "basDt": "20260202",
+    "pageNo": 1,
+    "sha256": "ac8ed62e5f4d100e2d5eb8ff1b7aa95827d206fc282f10d5e7c0eaf3b0e29a76",
+    "n_items": 2886
+   },
+   {
+    "basDt": "20260203",
+    "pageNo": 1,
+    "sha256": "13057749cdee5c53721411534200f2189561d3f391b0818078fb6af000807112",
+    "n_items": 2886
+   },
+   {
+    "basDt": "20260204",
+    "pageNo": 1,
+    "sha256": "0c35b4b50a6f9a00b6ea85854af87e5397794441698083cb11ce8033e9738864",
+    "n_items": 2885
+   },
+   {
+    "basDt": "20260205",
+    "pageNo": 1,
+    "sha256": "d24afd69cb1e2c85e54db369e6bb256a36c3873db68faf3b67dcbeccce069ca0",
+    "n_items": 2885
+   },
+   {
+    "basDt": "20260206",
+    "pageNo": 1,
+    "sha256": "2561836749bd7fe68682364aa6383f237140983b00654a8d7296fe6ff9f6e8fa",
+    "n_items": 2885
+   },
+   {
+    "basDt": "20260209",
+    "pageNo": 1,
+    "sha256": "07562bfb6e684dfdd3f1a407f16c0552da9e654f7dbcfb1b485374a5f1d33325",
+    "n_items": 2884
+   },
+   {
+    "basDt": "20260210",
+    "pageNo": 1,
+    "sha256": "292ff87659c4eefda70d819c55adfadca32ad080df22b130aa78579dda35cd8a",
+    "n_items": 2883
+   },
+   {
+    "basDt": "20260211",
+    "pageNo": 1,
+    "sha256": "97f9f44b8632632997a0fd47d8151376302af812907076f6d14f12ae751b25ca",
+    "n_items": 2883
+   },
+   {
+    "basDt": "20260212",
+    "pageNo": 1,
+    "sha256": "ae39eba82bde2a579eefe6cd6500e51a2d19c6c185e34f082f4b270797eba3e5",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260213",
+    "pageNo": 1,
+    "sha256": "e2cadc3e150b0b976eef0fbf81717a5d2b789a22b86f75a6687dcaed9ac4cabe",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260216",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260217",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260218",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260219",
+    "pageNo": 1,
+    "sha256": "7550432d2bacad7f0f1fcf9a540efbb1cb658a70c8ef57ea404b9b169d80f6b9",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260220",
+    "pageNo": 1,
+    "sha256": "294c4d6f28fc9bd0118dc41137c7482fc453551723dcb4da0b38935715717f3b",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260223",
+    "pageNo": 1,
+    "sha256": "4eacb721305c2018f6523bde64b86ffbbe4d35f997d3f85417deac808d931bdf",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20260224",
+    "pageNo": 1,
+    "sha256": "8834e6d0e338a0d386de2621a5a22f76bd7d2687f09800f4b8b6dc3b22f48515",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260225",
+    "pageNo": 1,
+    "sha256": "809c3bea7fed40178909ce0cfc64573f0fcd6332352318f561c8742652b9b4b7",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260226",
+    "pageNo": 1,
+    "sha256": "140d4a85def306dc4adc55321c81a28062ce101a9cbe9707d6b6b57f098841d5",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260227",
+    "pageNo": 1,
+    "sha256": "be3d431a318b929914a916016c654d44b1e3e09ab3b2b6afac23ee43ff5b6fff",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260302",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260303",
+    "pageNo": 1,
+    "sha256": "f55059ce6743bfe6841c15ed4bc97985ff1e8d51e70bd816221f03e5ea862f6d",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260304",
+    "pageNo": 1,
+    "sha256": "e2a2853796e66aca67d1e70e061894fd86d64c82266951bfd895ba366e551edf",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260305",
+    "pageNo": 1,
+    "sha256": "05a8bf6d5bd22c549c5d5af852b0ce3196efc47093c6691458565ce4838a0b3b",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260306",
+    "pageNo": 1,
+    "sha256": "1fbbfab45bb8b2923bac0e14ebee030381cc5a5dce654efc56bec83d3dda2450",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260309",
+    "pageNo": 1,
+    "sha256": "b89c959aa7ce64994080e9abbecfbba19e6447ee0f03a875c244e1e5192a8fb6",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20260310",
+    "pageNo": 1,
+    "sha256": "9419bfc6aaa6a39fbf4c7e0867013eecd2cdeb89e579ffa27a426efb15a8e266",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20260311",
+    "pageNo": 1,
+    "sha256": "b3a27e5b172a9f51ca994207db551f8c1e7d3359e989a8684e636341a0269f81",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20260312",
+    "pageNo": 1,
+    "sha256": "aa51362ce7d61de1ba8892db9f68037db7fb5d8a0922f1bfb7cc20a7fc2651c0",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20260313",
+    "pageNo": 1,
+    "sha256": "c3748cfbae28a74e596dd4f96659792bfda8020d1246a086ed65e63136ef5feb",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20260316",
+    "pageNo": 1,
+    "sha256": "255a4d9a3c8d1a2c1797dda3293ef3bd503b8676a0756ef1efa5189664f30f54",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260317",
+    "pageNo": 1,
+    "sha256": "9fcece7065cc39b40fc7b314c74703ec38ccf8cb84816a8f846bea65d2849248",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260318",
+    "pageNo": 1,
+    "sha256": "27999b5819915e4733c3d378d80c7fbd74d410e6dde0c54a6215172a105fc8f9",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260319",
+    "pageNo": 1,
+    "sha256": "6e235fb7598df96af99f71ed3b41ae162d1fa97a88c7671b484c6c2e1f1451c0",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260320",
+    "pageNo": 1,
+    "sha256": "7f6b23bbf3a398b88db5bcacfbf6c23e95f2fc2ff15610d807dfa1bae22646c9",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260323",
+    "pageNo": 1,
+    "sha256": "63f7a2ae36a275b331eb4e328da4d1741df9535d888c9cd7b00ddc60bc4b9850",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260324",
+    "pageNo": 1,
+    "sha256": "02e32f53451f91bccc5e30bb58b8192074ae8f3e4da13be5dfb29f00e128e549",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260325",
+    "pageNo": 1,
+    "sha256": "b39f5d352c86ff09a23ac6d2e92e3e7946c1c33afbff07507804e8ff9adc3493",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260326",
+    "pageNo": 1,
+    "sha256": "c506473da35b522cbe3f0208451d1d9c5dcb4750e7958336aad855e09de2cb4b",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260327",
+    "pageNo": 1,
+    "sha256": "b9b20f4f59f8b3acbaf091367d50367c5087be8c1d0b1bf99fbccaf327cf070e",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20260330",
+    "pageNo": 1,
+    "sha256": "361cfb0066839e8c8a4d5cb8428d6ad3fae4dcb6926e7abe301d9fcefc174d13",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260331",
+    "pageNo": 1,
+    "sha256": "41b346c2629858ee29c7e8b0e9a6d053f3d5404aadde41c4964646fc0b4ca25a",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20260401",
+    "pageNo": 1,
+    "sha256": "c0e9b337a545eaf70d46527e09c6b0b5ae98dba5491a4636ad51f0bdde4c7c17",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260402",
+    "pageNo": 1,
+    "sha256": "3e72bf56c091ff22d8bdb838b0e110764185f0e72f53626eaaf24e51b69ce0e8",
+    "n_items": 2884
+   },
+   {
+    "basDt": "20260403",
+    "pageNo": 1,
+    "sha256": "bdf51cafc89eaa89c5254e048e05044609c5fdf228e2e9fa50dc407842d728e6",
+    "n_items": 2883
+   },
+   {
+    "basDt": "20260406",
+    "pageNo": 1,
+    "sha256": "be93f758889d4200d4f5693ad8961425c70bb679aed73f6f4f07e3e0960ada47",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260407",
+    "pageNo": 1,
+    "sha256": "6caf5c9a46c65489b48123a45778eee2409be4ce37408108ec2cc715ba13e7f5",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260408",
+    "pageNo": 1,
+    "sha256": "50ac186191a254cc1996fc855d8fcf4e35c1188d91e278bc379bf2d41704cc57",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260409",
+    "pageNo": 1,
+    "sha256": "071d6032aa3c06bb33f9dcbbbeb90ef681c726a4fc280aa64536ff3cdfccc5de",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260410",
+    "pageNo": 1,
+    "sha256": "4aeb165fd1482bc4c7232e7bf443c28be63e00534d17b436ac57afdce430e8c3",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260413",
+    "pageNo": 1,
+    "sha256": "01d4932a227ddc884c647739ce917efcba0eb98eb5942d43204c9936106cbcd3",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260414",
+    "pageNo": 1,
+    "sha256": "d400b9573e76f8efadf8e309625750a6116fb22f4ff5de73c39cf76444a162c8",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260415",
+    "pageNo": 1,
+    "sha256": "aa536e7201c115de29ee467f230b0f0e631e42a30e226af336c285a8dbf7702a",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260416",
+    "pageNo": 1,
+    "sha256": "b171528de7e51c5af1323f7652e7d5d2cfdb64ee921a8b199274aa65b7c3faa8",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260417",
+    "pageNo": 1,
+    "sha256": "2eb38ddbed052e95b86436c5724fe9c922af3680fd8be4915a0eaf0c1cd911d6",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260420",
+    "pageNo": 1,
+    "sha256": "575dd6d98a507dcb52195dd7b714bd428b28cf09322fbffd24a43c034e5c195d",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260421",
+    "pageNo": 1,
+    "sha256": "3bf6ca374d01571c96ea254e458edece0c00dd9ef16e882fad06561b4461778f",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260422",
+    "pageNo": 1,
+    "sha256": "27578d4c7760687b8d65224f05f80660d38018a76b732121a6266f2c13cdcf88",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260423",
+    "pageNo": 1,
+    "sha256": "5953f501bcae37e9f48d745e09350f5bcafa31a9c4d6d2e4a110f9ade658d3b8",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260424",
+    "pageNo": 1,
+    "sha256": "44410df937818c335401268a873375b224889445cac8a6ccc31ae286d1388c0b",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260427",
+    "pageNo": 1,
+    "sha256": "920c3dcfd08a025eeb1a73d59bbc1e5a4091c355e0d4cbedb016c2ff9934fdb4",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260428",
+    "pageNo": 1,
+    "sha256": "d58d55d00caea0efeaf299e26a6573a7005df854afd9170c0c9a5e3b5167a445",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260429",
+    "pageNo": 1,
+    "sha256": "a6c623ea62cdafaa274b35a55e3ec09fcdf4b9bd6e6ab3276887719efa11b3bd",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20260430",
+    "pageNo": 1,
+    "sha256": "2fb02e787e1f927c7312303ffa69330ba65f142d177c802f343de90696bf4a0d",
+    "n_items": 2882
+   },
+   {
+    "basDt": "20260501",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260504",
+    "pageNo": 1,
+    "sha256": "dcb1ff27f0e9758210e2d3cd70374396ad0b01e1c26882ec50d73a39e2c710dc",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20260505",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260506",
+    "pageNo": 1,
+    "sha256": "ba1e0063eb7ac8c82ed1fe7f17698f2a54307bafb089c07bf1dcd1f00431a3ea",
+    "n_items": 2881
+   },
+   {
+    "basDt": "20260507",
+    "pageNo": 1,
+    "sha256": "0ca05afc5ce6703c1da32ddbd83417a50b0a970410aae660294fcb785766faae",
+    "n_items": 2880
+   },
+   {
+    "basDt": "20260508",
+    "pageNo": 1,
+    "sha256": "feb34589ebb1113ea107d80a2d7c11078c893a6b5e743fff52ae925107341b24",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260511",
+    "pageNo": 1,
+    "sha256": "338a2543c58db623e62e6b65dac41d836c297aaf421725a1f1de7d6ad2ea94b5",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260512",
+    "pageNo": 1,
+    "sha256": "1d2d137ab39c71c580bb332785d0e98866ca7de2ede476b23052c88abd73c28f",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260513",
+    "pageNo": 1,
+    "sha256": "4d16d90a4819d268db60be30dfeab325760dbc9eea719558f8ba4169870e4241",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260514",
+    "pageNo": 1,
+    "sha256": "d7d444f8b63a77384cf9952a302b7e630fa228a20b2974e45928f466406b2408",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260515",
+    "pageNo": 1,
+    "sha256": "623e8f5e6e7c848ee28902167404f7f9900ac3f6364090f97cf7328e48c017db",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260518",
+    "pageNo": 1,
+    "sha256": "9efbbb4df80add7efb95ee699e5400b3932994a37e67191545c27c16cdbccfd9",
+    "n_items": 2879
+   },
+   {
+    "basDt": "20260519",
+    "pageNo": 1,
+    "sha256": "3bac705ea8f435508c6f429dea067eff7f598219fc5bd09f4151468acf180b93",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260520",
+    "pageNo": 1,
+    "sha256": "ce5e8ff4fa9febeda8af624c11eb2faaf3ec2739de1ba4cac04fc3a6026308aa",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260521",
+    "pageNo": 1,
+    "sha256": "e07682f818da74ebcfdae0c9506e55b329a1d8c50a1ee2f4d2ba2381f72f7b3c",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260522",
+    "pageNo": 1,
+    "sha256": "c1189da2e6a1d02ed290cefe22c6b895004c416c5cb298af74fd3962b370d6b8",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260525",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260526",
+    "pageNo": 1,
+    "sha256": "23e99259fae3f37b85df72cdc62ba2ab72a81636fd2c7b16598104daceea2527",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260527",
+    "pageNo": 1,
+    "sha256": "26d4e0c7feb891fc1a31bfef6d1c8a198dc3031738f11fffcd548e4ab25c5922",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260528",
+    "pageNo": 1,
+    "sha256": "6f8f2ff36afb0dc3becb0b9a071c00e07c0ee6b0fb550c96cae795548695fc05",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260529",
+    "pageNo": 1,
+    "sha256": "cd80e202d31179ba54419b36bd7d1ddf375f05db21149a5e4e96907d2969d82e",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260601",
+    "pageNo": 1,
+    "sha256": "781781a1607e75c67969dc8b528f445675ee8fa9b506c6c6744fd44f76adf45b",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20260602",
+    "pageNo": 1,
+    "sha256": "97b2d72417f23deb7119b1d9919e9ebbed73baccb89b36358af78086cef94682",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20260603",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260604",
+    "pageNo": 1,
+    "sha256": "25392dedad27b6c5f0b501791e2b51a54a5acc6d9336731ef7b0f7788dddf0b0",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20260605",
+    "pageNo": 1,
+    "sha256": "652bb154761d8c8518b21c97707ac2faecebd906739885b415e2cf8fbbbf7e51",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20260608",
+    "pageNo": 1,
+    "sha256": "263b6859a1dcde58c92178d4cf375a36601dc19d0a7d8a0795fa479224ed27af",
+    "n_items": 2878
+   },
+   {
+    "basDt": "20260609",
+    "pageNo": 1,
+    "sha256": "4aae18b9f03592679ad334e6712d5ffa9a6f6a93068b00d91fc6d389d1aa5c3d",
+    "n_items": 2877
+   },
+   {
+    "basDt": "20260610",
+    "pageNo": 1,
+    "sha256": "53e0b21f35a373de81eef795dcad31bffd46079df920eb55696a9c9aeb7faa35",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20260611",
+    "pageNo": 1,
+    "sha256": "29684c71109b2bf6f29ebfa2562bdf6f8ddf4ecf94850e3dd5baf3079f1ec5c2",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20260612",
+    "pageNo": 1,
+    "sha256": "9d43454c01597c17dc4f74be5f0be952213840d67cf83f408ce8756a62c8cd7b",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260615",
+    "pageNo": 1,
+    "sha256": "197bc30c63efb862ca17ea62debee8ef65751f5da736d7b7b354a9b70037dcbc",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260616",
+    "pageNo": 1,
+    "sha256": "1d5f5005f2c29c2e3429b98c7a70d098d8a5fa21b512a7ff04d986a5af8439ee",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260617",
+    "pageNo": 1,
+    "sha256": "78562af8585a88cbd492c047e928b53d2461dbfcfb9c86f7c9fb95cb9604ce98",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260618",
+    "pageNo": 1,
+    "sha256": "cda754df035ed1cc2682669758b0e9776c2cf321515b5759a633029bc55ed3e4",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20260619",
+    "pageNo": 1,
+    "sha256": "fb8272520b516cfaa61580fe6a9e87b41d3de5f1cc89c7d046b9a9abc333728b",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260622",
+    "pageNo": 1,
+    "sha256": "3b8853d8c67e1f3cc75a879a41a42d5ef03ca204795c107166f84d27bee2ed27",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260623",
+    "pageNo": 1,
+    "sha256": "9ffdd37ce60dd35dbbca871999aaae1a37f3a386fd284a4d23e2a0df93d4ee3d",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260624",
+    "pageNo": 1,
+    "sha256": "76331fa7eaeca36f714ee70d41620682d2de0d1fa51f3bb6879e78170ea5a110",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260625",
+    "pageNo": 1,
+    "sha256": "229b3a5e4b1d341c2dcabd21390a0ec93c8947b0955a777d7dd7cfcc81e8634c",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260626",
+    "pageNo": 1,
+    "sha256": "117796fc208cc9cf5f9539e1215bca7bbe0e75a6b71450f4b0831050b7bc4e0b",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260629",
+    "pageNo": 1,
+    "sha256": "fc54d26eee64b9edb6db9f4ae2690031c0662952aab65154af9c900afba6b4e7",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20260630",
+    "pageNo": 1,
+    "sha256": "34d22ad1972cf24e9b80efb5fd9ab559504356fd5c362dd858f65bce899bcf74",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20260701",
+    "pageNo": 1,
+    "sha256": "dea5c55179d612a8613e404c18141a1e31267201142119297bedc612ad84d727",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260702",
+    "pageNo": 1,
+    "sha256": "73b270e2980656a78b7eac85ba6a15be24ae939f74b742cb9738fa5e0070c959",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260703",
+    "pageNo": 1,
+    "sha256": "95f5d8d08d29aa8f81576d9329984e9ad002c68b79bce0f3cd87e14c081d96fe",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260706",
+    "pageNo": 1,
+    "sha256": "4aa329afaa1d65b3a2192d7d6d089cb6344a7b841db780203f220e64aacbeca1",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20260707",
+    "pageNo": 1,
+    "sha256": "2a933334a4769de0b219676261b3d8d5426330ab799e2fc0cc327026ef7235b0",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260708",
+    "pageNo": 1,
+    "sha256": "07d5ab1bc6d85171a92ade1b495e574b302ad49b26d114e0269f51933e70f144",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260709",
+    "pageNo": 1,
+    "sha256": "42c13fe96008366d58cb178c664e41ca1b53565d9656df44272488b92957e20c",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260710",
+    "pageNo": 1,
+    "sha256": "d674fbee5f9779570f5a17bbd261417a6591493c69af39460352fcd06247e494",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260713",
+    "pageNo": 1,
+    "sha256": "4249c503d34a2a5c4a272c9251c143313c0bb26dbbe57b48820517d96cfdb83e",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260714",
+    "pageNo": 1,
+    "sha256": "b34c3b3ab625b457b23512e6b269a1c7901d117d580834d0f269f5ef9e63feb4",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260715",
+    "pageNo": 1,
+    "sha256": "44cc47fbfbbedbf611019aa49b71c9cda83b013436e4f0497c64f7fc4f8dfeda",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260716",
+    "pageNo": 1,
+    "sha256": "744cecbfa37ccae2b62c743731451fc90042571b88da5d0e5fd4554acb1ac6c4",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260717",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260720",
+    "pageNo": 1,
+    "sha256": "660379046df1f6094ef2853809deb5197ffb4732d9f8f5bc834c1f1bc21d3d84",
+    "n_items": 2871
+   },
+   {
+    "basDt": "20260721",
+    "pageNo": 1,
+    "sha256": "524267c5ef6cb096279b777dad4c075a30a66df64cfb576d1bae115a55855f68",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260722",
+    "pageNo": 1,
+    "sha256": "57c2570cd1ed2ee9a00b2058a722591d89a81d21a86d6218911f5f5d63d9dc28",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260723",
+    "pageNo": 1,
+    "sha256": "78233d07e94aef6e82166891431ce763d518aa72269364e1ed6babe516851b16",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260724",
+    "pageNo": 1,
+    "sha256": "5cf16465c051a09463018875e32c4beb7bc93b57835271845cf97281ded23745",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260727",
+    "pageNo": 1,
+    "sha256": "97693b7a63a24ad33f5b21bf7c6edb08934cca839afd93fe9398ad90e6ec82c4",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260728",
+    "pageNo": 1,
+    "sha256": "18a265b1efc7b49e246d1410961e5182b7241cb3c8aebb1faacdab052a33f950",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260729",
+    "pageNo": 1,
+    "sha256": "7938945fc6b9c00a7af0dfa6c941d1fb90e350646953b06028f9843bcef6f581",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260730",
+    "pageNo": 1,
+    "sha256": "d2e7d321da2aec53a8857fee37fcd9f7f22c588c91ed5d22bcebb4a0348e3cd9",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260731",
+    "pageNo": 1,
+    "sha256": "49a870021f8faab846c95a7f5edebe52bc322b23be529640347886c414e9bd05",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260803",
+    "pageNo": 1,
+    "sha256": "5a7da6f459732a00f89aad001f9f66c8441642b93f30fc5d484e13be86385d08",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260804",
+    "pageNo": 1,
+    "sha256": "fc387b480b6ab734ae3b8d04cb45b45fbe6806cf32cf2f9b485c56aab59874c3",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260805",
+    "pageNo": 1,
+    "sha256": "54a3a90172ffdbfb8eb91c61e2512fd6b5a2712fd2d99381711304dc085c8724",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260806",
+    "pageNo": 1,
+    "sha256": "d81769d329a85d35fa27d95e08c65fcade996b31aca653aeca18aa8c8f21a3fe",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260807",
+    "pageNo": 1,
+    "sha256": "d44f94b061edb7a9616ecf195c09c4677030998a71cb5eac47c5c6382e867f6a",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260810",
+    "pageNo": 1,
+    "sha256": "4f98d6fccafacbcc1c60a0f6ccb3b69529ab4dcf55199f5b2ed79d16fe704788",
+    "n_items": 2871
+   },
+   {
+    "basDt": "20260811",
+    "pageNo": 1,
+    "sha256": "c377e2811e45e10d4fc060eb3a6cf5adb4819a5d97542dc3fc53abb17f849989",
+    "n_items": 2870
+   },
+   {
+    "basDt": "20260812",
+    "pageNo": 1,
+    "sha256": "cd769ccb83d399bb6820f409c80dfb8ce70fb3dd4d88bad76850874e1c5b0949",
+    "n_items": 2871
+   },
+   {
+    "basDt": "20260813",
+    "pageNo": 1,
+    "sha256": "eebfc717ba510ddbed6323e130d7c2ea9f5751cc9e40dc7a131a5f02cd2fd8ca",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260814",
+    "pageNo": 1,
+    "sha256": "74dbf1480bbe9b4411b162c3ab82c376a95c355d159668d7cb3b7370b56187ce",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260817",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260818",
+    "pageNo": 1,
+    "sha256": "b7b3a87cca8605ceeea8553d87f0ee04c5960afbaf27d7a58895fbb4c79dd393",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260819",
+    "pageNo": 1,
+    "sha256": "ef84e154a5f88204c4945876ec71852bc48eb20de8b1146653bc82109bc32d51",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260820",
+    "pageNo": 1,
+    "sha256": "7513098dff315e9c9e16f4d9afe1b9329874fe0c70222d25703a584639e50d34",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260821",
+    "pageNo": 1,
+    "sha256": "405ac7cc46473e440352fb21281e9dedbdf22c64f1d1d8e4a89106d3ce34cbcb",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260824",
+    "pageNo": 1,
+    "sha256": "ebc07235860fddf1d94e570cb9cb9d7dd40d4ef410223eea09537bbacd0a7b19",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20260825",
+    "pageNo": 1,
+    "sha256": "cbfbcb353919cc28d18993ed2c5556ef49f54f91c94b99db6fc7dd38bca6c150",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260826",
+    "pageNo": 1,
+    "sha256": "37db075f6ee0aae75b39c4179e59d1da5fe5dc5914542b622241187a04421f64",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260827",
+    "pageNo": 1,
+    "sha256": "37d534b3bb018861474ffa4c58123e7a6078267fd2e22b12a4a2d435f5d4dd34",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260828",
+    "pageNo": 1,
+    "sha256": "5a57cca9e01f2f45e742371aafb7c7871cceb139e21a41128e21bb6624d364a3",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20260831",
+    "pageNo": 1,
+    "sha256": "b3bc4c86faeb9578bd043dd7ca09e0737ca594dec2abae494ffa69ebb7f2ce1d",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20260901",
+    "pageNo": 1,
+    "sha256": "9addb420d804e986228118caa67d34568ed9d81ce6eda27fe75d3d780541b49f",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260902",
+    "pageNo": 1,
+    "sha256": "094aae889ddde212c97322d483ba1200d41ff65c6220ea1178003387485dbd6e",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260903",
+    "pageNo": 1,
+    "sha256": "7044ae866479704802832114248bcc3f1ecbe0f37d3f70084fcf67360706c4cc",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260904",
+    "pageNo": 1,
+    "sha256": "5d19ef12f25755c7157170c223c2f32a83f2bd17e954a6e7f7211124da855d83",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260907",
+    "pageNo": 1,
+    "sha256": "2f7ba4eaa920f3170d84b25be91c5ff6a6d83c37c6e59192cf3e8c75b967f4ac",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260908",
+    "pageNo": 1,
+    "sha256": "d60fe94daf6d9715aa76af5e98ed61c4d9adfc7c2c433b404b677e6bc5355f47",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260909",
+    "pageNo": 1,
+    "sha256": "a6454587d0aa979b42d158dca98ee2b2852b28c694c372ee4781db0ef2db5a5f",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260910",
+    "pageNo": 1,
+    "sha256": "aaac7ab51cdebe7914bb5fb7acfbebf5a5628c9af179121db22c0bedc67fec24",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20260911",
+    "pageNo": 1,
+    "sha256": "5720781d31713384f95905c172801949ac3d352cbb6e26de8e293a3dc5bad51e",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20260914",
+    "pageNo": 1,
+    "sha256": "5247c3f04acc138991121fc4c10df613e213bf430a100b10e195623e137ccd1b",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260915",
+    "pageNo": 1,
+    "sha256": "fe06568210739f88ab0b322f710f6c370898a90296742abc929f8a085144b53f",
+    "n_items": 2871
+   },
+   {
+    "basDt": "20260916",
+    "pageNo": 1,
+    "sha256": "765558e39254179ebfc8a8549019a60ca858f6c9cff3fdba2c9b9896bf5146f1",
+    "n_items": 2871
+   },
+   {
+    "basDt": "20260917",
+    "pageNo": 1,
+    "sha256": "5f1996586471ae834b50ecebcc9af710bc4c092644441ab4350a94cf3898e029",
+    "n_items": 2870
+   },
+   {
+    "basDt": "20260918",
+    "pageNo": 1,
+    "sha256": "c2e3274705915ec3083b8d5848daa6234b5ca6b592e953d19e8764d3f5003bf4",
+    "n_items": 2869
+   },
+   {
+    "basDt": "20260921",
+    "pageNo": 1,
+    "sha256": "df1d11373918907e8f8b36e10e330252dccbd05d0f779ddc004c5fe843836da6",
+    "n_items": 2867
+   },
+   {
+    "basDt": "20260922",
+    "pageNo": 1,
+    "sha256": "15a2c117ce17bb422fff7c8c27c2d890883290948b1f6b1fde87e09ce76c7645",
+    "n_items": 2869
+   },
+   {
+    "basDt": "20260923",
+    "pageNo": 1,
+    "sha256": "73432945d1a669869ca04511b7b9f3423a5041dfc6118377173840b30a3196a1",
+    "n_items": 2870
+   },
+   {
+    "basDt": "20260924",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260925",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20260928",
+    "pageNo": 1,
+    "sha256": "e03a9810df5e775e7fc8274a4a2f28b5fcc4bcbe0a7b7019596b2e609768cd3b",
+    "n_items": 2870
+   },
+   {
+    "basDt": "20260929",
+    "pageNo": 1,
+    "sha256": "2a70f98cea786b4273d31a550cceeff353af5a6d72496c65a342c7caf015cbfe",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20260930",
+    "pageNo": 1,
+    "sha256": "3eb8a1858ec40ec0b524f073bc553d8dd91673e5c2071371e62648b3ef21c9c5",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20261001",
+    "pageNo": 1,
+    "sha256": "2f1ec45bf38faf4552453a2239d3ee2f3a15f52c6dc16a3439118c49c423806a",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20261002",
+    "pageNo": 1,
+    "sha256": "6a907b8c6d582de65bed937c38f40de010cd5ab59807ceb091ac64c05fe54267",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20261005",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20261006",
+    "pageNo": 1,
+    "sha256": "04bd82b35cc4f258437b2fa853b3e210861c06971053e0b3735b7ba8f0808dfd",
+    "n_items": 2873
+   },
+   {
+    "basDt": "20261007",
+    "pageNo": 1,
+    "sha256": "c148df42e5b39faa7c3d9a20d88dddd991ef47de05bdd2f335e15f172630c6c4",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20261008",
+    "pageNo": 1,
+    "sha256": "dd3e4bd4909732e79f67078d886f47d3cce81b64d6bac717e8fe85154b4b5df5",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20261009",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   },
+   {
+    "basDt": "20261012",
+    "pageNo": 1,
+    "sha256": "909b4d48c5da724c0b7c81e737bc7b154ff7b7ea6695387bae60e75046341476",
+    "n_items": 2869
+   },
+   {
+    "basDt": "20261013",
+    "pageNo": 1,
+    "sha256": "109b1862efa8f26996df5ce84e726897179f5dea507d5ccd32d05df42035884b",
+    "n_items": 2868
+   },
+   {
+    "basDt": "20261014",
+    "pageNo": 1,
+    "sha256": "6bf043b7f2da32b54fc3bc86e9ece9744aaed2e4ef100537f592f4b90bc472d8",
+    "n_items": 2867
+   },
+   {
+    "basDt": "20261015",
+    "pageNo": 1,
+    "sha256": "510462304ba327ced254f93acf2cedf40ad5e955e38cbb5c9bea3fa13f8c9f2c",
+    "n_items": 2867
+   },
+   {
+    "basDt": "20261016",
+    "pageNo": 1,
+    "sha256": "8712aee59021ec766cd3981a2fc151bd15d6f3f5cc503d1bcb28851f9dc015fd",
+    "n_items": 2867
+   },
+   {
+    "basDt": "20261019",
+    "pageNo": 1,
+    "sha256": "58302105987c9d2db0621d30e3e18e2ed3cfe3ac5160feef6051f8c2a44668d7",
+    "n_items": 2866
+   },
+   {
+    "basDt": "20261020",
+    "pageNo": 1,
+    "sha256": "21ac8ccb87679bf70e89c732131749f879dc93de3aca0522a082aaf9939f50f3",
+    "n_items": 2867
+   },
+   {
+    "basDt": "20261021",
+    "pageNo": 1,
+    "sha256": "cda4f084c11f0b22d2ca2b00ef709b6708510d4ed8b1439727038bd4b431b774",
+    "n_items": 2867
+   },
+   {
+    "basDt": "20261022",
+    "pageNo": 1,
+    "sha256": "7d54a66f5062bc28de59409b84969db21e90d5691d2a8abcbb9d0d248b742247",
+    "n_items": 2868
+   },
+   {
+    "basDt": "20261023",
+    "pageNo": 1,
+    "sha256": "657244ae81320b75d05df5d8082caa65c9255277680099d5b31f4674e4a27bf6",
+    "n_items": 2870
+   },
+   {
+    "basDt": "20261026",
+    "pageNo": 1,
+    "sha256": "864dd840160e1384d1e249819ffc1324835048d06e89349c88a6bb724fda88f5",
+    "n_items": 2871
+   },
+   {
+    "basDt": "20261027",
+    "pageNo": 1,
+    "sha256": "48348a5679b550c83f7b38ffd902bf34f411e29b79ba73dc631967e167d77e4a",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20261028",
+    "pageNo": 1,
+    "sha256": "c17e16b92fcf0b149eda7835bc7e07d98e47780cbd675de9e8131a4ed9d7db71",
+    "n_items": 2871
+   },
+   {
+    "basDt": "20261029",
+    "pageNo": 1,
+    "sha256": "e2e7ecd0fcb40bf82bf07f6a9a7ed92c6fe723b6a53ed7c19bf8cfe81aa067ee",
+    "n_items": 2872
+   },
+   {
+    "basDt": "20261030",
+    "pageNo": 1,
+    "sha256": "2234b97d690fbbdeb0a7af72b4179bc1ee084f7633f9910e1f1c2a5dc12e22b6",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20261102",
+    "pageNo": 1,
+    "sha256": "1ca3710db99ffa8498df816a49ad1a9f094fd730f1f3372360f030a46d5acdb9",
+    "n_items": 2874
+   },
+   {
+    "basDt": "20261103",
+    "pageNo": 1,
+    "sha256": "5be59ca6ba386eb4246a808bed2e9308f04db916e8445b3a6470d90579e42868",
+    "n_items": 2875
+   },
+   {
+    "basDt": "20261104",
+    "pageNo": 1,
+    "sha256": "f8fea3d640c6680730ee675b5b5a996c7de2c14283114cc6d9146566dc9f5a9e",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20261105",
+    "pageNo": 1,
+    "sha256": "4041ae729984396d7d3762236a455bf27a1e9177d9119e990e7227b13aa512b4",
+    "n_items": 2876
+   },
+   {
+    "basDt": "20261106",
+    "pageNo": 1,
+    "sha256": "382c75a82a3ad7102ee2b4700ed13f2a47d108945197bd88342c59fb03b0136c",
+    "n_items": 0
+   }
+  ]
+ },
  "output": {
-  "rows": 1845698,
-  "tickers": 2500,
-  "dates": 782,
+  "rows": 2646624,
+  "tickers": 3176,
+  "dates": 937,
   "files": [
    {
     "path": "data/raw/prices/year=2023/part-0.parquet",
-    "rows": 579664,
-    "sha256": "51c5347330e40106897f75578ead2e726a353b3b5f7e97596210760106d25fa6"
+    "rows": 669537,
+    "sha256": "a9731273fbb7c1525c8a46ac01ca7f1f9366933c882fad891c704ada045fa4ca"
    },
    {
     "path": "data/raw/prices/year=2024/part-0.parquet",
-    "rows": 641419,
-    "sha256": "b8a86a8e5b584c28e602052bb841ff0f1671283cb33a97afd41576791b6a2401"
+    "rows": 687708,
+    "sha256": "a66fe47b12d9e2755b08d9b9fcd6b01bc95bb02fc505fdf2943fa943552e15cb"
    },
    {
     "path": "data/raw/prices/year=2025/part-0.parquet",
-    "rows": 624615,
-    "sha256": "b0291ceb2d0ee5b1ad768256da482c16619a85366ad842a85925cdab66e7ed23"
+    "rows": 696524,
+    "sha256": "260a454105732c83f0af4c87796238f9e33b6fc976e3c9cba18828c4f5bb6112"
+   },
+   {
+    "path": "data/raw/prices/year=2026/part-0.parquet",
+    "rows": 592855,
+    "sha256": "28238a437f635240b4c23db5c29b13f49093752d027346caa4fcf85e1cffed19"
    }
   ]
  }

@@ -8,7 +8,7 @@ Output: data/stats/returns.parquet         clean daily log returns, all stocks
 Steps
  1. Log returns per stock with a window function (lag over date).
  2. Cleaning on unadjusted prices: a return is dropped if listed shares changed
-    that day (split / merger / rights issue) or if it lies outside the KRX
+    by more than 10 % that day (split / bonus issue / large rights issue) or if it lies outside the KRX
     +/-30 % daily limit [ln 0.7, ln 1.3], which no genuine move can do.
  3. Per-stock statistics for the whole market (groupBy).
  4. Portfolio = top-N stocks by latest market cap among those that trade on
@@ -34,6 +34,7 @@ from pyspark.sql import functions as F
 ROOT = Path(__file__).resolve().parents[1]
 TRADING_DAYS = 252
 LIMIT_LO, LIMIT_HI = math.log(0.7), math.log(1.3)
+SHARE_CHANGE_TOL = 0.10
 
 
 def main() -> None:
@@ -70,7 +71,11 @@ def main() -> None:
         .withColumn("prev_shares", F.lag("shares").over(w))
         .where(F.col("prev_close").isNotNull())
         .withColumn("r", F.log(F.col("close") / F.col("prev_close")))
-        .withColumn("corp_action", F.col("shares") != F.col("prev_shares"))
+        # Small share-count changes (CB conversions, stock options) are frequent and
+        # do not move the price; only a >10 % change marks a split / bonus issue /
+        # large rights offering. Big ones are also caught by the price-limit test.
+        .withColumn("corp_action",
+                    F.abs(F.col("shares") / F.col("prev_shares") - 1) > SHARE_CHANGE_TOL)
         .withColumn("out_of_limit", (F.col("r") < LIMIT_LO) | (F.col("r") > LIMIT_HI))
     ).cache()
     flags = rets.agg(F.count("*").alias("n"),

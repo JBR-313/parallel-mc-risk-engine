@@ -1,14 +1,14 @@
 """Collect daily prices of every KRX-listed stock from the data.go.kr OpenAPI.
 
-API: 금융위원회_주식시세정보 (GetStockSecuritiesInfoService/getStockPriceInfo).
+API: 금융위원회_주식시세정보 (GetStockSecuritiesInfoService_V2/getStockPriceInfo_V2).
 One request per trading day returns every listed stock (KOSPI, KOSDAQ, KONEX),
 so three years is ~750 requests and ~1.9 M rows.
 
 Reproducibility (Week 5 pattern):
-  * every response is cached under data/raw/cache/<basDt>_<page>.json, so an
+  * every response is cached (gzip) under data/raw/cache/<basDt>_<page>.json.gz, so an
     interrupted run resumes where it stopped and re-runs make no requests,
   * data/ingest_manifest.json records the request parameters (key redacted),
-    the SHA-256 of every cached page and of the output files.
+    the SHA-256 of every page's JSON and of the output files.
 
 Output: data/raw/prices/year=YYYY/*.parquet (partitioned by year)
 
@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import gzip
 import hashlib
 import json
 import os
@@ -42,9 +43,11 @@ CACHE = RAW / "cache"
 OUT = RAW / "prices"
 MANIFEST = DATA / "ingest_manifest.json"
 
+# V2 endpoint (the old .../service/GetStockSecuritiesInfoService/getStockPriceInfo
+# path rejects keys issued for V2 with SERVICE_KEY_IS_NOT_REGISTERED_ERROR).
 ENDPOINT = (
-    "https://apis.data.go.kr/1160100/service/"
-    "GetStockSecuritiesInfoService/getStockPriceInfo"
+    "https://apis.data.go.kr/1160100/"
+    "GetStockSecuritiesInfoService_V2/getStockPriceInfo_V2"
 )
 ROWS_PER_PAGE = 5000  # > number of listed stocks, so normally one page per day
 
@@ -65,9 +68,9 @@ class ApiError(RuntimeError):
 
 def fetch_page(session: requests.Session, key: str, day: str, page: int, retries: int = 4):
     """Fetch one page for one day, using the on-disk cache. Returns (doc, sha256, cached)."""
-    cache_file = CACHE / f"{day}_{page}.json"
+    cache_file = CACHE / f"{day}_{page}.json.gz"
     if cache_file.exists():
-        body = cache_file.read_bytes()
+        body = gzip.decompress(cache_file.read_bytes())
         return json.loads(body), sha256_bytes(body), True
 
     params = {"resultType": "json", "numOfRows": ROWS_PER_PAGE, "pageNo": page, "basDt": day}
@@ -87,8 +90,8 @@ def fetch_page(session: requests.Session, key: str, day: str, page: int, retries
             if header.get("resultCode") != "00":
                 raise ApiError(f"resultCode={header.get('resultCode')} {header.get('resultMsg')}")
             body = json.dumps(doc, ensure_ascii=False, sort_keys=True).encode()
-            tmp = cache_file.with_suffix(".tmp")
-            tmp.write_bytes(body)
+            tmp = cache_file.with_name(cache_file.name + ".tmp")
+            tmp.write_bytes(gzip.compress(body, mtime=0))  # mtime=0: deterministic bytes
             tmp.replace(cache_file)  # atomic: no half-written cache entries
             return doc, sha256_bytes(body), False
         except (requests.RequestException, ApiError) as e:
@@ -120,6 +123,11 @@ def fetch_day(key, day: str):
         if page * ROWS_PER_PAGE >= total or not its:
             return records, pages, cached
         page += 1
+
+
+def fetch_day_frame(key, day: str):
+    records, pages, cached = fetch_day(key, day)
+    return (to_frame(records) if records else None), pages, cached
 
 
 def to_frame(records: list[dict]) -> pd.DataFrame:
@@ -212,7 +220,7 @@ def write_parquet(df: pd.DataFrame) -> list[dict]:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--begin", default="20230102", help="YYYYMMDD (inclusive)")
-    ap.add_argument("--end", default="20251230", help="YYYYMMDD (inclusive)")
+    ap.add_argument("--end", default="20261106", help="YYYYMMDD (inclusive)")
     ap.add_argument("--workers", type=int, default=4, help="concurrent requests")
     ap.add_argument("--synthetic", action="store_true", help="generate offline data instead of calling the API")
     ap.add_argument("--n-stocks", type=int, default=2500, help="synthetic universe size")
@@ -245,13 +253,17 @@ def main() -> int:
         days = [d.strftime("%Y%m%d") for d in pd.bdate_range(args.begin, args.end)]
         frames, pages, n_net, done = [], [], 0, 0
         with ThreadPoolExecutor(args.workers) as ex:
-            futs = {ex.submit(fetch_day, key, d): d for d in days}
+            # Workers return compact typed frames, and each finished future is
+            # dropped right away: holding the raw JSON records of every day
+            # until the pool closes peaked at ~4.6 GB RSS for 1,000 days.
+            futs = {ex.submit(fetch_day_frame, key, d): d for d in days}
             for fut in as_completed(futs):
-                recs, pg, cached = fut.result()
+                frame, pg, cached = fut.result()
+                del futs[fut]
                 pages.extend(pg)
                 n_net += not cached
-                if recs:  # holidays return no items
-                    frames.append(to_frame(recs))
+                if frame is not None:  # holidays return no items
+                    frames.append(frame)
                 done += 1
                 if done % 50 == 0 or done == len(days):
                     print(f"  {done}/{len(days)} days ({n_net} fetched from network)", flush=True)
