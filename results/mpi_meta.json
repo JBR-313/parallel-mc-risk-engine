@@ -1,7 +1,7 @@
 {
   "cpu": "x86_64",
   "logical_cpus": 16,
-  "serial_time_s": 11.537351,
+  "serial_time_s": 11.384933,
   "impl": "mpi",
   "workers": [
     1,

@@ -10,7 +10,9 @@ Design
     function is compiled exactly once; compile time is reported separately.
   * Memory is bounded by --mem-mb (only a few chunk x n arrays are live).
   * RNG: chunk c uses key fold_in(PRNGKey(seed), c), step s uses fold_in(., s),
-    so results do not depend on the number of threads.
+    so results do not depend on the number of threads. With the default threefry
+    PRNG, normal generation is ~80 % of a step and scales only ~1.8x on 16 cores
+    (Amdahl); --prng rbg is 1.6x slower on one core but scales ~7x.
   * Parallelism: XLA's CPU thread pool. Restrict the cores with taskset
     (bench/scaling.py --impl jax does this).
 
@@ -38,11 +40,15 @@ def main():
     ap.add_argument("--seed", type=int, default=410)
     ap.add_argument("--dtype", choices=["float64", "float32"], default="float64")
     ap.add_argument("--mem-mb", type=float, default=64)
+    ap.add_argument("--prng", choices=["threefry2x32", "rbg"], default="threefry2x32",
+                    help="rbg: slower on one core but its normal generation parallelises "
+                         "far better on CPU (threefry limits scaling to ~2.3x)")
     a = ap.parse_args()
 
     import jax
     if a.dtype == "float64":
         jax.config.update("jax_enable_x64", True)
+    jax.config.update("jax_default_prng_impl", a.prng)
     import h5py
     import jax.numpy as jnp
     import numpy as np
@@ -86,7 +92,7 @@ def main():
     v95, c95 = var_cvar(0.95)
     v99, c99 = var_cvar(0.99)
     print(json.dumps({
-        "impl": f"jax-{a.dtype}", "workers": len(os.sched_getaffinity(0)), "mode": "var",
+        "impl": f"jax-{a.dtype}-{a.prng}", "workers": len(os.sched_getaffinity(0)), "mode": "var",
         "paths": a.paths, "steps": a.steps, "assets": n, "chunk": chunk, "elapsed": elapsed,
         "compile": t_compile, "value": a.value, "mean_loss": float(loss.mean()),
         "VaR95": v95, "CVaR95": c95, "VaR99": v99, "CVaR99": c99,

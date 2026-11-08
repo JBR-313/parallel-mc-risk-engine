@@ -38,14 +38,15 @@ def run_once(impl: str, workers: int, paths: int, steps: int) -> dict:
     elif impl == "mpi":
         # 8 physical cores / 16 hardware threads: count hardware threads as slots
         cmd = ["mpirun", "-np", str(workers), "--use-hwthread-cpus", str(BUILD / "mc_mpi"), *args]
-    elif impl == "jax":
+    elif impl in ("jax", "jax_rbg"):
         # XLA sizes its thread pool from the CPU affinity mask: pin to `workers`
         # CPUs, one per physical core first (SMT siblings are 2k, 2k+1 here).
         cpus = sorted(os.sched_getaffinity(0))
         order = cpus[0::2] + cpus[1::2]
         cmd = ["taskset", "-c", ",".join(map(str, order[:workers])), sys.executable,
                str(ROOT / "sim/mc_jax.py"), "--paths", str(paths), "--steps", str(steps),
-               "--params", str(PARAMS.with_suffix(".h5"))]
+               "--params", str(PARAMS.with_suffix(".h5")),
+               "--prng", "rbg" if impl == "jax_rbg" else "threefry2x32"]
     elif impl == "serial":
         cmd = [str(BUILD / "mc_serial"), *args]
     else:
@@ -83,7 +84,7 @@ def plot(impl, strong, weak, out_png):
         ax.plot(x, y, lw=2, color=s1 if "Strong" in title else s2, marker="o", ms=6,
                 markeredgecolor=surf, markeredgewidth=1.5, label="measured")
         ax.set_title(title, loc="left", fontsize=11, color=ink)
-        ax.set_xlabel({"omp": "threads", "mpi": "processes", "jax": "cores"}[impl])
+        ax.set_xlabel({"omp": "threads", "mpi": "processes"}.get(impl, "cores"))
         ax.set_ylabel(ylabel)
         ax.set_xticks(x)
         ax.grid(True, color=grid, lw=0.8)
@@ -99,7 +100,7 @@ def plot(impl, strong, weak, out_png):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--impl", choices=["omp", "mpi", "jax"], default="omp")
+    ap.add_argument("--impl", choices=["omp", "mpi", "jax", "jax_rbg"], default="omp")
     ap.add_argument("--workers", type=int, nargs="+", default=[1, 2, 4, 6, 8, 12, 16])
     ap.add_argument("--paths", type=int, default=100_000, help="strong-scaling problem size")
     ap.add_argument("--weak-base", type=int, default=10_000, help="paths per worker (weak scaling)")
