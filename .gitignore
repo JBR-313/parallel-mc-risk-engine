@@ -3,7 +3,8 @@
 *key*.txt
 
 # Data and large outputs (regenerate with the scripts)
-data/
+data/*
+!data/ingest_manifest.json
 *.parquet
 *.h5
 *.nc

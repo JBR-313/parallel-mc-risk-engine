@@ -1,0 +1,20 @@
+{
+  "cpu": "x86_64",
+  "logical_cpus": 16,
+  "serial_time_s": 11.384933,
+  "impl": "mpi",
+  "workers": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    12,
+    16
+  ],
+  "paths": 100000,
+  "weak_base": 10000,
+  "steps": 10,
+  "repeat": 3,
+  "quick": false
+}
