@@ -142,7 +142,7 @@ All benchmark tables and figures are in the `results/` folder of the repository.
 
 | Date | Planned milestone | What was actually done |
 | --- | --- | --- |
-| Oct 21 | Proposal | [Proposal submitted] |
+| Oct 21 | Proposal (due) | One-page proposal; its milestones are the "Planned milestone" column of this table |
 | Nov 4 | — | Repository skeleton and plan |
 | Nov 7 | OpenAPI ingestion, Spark statistics, serial simulator validated against Black–Scholes | Done on Nov 8, one day late, first on synthetic data because no working API key was available yet |
 | Nov 8 | — | Scope extended from 8 stocks to the whole Korean market (top-200 portfolio) so that the data volume justifies Spark; OpenMP and MPI versions written and validated |
@@ -152,7 +152,7 @@ All benchmark tables and figures are in the `results/` folder of the repository.
 | Nov 9 | — | API problem traced to the V2 endpoint; full real-data run (2.6 M rows); all implementations benchmarked on real data; `rbg` PRNG added after profiling JAX |
 | Nov 18 | — | Work merged into the main branch on GitHub |
 | Nov 22 | Slides (planned Dec 5) | Presentation slides prepared |
-| Dec 8 | Presentation | [Presented in class] |
+| Dec 8 | Presentation | 5-minute talk in class (slides ready since Nov 22) |
 | Dec 16 | Final report | This report |
 
 Compared with the plan, the parallel implementations finished about two weeks early. The main delay
