@@ -2,7 +2,7 @@
 
 **DCCS 410 Bigdata Distributed Processing System — Final Project Report**
 
-**Student name:** [Student name] ([Student ID])
+**Student name:** Jeon Jaehyeong (Student ID 2021270646)
 
 **Source code and results:** <https://github.com/JBR-313/parallel-mc-risk-engine>
 
