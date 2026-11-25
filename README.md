@@ -6,6 +6,8 @@ Estimates the Value-at-Risk of a top-200 KRX stock portfolio (and European optio
 correlated geometric Brownian motion fitted to every listed Korean stock, and measures the speedup
 from OpenMP, MPI and JAX.
 
+Final report: [report/FINAL_REPORT.md](report/FINAL_REPORT.md) ([PDF](report/FINAL_REPORT.pdf)).
+
 ## Pipeline
 
 1. `ingest/`: daily prices of every KRX-listed stock (KOSPI, KOSDAQ, KONEX) from the data.go.kr
